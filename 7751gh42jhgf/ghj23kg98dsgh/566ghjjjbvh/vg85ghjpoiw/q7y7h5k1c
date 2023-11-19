@@ -6,7 +6,7 @@ host,	pro.gugumedia.link
 host,	emby.lucasmedia.top
 host,	emby.ednovas.org
 host,	cc.ccemby.tk
-host,	cf.freetz.top
+#host,	cf.freetz.top
 host,	embymv.tk
 host,	marmot.20120714.xyz
 host,	cf.jmsooo.com
@@ -48,4 +48,3 @@ host,	emby.9191001.xyz
 ip-cidr,	139.162.16.54/31
 host,	direct.mjjemby.org
 host,	media.nijigem.by
-123456
