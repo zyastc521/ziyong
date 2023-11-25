@@ -104,10 +104,6 @@ host, kuan1.yutron.eu.org
 host, h.200300.xyz
 ip-cidr, 139.162.16.54/32
 
-# > 酷安Emby
-host, kuan2.yutron.eu.org
-ip-cidr, 94.16.122.183/32
-
 # > 纸片人小站
 host, embyplus.org
 
@@ -141,6 +137,7 @@ host, film.ohhhh.org
 host, emby.lcloud.wiki
 
 ========================================
+
 # 可能跑路的
 # > NIRVANA
 host, emby.lucasmedia.top
@@ -151,7 +148,12 @@ host, ju.dog
 # > 456
 ip-cidr, 188.40.224.93/32
 
+# > 酷安Emby
+host, kuan2.yutron.eu.org
+ip-cidr, 94.16.122.183/32
+
 ========================================
+
 # > 关键词
 DOMAIN-KEYWORD,emby
 
