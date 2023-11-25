@@ -21,6 +21,15 @@ host, ntrrr.am.sb
 # > ✨ Singularity
 host, singularity.bagpipe.moe
 
+# > PiliPili Ultra
+host, emby.pilipiliultra.top
+host, emby.pilipiliultra.com
+host, pilipili.mikuu.link
+host, pili.nvidia.rip
+ip-cidr, 146.56.36.1/32
+host, misakaf.pilipiliultra.top
+host, misakaf.pilipiliultra.com
+
 ========================================
 
 # > GuGu
@@ -56,15 +65,6 @@ host, t.emby.at
 
 # > Jellyfin Paradise(Charity)
 host, ws1.jellyfin.asia
-
-# > PiliPili Ultra
-host, emby.pilipiliultra.top
-host, emby.pilipiliultra.com
-host, pilipili.mikuu.link
-host, pili.nvidia.rip
-ip-cidr, 146.56.36.1/32
-host, misakaf.pilipiliultra.top
-host, misakaf.pilipiliultra.com
 
 # > 垃圾影音
 host, cf.xmsl.org
@@ -122,9 +122,6 @@ host, emby.9191001.xyz
 # > NMEmby
 host, film.ohhhh.org
 
-# > 456
-ip-cidr, 188.40.224.93/32
-
 # > Lend
 host, emby.lcloud.wiki
 
@@ -135,6 +132,9 @@ host, emby.lucasmedia.top
 
 # > JUDOG剧狗
 host, ju.dog
+
+# > 456
+ip-cidr, 188.40.224.93/32
 
 ========================================
 # > 关键词
