@@ -1,8 +1,8 @@
 # > PornEmby
-host,pornemby.club
+host, pornemby.club
 
 # > Emby Hub
-host,emby.ednovas.org
+host, emby.ednovas.org
 
 # > 叔服
 host, emby3.mcjoker.xyz
@@ -11,83 +11,129 @@ host, jz.mcjoker.xyz
 # > MJJ-Emby
 host, cf.mjjemby.org
 host, jp01.mjjemby.org
-host,	jp02.mjjemby.org
-host,	direct.mjjemby.org
+host, jp02.mjjemby.org
+host, direct.mjjemby.org
 
 # > BURGER KING®
-host,	ntrrr.am.sb
+host, ntrrr.am.sb
 
 # > GuGu
-host,	main.gugumedia.link
-host,	front.gugumedia.link
-host,	pro.gugumedia.link
+host, main.gugumedia.link
+host, front.gugumedia.link
+host, pro.gugumedia.link
 
 # > Marmot_Emby
 host, marmot.20120714.xyz
-host,	v.20120714.xyz
+host, v.20120714.xyz
 
 # > cc公益
-host,	cc.ccemby.tk
+host, cc.ccemby.tk
 
 # > peach_公益服
-host,	embymv.tk
+host, embymv.tk
 
 # > Magic Cloud
-host,	cf.freetz.top
-host,	emby.freetz.top
+host, cf.freetz.top
+host, emby.freetz.top
 host, kr.freetz.top
 
 # > Infinityfly+
-host,	nc1.infinityfly.top
+host, nc1.infinityfly.top
 
 # > EmbyClub
-host,	emby.kim
+host, emby.kim
 
 # > PandaTV
-host,	emby.at
-host,	v.emby.at
+host, emby.at
+host, v.emby.at
+host, t.emby.at
 
-#host,	emby.lucasmedia.top
+# > Jellyfin Paradise(Charity)
+host, ws1.jellyfin.asia
+
+# > PiliPili Ultra
+host, emby.pilipiliultra.top
+host, emby.pilipiliultra.com
+host, pilipili.mikuu.link
+host, pili.nvidia.rip
+ip-cidr, 146.56.36.1/32
+host, misakaf.pilipiliultra.top
+host, misakaf.pilipiliultra.com
+
+# > 垃圾影音
+host, cf.xmsl.org
+host, free.xmsl.org
+
+# > 卷毛鼠公益服
+host, cf.jmsooo.com
+
+# > 即将倒闭
+host, c.emby.pro
+host, zwei.bgka.me
+
+# > CharonTV
+host, play.charontv.com
+
+# > TreeDiagram
+host, 789.123456.al
+
+# > 酷安Emby私服
+host, embysf.200300.xyz
+host, kuan1.yutron.eu.org
+host, h.200300.xyz
+ip-cidr, 139.162.16.54/32
+
+# > 酷安Emby
+host, kuan2.yutron.eu.org
+ip-cidr, 94.16.122.183/32
+
+# > 纸片人小站
+host, embyplus.org
+
+# > 二刺螈
+host, media.nijigem.by
+
+# > paul_电报服
+host, cf.imetyou.top
+host, emby.imetyou.top
+host, fk.imetyou.top
+host, kr.imetyou.top
+host, sg.imetyou.top
+host, chun.imetyou.top
+
+#host, emby.lucasmedia.top
 
 
 
 
-host,	cf.jmsooo.com
-host,	c.emby.pro
-host,	zwei.bgka.me
-host,	789.123456.al
-host,	cf.xmsl.org
-host,	free.xmsl.org
-host,	embysf.200300.xyz
-host,	kuan1.yutron.eu.org
-host,	h.200300.xyz
-host,	kuan2.yutron.eu.org
-host,	pilipili.mikuu.link
-host,	pili.nvidia.rip
-host,	cf.imetyou.top
-host,	temby.285286.xyz
-host,	emby.bangumi.ca
-host,	emby.agon.cf
-host,	film.ohhhh.org
 
 
 
 
-host,	ju.dog
-host,	play.charontv.com
-ip-cidr,	140.238.6.215/32
-ip-cidr,	94.16.122.183/32
-host,	emby.pilipiliultra.top
-host,	emby.pilipiliultra.com
-ip-cidr,	146.56.36.1/32
-host,	embyplus.org
-ip-cidr,	188.40.224.93/32
-host,	emby.lcloud.wiki
-host,	emby.9191001.xyz
-ip-cidr,	139.162.16.54/32
+# > Temby
+host, temby.285286.xyz
+host, emby.bangumi.ca
+host, emby.agon.cf
+host, film.ohhhh.org
 
-host,	media.nijigem.by
-host,	singularity.bagpipe.moe
+
+
+
+host, ju.dog
+
+ip-cidr, 140.238.6.215/32
+
+
+
+
+ip-cidr, 188.40.224.93/32
+host, emby.lcloud.wiki
+host, emby.9191001.xyz
+
+
+
+# > ✨ Singularity
+host, singularity.bagpipe.moe
 
 
 
