@@ -38,6 +38,13 @@ host, pm.xmsl.org
 # > Prisms Red
 host, red.prisms.cc
 
+# > hxd_emby
+host, bili.bili.rip
+host, 4837.bili.rip
+host, kr.bili.rip
+ip-cidr, 152.70.239.210/32
+host, cmi.bili.rip
+
 ========================================
 
 # > GuGu
