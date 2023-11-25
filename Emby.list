@@ -51,6 +51,9 @@ host, t.emby.at
 # > Jellyfin Paradise(Charity)
 host, ws1.jellyfin.asia
 
+# > ✨ Singularity
+host, singularity.bagpipe.moe
+
 # > PiliPili Ultra
 host, emby.pilipiliultra.top
 host, emby.pilipiliultra.com
@@ -101,41 +104,34 @@ host, kr.imetyou.top
 host, sg.imetyou.top
 host, chun.imetyou.top
 
-#host, emby.lucasmedia.top
-
-
-
-
-
-
-
-
 # > Temby
 host, temby.285286.xyz
+
+# > nyamedia
 host, emby.bangumi.ca
+
+# > 私人影院
 host, emby.agon.cf
+
+# > 放映厅
+host, emby.9191001.xyz
+
+# > NMEmby
 host, film.ohhhh.org
 
 
 
-
+# > JUDOG剧狗
 host, ju.dog
 
-ip-cidr, 140.238.6.215/32
-
-
-
-
+# > 456
 ip-cidr, 188.40.224.93/32
+
+# > Lend
 host, emby.lcloud.wiki
-host, emby.9191001.xyz
 
-
-
-# > ✨ Singularity
-host, singularity.bagpipe.moe
-
-
+# > NIRVANA
+#host, emby.lucasmedia.top
 
 
 # >关键词
