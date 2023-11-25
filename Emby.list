@@ -30,6 +30,14 @@ ip-cidr, 146.56.36.1/32
 host, misakaf.pilipiliultra.top
 host, misakaf.pilipiliultra.com
 
+# > 垃圾公费服
+host, cfde.xmsl.org
+host, line.xmsl.org
+host, pm.xmsl.org
+
+# > Prisms Red
+host, red.prisms.cc
+
 ========================================
 
 # > GuGu
