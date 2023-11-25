@@ -1,13 +1,56 @@
+# > PornEmby
+host,	pornemby.club
+
+# > Emby Hub
+host,	emby.ednovas.org
+
+# > 叔服
+host,	emby3.mcjoker.xyz
 host,	jz.mcjoker.xyz
+
+# > MJJ-Emby
 host,	cf.mjjemby.org
+host,	jp01.mjjemby.org
+host,	jp02.mjjemby.org
+host,	direct.mjjemby.org
+
+# > BURGER KING®
+host,	ntrrr.am.sb
+
+# > GuGu
 host,	main.gugumedia.link
 host,	front.gugumedia.link
 host,	pro.gugumedia.link
-#host,	emby.lucasmedia.top
-host,	emby.ednovas.org
-host,	cc.ccemby.tk
-host,	embymv.tk
+
+# > Marmot_Emby
 host,	marmot.20120714.xyz
+host,	v.20120714.xyz
+
+# > cc公益
+host,	cc.ccemby.tk
+
+# > peach_公益服
+host,	embymv.tk
+
+# > Magic Cloud
+host,	cf.freetz.top
+host,	emby.freetz.top
+
+# > Infinityfly+
+host,	nc1.infinityfly.top
+
+# > EmbyClub
+host,	emby.kim
+
+# > PandaTV
+host,	emby.at
+host,	v.emby.at
+
+#host,	emby.lucasmedia.top
+
+
+
+
 host,	cf.jmsooo.com
 host,	c.emby.pro
 host,	zwei.bgka.me
@@ -25,30 +68,29 @@ host,	temby.285286.xyz
 host,	emby.bangumi.ca
 host,	emby.agon.cf
 host,	film.ohhhh.org
-host,	pornemby.club
-host,	emby3.mcjoker.xyz
-host,	jp01.mjjemby.org
-host,	jp02.mjjemby.org
-host,	cf.freetz.top
-host,	emby.freetz.top
-host,	nc1.infinityfly.top
-host,	v.20120714.xyz
-host,	emby.kim
+
+
+
+
 host,	ju.dog
 host,	play.charontv.com
-ip-cidr,	140.238.6.215/31
-ip-cidr,	94.16.122.183/31
+ip-cidr,	140.238.6.215/32
+ip-cidr,	94.16.122.183/32
 host,	emby.pilipiliultra.top
 host,	emby.pilipiliultra.com
-ip-cidr,	146.56.36.1/31
+ip-cidr,	146.56.36.1/32
 host,	embyplus.org
-ip-cidr,	188.40.224.93/31
+ip-cidr,	188.40.224.93/32
 host,	emby.lcloud.wiki
 host,	emby.9191001.xyz
-ip-cidr,	139.162.16.54/31
-host,	direct.mjjemby.org
+ip-cidr,	139.162.16.54/32
+
 host,	media.nijigem.by
 host,	singularity.bagpipe.moe
-host,	emby.at
-host,	ntrrr.am.sb
-host,	v.emby.at
+
+
+
+
+# >关键词
+DOMAIN-KEYWORD,emby
+
