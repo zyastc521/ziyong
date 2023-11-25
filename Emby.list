@@ -1,16 +1,16 @@
 # > PornEmby
-host,	pornemby.club
+host,pornemby.club
 
 # > Emby Hub
-host,	emby.ednovas.org
+host,emby.ednovas.org
 
 # > 叔服
-host,	emby3.mcjoker.xyz
-host,	jz.mcjoker.xyz
+host, emby3.mcjoker.xyz
+host, jz.mcjoker.xyz
 
 # > MJJ-Emby
-host,	cf.mjjemby.org
-host,	jp01.mjjemby.org
+host, cf.mjjemby.org
+host, jp01.mjjemby.org
 host,	jp02.mjjemby.org
 host,	direct.mjjemby.org
 
@@ -23,7 +23,7 @@ host,	front.gugumedia.link
 host,	pro.gugumedia.link
 
 # > Marmot_Emby
-host,	marmot.20120714.xyz
+host, marmot.20120714.xyz
 host,	v.20120714.xyz
 
 # > cc公益
