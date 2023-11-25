@@ -1,3 +1,4 @@
+# 有瑟瑟
 # > PornEmby
 host, pornemby.club
 
@@ -16,6 +17,11 @@ host, direct.mjjemby.org
 
 # > BURGER KING®
 host, ntrrr.am.sb
+
+# > ✨ Singularity
+host, singularity.bagpipe.moe
+
+========================================
 
 # > GuGu
 host, main.gugumedia.link
@@ -51,8 +57,7 @@ host, t.emby.at
 # > Jellyfin Paradise(Charity)
 host, ws1.jellyfin.asia
 
-# > ✨ Singularity
-host, singularity.bagpipe.moe
+
 
 # > PiliPili Ultra
 host, emby.pilipiliultra.top
@@ -126,8 +131,7 @@ ip-cidr, 188.40.224.93/32
 host, emby.lcloud.wiki
 
 ========================================
-# >可能跑路的
-
+# 可能跑路的
 # > NIRVANA
 host, emby.lucasmedia.top
 
@@ -135,6 +139,6 @@ host, emby.lucasmedia.top
 host, ju.dog
 
 ========================================
-# >关键词
+# > 关键词
 DOMAIN-KEYWORD,emby
 
