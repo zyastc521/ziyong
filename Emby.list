@@ -119,21 +119,22 @@ host, emby.9191001.xyz
 # > NMEmby
 host, film.ohhhh.org
 
-
-
-# > JUDOG剧狗
-host, ju.dog
-
 # > 456
 ip-cidr, 188.40.224.93/32
 
 # > Lend
 host, emby.lcloud.wiki
 
+========================================
+# >可能跑路的
+
 # > NIRVANA
-#host, emby.lucasmedia.top
+host, emby.lucasmedia.top
 
+# > JUDOG剧狗
+host, ju.dog
 
+========================================
 # >关键词
 DOMAIN-KEYWORD,emby
 
