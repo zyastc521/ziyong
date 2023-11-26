@@ -108,6 +108,7 @@ DOMAIN-SUFFIX, emby.bangumi.ca
 
 # > 私人影院
 DOMAIN-SUFFIX, emby.agon.cf
+DOMAIN-SUFFIX, alist-proxy.agon.cf
 
 # > 放映厅
 DOMAIN-SUFFIX, emby.9191001.xyz
