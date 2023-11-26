@@ -22,15 +22,6 @@ DOMAIN-SUFFIX, ntrrr.am.sb
 # > ✨ Singularity
 DOMAIN-SUFFIX, singularity.bagpipe.moe
 
-# > PiliPili Ultra
-DOMAIN-SUFFIX, pilipiliultra.top
-DOMAIN-SUFFIX, pilipiliultra.com
-DOMAIN-SUFFIX, pilipili.mikuu.link
-DOMAIN-SUFFIX, pili.nvidia.rip
-ip-cidr, 146.56.36.1/32
-DOMAIN-SUFFIX, misakaf.pilipiliultra.top
-DOMAIN-SUFFIX, misakaf.pilipiliultra.com
-
 # > 垃圾影音
 DOMAIN-SUFFIX, xmsl.org
 
@@ -45,6 +36,8 @@ ip-cidr, 152.70.239.210/32
 DOMAIN-SUFFIX, cmi.bili.rip
 
 ========================================
+# 🐲影音🐲
+
 # > GuGu
 DOMAIN-SUFFIX, main.gugumedia.link
 DOMAIN-SUFFIX, front.gugumedia.link
@@ -99,12 +92,6 @@ DOMAIN-SUFFIX, kuan1.yutron.eu.org
 DOMAIN-SUFFIX, h.200300.xyz
 ip-cidr, 139.162.16.54/32
 
-# > 纸片人小站
-DOMAIN-SUFFIX, embyplus.org
-
-# > 二刺螈
-DOMAIN-SUFFIX, media.nijigem.by
-
 # > paul_电报服
 DOMAIN-SUFFIX, cf.imetyou.top
 DOMAIN-SUFFIX, emby.imetyou.top
@@ -132,6 +119,25 @@ DOMAIN-SUFFIX, film.ohhhh.org
 DOMAIN-SUFFIX, emby.lcloud.wiki
 
 ========================================
+# ❤️二次元❤️
+
+# > PiliPili Ultra
+DOMAIN-SUFFIX, pilipiliultra.top
+DOMAIN-SUFFIX, pilipiliultra.com
+DOMAIN-SUFFIX, pilipili.mikuu.link
+DOMAIN-SUFFIX, pili.nvidia.rip
+ip-cidr, 146.56.36.1/32
+DOMAIN-SUFFIX, misakaf.pilipiliultra.top
+DOMAIN-SUFFIX, misakaf.pilipiliultra.com
+
+# > 纸片人小站
+DOMAIN-SUFFIX, embyplus.org
+DOMAIN-SUFFIX, gd.9521732.xyz
+
+# > 二刺螈
+DOMAIN-SUFFIX, media.nijigem.by
+
+========================================
 # 🟢可能跑路的🟢
 
 # > NIRVANA
@@ -148,5 +154,6 @@ DOMAIN-SUFFIX, kuan2.yutron.eu.org
 ip-cidr, 94.16.122.183/32
 
 ========================================
-# > 关键词
+# > 💟关键词💟
+
 DOMAIN-KEYWORD,emby
