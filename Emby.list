@@ -22,8 +22,11 @@ DOMAIN-SUFFIX, ntrrr.am.sb
 # > ✨ Singularity
 DOMAIN-SUFFIX, singularity.bagpipe.moe
 
-# > 垃圾影音
-DOMAIN-SUFFIX, xmsl.org
+# > 垃圾影音（公费服）
+DOMAIN-SUFFIX, bcn.xmsl.org
+DOMAIN-SUFFIX, cfde.xmsl.org
+DOMAIN-SUFFIX, line.xmsl.org
+DOMAIN-SUFFIX, pm.xmsl.org
 
 # > Prisms Red（机场服）
 DOMAIN-SUFFIX, red.prisms.cc
@@ -86,6 +89,12 @@ DOMAIN-SUFFIX, play.charontv.com
 # > TreeDiagram
 DOMAIN-SUFFIX, 789.123456.al
 
+# > 垃圾影音
+#DOMAIN-SUFFIX, xmsl.org
+DOMAIN-SUFFIX, krde.xmsl.org
+DOMAIN-SUFFIX, cf.xmsl.org
+DOMAIN-SUFFIX, free.xmsl.org
+
 # > 酷安Emby私服
 DOMAIN-SUFFIX, embysf.200300.xyz
 DOMAIN-SUFFIX, kuan1.yutron.eu.org
@@ -123,8 +132,8 @@ DOMAIN-SUFFIX, emby.lcloud.wiki
 # ❤️二次元❤️
 
 # > PiliPili Ultra
-DOMAIN-SUFFIX, pilipiliultra.top
-DOMAIN-SUFFIX, pilipiliultra.com
+DOMAIN-SUFFIX, emby.pilipiliultra.top
+DOMAIN-SUFFIX, emby.pilipiliultra.com
 DOMAIN-SUFFIX, pilipili.mikuu.link
 DOMAIN-SUFFIX, pili.nvidia.rip
 ip-cidr, 146.56.36.1/32
