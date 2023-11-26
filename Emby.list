@@ -31,7 +31,7 @@ ip-cidr, 146.56.36.1/32
 DOMAIN-SUFFIX, misakaf.pilipiliultra.top
 DOMAIN-SUFFIX, misakaf.pilipiliultra.com
 
-# > 垃圾影音（公费）
+# > 垃圾影音
 DOMAIN-SUFFIX, xmsl.org
 
 # > Prisms Red（机场服）
@@ -78,10 +78,6 @@ DOMAIN-SUFFIX, t.emby.at
 
 # > Jellyfin Paradise(Charity)
 DOMAIN-SUFFIX, ws1.jellyfin.asia
-
-# > 垃圾影音
-DOMAIN-SUFFIX, cf.xmsl.org
-DOMAIN-SUFFIX, free.xmsl.org
 
 # > 卷毛鼠公益服
 DOMAIN-SUFFIX, cf.jmsooo.com
