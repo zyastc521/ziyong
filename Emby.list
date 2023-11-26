@@ -90,7 +90,7 @@ DOMAIN-SUFFIX, play.charontv.com
 DOMAIN-SUFFIX, 789.123456.al
 
 # > 垃圾影音
-#DOMAIN-SUFFIX, xmsl.org
+DOMAIN-SUFFIX, xmsl.org
 DOMAIN-SUFFIX, krde.xmsl.org
 DOMAIN-SUFFIX, cf.xmsl.org
 DOMAIN-SUFFIX, free.xmsl.org
@@ -132,6 +132,8 @@ DOMAIN-SUFFIX, emby.lcloud.wiki
 # ❤️二次元❤️
 
 # > PiliPili Ultra
+DOMAIN-SUFFIX, pilipiliultra.com
+DOMAIN-SUFFIX, push.pilipiliultra.com
 DOMAIN-SUFFIX, emby.pilipiliultra.top
 DOMAIN-SUFFIX, emby.pilipiliultra.com
 DOMAIN-SUFFIX, pilipili.mikuu.link
