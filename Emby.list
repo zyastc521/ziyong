@@ -23,7 +23,7 @@ host, ntrrr.am.sb
 host, singularity.bagpipe.moe
 
 # > PiliPili Ultra
-host, emby.pilipiliultra.top
+DOMAIN, emby.pilipiliultra.top
 host, emby.pilipiliultra.com
 host, pilipili.mikuu.link
 host, pili.nvidia.rip
