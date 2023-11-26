@@ -1,153 +1,157 @@
 # 🔞有瑟瑟🔞
 
 # > PornEmby
-host, pornemby.club
+DOMAIN-SUFFIX, pornemby.club
 
 # > Emby Hub
-host, emby.ednovas.org
+DOMAIN-SUFFIX, emby.ednovas.org
 
 # > 叔服
-host, emby3.mcjoker.xyz
-host, jz.mcjoker.xyz
+DOMAIN-SUFFIX, emby3.mcjoker.xyz
+DOMAIN-SUFFIX, jz.mcjoker.xyz
 
 # > MJJ-Emby
-host, cf.mjjemby.org
-host, jp01.mjjemby.org
-host, jp02.mjjemby.org
-host, direct.mjjemby.org
+DOMAIN-SUFFIX, cf.mjjemby.org
+DOMAIN-SUFFIX, jp01.mjjemby.org
+DOMAIN-SUFFIX, jp02.mjjemby.org
+DOMAIN-SUFFIX, direct.mjjemby.org
 
 # > BURGER KING®
-host, ntrrr.am.sb
+DOMAIN-SUFFIX, ntrrr.am.sb
 
 # > ✨ Singularity
-host, singularity.bagpipe.moe
+DOMAIN-SUFFIX, singularity.bagpipe.moe
 
 # > PiliPili Ultra
-DOMAIN, emby.pilipiliultra.top
-host, emby.pilipiliultra.com
-host, pilipili.mikuu.link
-host, pili.nvidia.rip
+DOMAIN-SUFFIX, emby.pilipiliultra.top
+DOMAIN-SUFFIX, emby.pilipiliultra.com
+DOMAIN-SUFFIX, pilipili.mikuu.link
+DOMAIN-SUFFIX, pili.nvidia.rip
 ip-cidr, 146.56.36.1/32
-host, misakaf.pilipiliultra.top
-host, misakaf.pilipiliultra.com
+DOMAIN-SUFFIX, misakaf.pilipiliultra.top
+DOMAIN-SUFFIX, misakaf.pilipiliultra.com
 
 # > 垃圾影音（公费）
-host, cfde.xmsl.org
-host, line.xmsl.org
-host, pm.xmsl.org
+DOMAIN-SUFFIX, cfde.xmsl.org
+DOMAIN-SUFFIX, line.xmsl.org
+DOMAIN-SUFFIX, pm.xmsl.org
 
 # > Prisms Red（机场服）
-host, red.prisms.cc
+DOMAIN-SUFFIX, red.prisms.cc
 
 # > hxd_emby（公费）
-host, bili.bili.rip
-host, 4837.bili.rip
-host, kr.bili.rip
+DOMAIN-SUFFIX, bili.bili.rip
+DOMAIN-SUFFIX, 4837.bili.rip
+DOMAIN-SUFFIX, kr.bili.rip
 ip-cidr, 152.70.239.210/32
-host, cmi.bili.rip
+DOMAIN-SUFFIX, cmi.bili.rip
 
 ========================================
 # > GuGu
-host, main.gugumedia.link
-host, front.gugumedia.link
-host, pro.gugumedia.link
+DOMAIN-SUFFIX, main.gugumedia.link
+DOMAIN-SUFFIX, front.gugumedia.link
+DOMAIN-SUFFIX, pro.gugumedia.link
 
 # > Marmot_Emby
-host, marmot.20120714.xyz
-host, v.20120714.xyz
+DOMAIN-SUFFIX, marmot.20120714.xyz
+DOMAIN-SUFFIX, v.20120714.xyz
 
 # > cc公益
-host, cc.ccemby.tk
+DOMAIN-SUFFIX, cc.ccemby.tk
 
 # > peach_公益服
-host, embymv.tk
+DOMAIN-SUFFIX, embymv.tk
 
 # > Magic Cloud
-host, cf.freetz.top
-host, emby.freetz.top
-host, kr.freetz.top
+DOMAIN-SUFFIX, cf.freetz.top
+DOMAIN-SUFFIX, emby.freetz.top
+DOMAIN-SUFFIX, kr.freetz.top
 
 # > Infinityfly+
-host, nc1.infinityfly.top
+DOMAIN-SUFFIX, nc1.infinityfly.top
 
 # > EmbyClub
-host, emby.kim
+DOMAIN-SUFFIX, emby.kim
 
 # > PandaTV
-host, emby.at
-host, v.emby.at
-host, t.emby.at
+DOMAIN-SUFFIX, emby.at
+DOMAIN-SUFFIX, v.emby.at
+DOMAIN-SUFFIX, t.emby.at
 
 # > Jellyfin Paradise(Charity)
-host, ws1.jellyfin.asia
+DOMAIN-SUFFIX, ws1.jellyfin.asia
 
 # > 垃圾影音
-host, cf.xmsl.org
-host, free.xmsl.org
+DOMAIN-SUFFIX, cf.xmsl.org
+DOMAIN-SUFFIX, free.xmsl.org
 
 # > 卷毛鼠公益服
-host, cf.jmsooo.com
+DOMAIN-SUFFIX, cf.jmsooo.com
 
 # > 即将倒闭
-host, c.emby.pro
-host, zwei.bgka.me
+DOMAIN-SUFFIX, c.emby.pro
+DOMAIN-SUFFIX, zwei.bgka.me
 
 # > CharonTV
-host, play.charontv.com
+DOMAIN-SUFFIX, play.charontv.com
 
 # > TreeDiagram
-host, 789.123456.al
+DOMAIN-SUFFIX, 789.123456.al
 
 # > 酷安Emby私服
-host, embysf.200300.xyz
-host, kuan1.yutron.eu.org
-host, h.200300.xyz
+DOMAIN-SUFFIX, embysf.200300.xyz
+DOMAIN-SUFFIX, kuan1.yutron.eu.org
+DOMAIN-SUFFIX, h.200300.xyz
 ip-cidr, 139.162.16.54/32
 
 # > 纸片人小站
-host, embyplus.org
+DOMAIN-SUFFIX, embyplus.org
 
 # > 二刺螈
-host, media.nijigem.by
+DOMAIN-SUFFIX, media.nijigem.by
 
 # > paul_电报服
-host, cf.imetyou.top
-host, emby.imetyou.top
-host, fk.imetyou.top
-host, kr.imetyou.top
-host, sg.imetyou.top
-host, chun.imetyou.top
+DOMAIN-SUFFIX, cf.imetyou.top
+DOMAIN-SUFFIX, emby.imetyou.top
+DOMAIN-SUFFIX, fk.imetyou.top
+DOMAIN-SUFFIX, kr.imetyou.top
+DOMAIN-SUFFIX, sg.imetyou.top
+DOMAIN-SUFFIX, chun.imetyou.top
 
 # > Temby
-host, temby.285286.xyz
+DOMAIN-SUFFIX, temby.285286.xyz
 
 # > nyamedia
-host, emby.bangumi.ca
+DOMAIN-SUFFIX, emby.bangumi.ca
 
 # > 私人影院
-host, emby.agon.cf
+DOMAIN-SUFFIX, emby.agon.cf
 
 # > 放映厅
-host, emby.9191001.xyz
+DOMAIN-SUFFIX, emby.9191001.xyz
 
 # > NMEmby
-host, film.ohhhh.org
+DOMAIN-SUFFIX, film.ohhhh.org
 
 # > Lend（机场服）
-host, emby.lcloud.wiki
+DOMAIN-SUFFIX, emby.lcloud.wiki
 
 ========================================
 # 🟢可能跑路的🟢
 
 # > NIRVANA
-host, emby.lucasmedia.top
+DOMAIN-SUFFIX, emby.lucasmedia.top
 
 # > JUDOG剧狗
-host, ju.dog
+DOMAIN-SUFFIX, ju.dog
 
 # > 456
 ip-cidr, 188.40.224.93/32
 
 # > 酷安Emby
-host, kuan2.yutron.eu.org
+DOMAIN-SUFFIX, kuan2.yutron.eu.org
 ip-cidr, 94.16.122.183/32
+
+========================================
+# > 关键词
+DOMAIN-KEYWORD,emby
