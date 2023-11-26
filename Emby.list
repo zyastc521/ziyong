@@ -23,8 +23,8 @@ DOMAIN-SUFFIX, ntrrr.am.sb
 DOMAIN-SUFFIX, singularity.bagpipe.moe
 
 # > PiliPili Ultra
-DOMAIN-SUFFIX, emby.pilipiliultra.top
-DOMAIN-SUFFIX, emby.pilipiliultra.com
+DOMAIN-SUFFIX, pilipiliultra.top
+DOMAIN-SUFFIX, pilipiliultra.com
 DOMAIN-SUFFIX, pilipili.mikuu.link
 DOMAIN-SUFFIX, pili.nvidia.rip
 ip-cidr, 146.56.36.1/32
@@ -32,9 +32,7 @@ DOMAIN-SUFFIX, misakaf.pilipiliultra.top
 DOMAIN-SUFFIX, misakaf.pilipiliultra.com
 
 # > 垃圾影音（公费）
-DOMAIN-SUFFIX, cfde.xmsl.org
-DOMAIN-SUFFIX, line.xmsl.org
-DOMAIN-SUFFIX, pm.xmsl.org
+DOMAIN-SUFFIX, xmsl.org
 
 # > Prisms Red（机场服）
 DOMAIN-SUFFIX, red.prisms.cc
