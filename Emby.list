@@ -83,9 +83,6 @@ DOMAIN-SUFFIX, cf.jmsooo.com
 DOMAIN-SUFFIX, c.emby.pro
 DOMAIN-SUFFIX, zwei.bgka.me
 
-# > CharonTV
-DOMAIN-SUFFIX, play.charontv.com
-
 # > TreeDiagram
 DOMAIN-SUFFIX, 789.123456.al
 
@@ -150,7 +147,10 @@ DOMAIN-SUFFIX, gd.9521732.xyz
 DOMAIN-SUFFIX, media.nijigem.by
 
 ========================================
-# 🟢可能跑路的🟢
+# 🟢已经跑路的🟢
+
+# > CharonTV
+DOMAIN-SUFFIX, play.charontv.com
 
 # > NIRVANA
 DOMAIN-SUFFIX, emby.lucasmedia.top
