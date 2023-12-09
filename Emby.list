@@ -171,3 +171,8 @@ ip-cidr, 188.40.224.93/32
 # > 酷安Emby
 DOMAIN-SUFFIX, kuan2.yutron.eu.org
 ip-cidr, 94.16.122.183/32
+
+########################################
+# > 🌐关键词🌐
+
+DOMAIN-KEYWORD,emby
