@@ -22,21 +22,31 @@ DOMAIN-SUFFIX, ntrrr.am.sb
 # > ✨ Singularity
 DOMAIN-SUFFIX, singularity.bagpipe.moe
 
-# > 垃圾影音（公费服）
+========================================
+# 💰公费服💰
+
+# > 垃圾影音
 DOMAIN-SUFFIX, bcn.xmsl.org
 DOMAIN-SUFFIX, cfde.xmsl.org
 DOMAIN-SUFFIX, line.xmsl.org
 DOMAIN-SUFFIX, pm.xmsl.org
 
+# > MisakaF
+DOMAIN-SUFFIX, cdn.misakaf.org
+DOMAIN-SUFFIX, emby.misakaf.org
+
 # > Prisms Red（机场服）
 DOMAIN-SUFFIX, red.prisms.cc
 
-# > hxd_emby（公费）
+# > hxd_emby
 DOMAIN-SUFFIX, bili.bili.rip
 DOMAIN-SUFFIX, 4837.bili.rip
 DOMAIN-SUFFIX, kr.bili.rip
 ip-cidr, 152.70.239.210/32
 DOMAIN-SUFFIX, cmi.bili.rip
+
+# > Lend（机场服）
+DOMAIN-SUFFIX, emby.lcloud.wiki
 
 ========================================
 # 🐲影音🐲
@@ -121,9 +131,6 @@ DOMAIN-SUFFIX, emby.9191001.xyz
 
 # > NMEmby
 DOMAIN-SUFFIX, film.ohhhh.org
-
-# > Lend（机场服）
-DOMAIN-SUFFIX, emby.lcloud.wiki
 
 ========================================
 # ❤️二次元❤️
