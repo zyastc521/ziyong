@@ -3,8 +3,7 @@
 # > PornEmby
 DOMAIN-SUFFIX, pornemby.club
 
-# > Emby Hub
-DOMAIN-SUFFIX, emby.ednovas.org
+
 
 # > 叔服
 DOMAIN-SUFFIX, emby3.mcjoker.xyz
@@ -38,7 +37,7 @@ DOMAIN-SUFFIX, emby.misakaf.org
 # > Prisms Red（机场服）
 DOMAIN-SUFFIX, red.prisms.cc
 
-# > hxd_emby
+# > hxd_emby （没续费）
 DOMAIN-SUFFIX, bili.bili.rip
 DOMAIN-SUFFIX, 4837.bili.rip
 DOMAIN-SUFFIX, kr.bili.rip
@@ -153,7 +152,10 @@ DOMAIN-SUFFIX, gd.9521732.xyz
 DOMAIN-SUFFIX, media.nijigem.by
 
 ########################################
-# 🟢已经跑路的🟢
+# 🟢可能跑路的🟢
+
+# > Emby Hub
+DOMAIN-SUFFIX, emby.ednovas.org
 
 # > CharonTV
 DOMAIN-SUFFIX, play.charontv.com
