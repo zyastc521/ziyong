@@ -3,8 +3,6 @@
 # > PornEmby
 DOMAIN-SUFFIX, pornemby.club
 
-
-
 # > 叔服
 DOMAIN-SUFFIX, emby3.mcjoker.xyz
 DOMAIN-SUFFIX, jz.mcjoker.xyz
@@ -24,18 +22,15 @@ DOMAIN-SUFFIX, singularity.bagpipe.moe
 ########################################
 # 💰公费服💰
 
-# > 垃圾影音
+# > 垃圾影音 （没续费）
 DOMAIN-SUFFIX, bcn.xmsl.org
 DOMAIN-SUFFIX, cfde.xmsl.org
 DOMAIN-SUFFIX, line.xmsl.org
 DOMAIN-SUFFIX, pm.xmsl.org
 
-# > MisakaF
+# > MisakaF （没续费）
 DOMAIN-SUFFIX, cdn.misakaf.org
 DOMAIN-SUFFIX, emby.misakaf.org
-
-# > Prisms Red（机场服）
-DOMAIN-SUFFIX, red.prisms.cc
 
 # > hxd_emby （没续费）
 DOMAIN-SUFFIX, bili.bili.rip
@@ -44,10 +39,16 @@ DOMAIN-SUFFIX, kr.bili.rip
 ip-cidr, 152.70.239.210/32
 DOMAIN-SUFFIX, cmi.bili.rip
 
-# > Lend（机场服）
+########################################
+# ✈️机场服✈️
+
+# > Prisms Red
+DOMAIN-SUFFIX, red.prisms.cc
+
+# > Lend
 DOMAIN-SUFFIX, emby.lcloud.wiki
 
-# > ACA（机场服）
+# > ACA
 DOMAIN-SUFFIX, porn.aca.best
 DOMAIN-SUFFIX, emby.aca.best
 
