@@ -76,7 +76,7 @@ DOMAIN-SUFFIX, cf.freetz.top
 DOMAIN-SUFFIX, emby.freetz.top
 DOMAIN-SUFFIX, kr.freetz.top
 
-# > Infinityfly+
+# > Infinityfly-emby（共享账号）
 ip-cidr, 5.78.69.60/32
 
 # > EmbyClub
