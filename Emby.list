@@ -86,6 +86,9 @@ DOMAIN-SUFFIX, emby.kim
 DOMAIN-SUFFIX, emby.at
 DOMAIN-SUFFIX, v.emby.at
 DOMAIN-SUFFIX, t.emby.at
+DOMAIN-SUFFIX, line1.emby.at
+DOMAIN-SUFFIX, line2.emby.at
+DOMAIN-SUFFIX, line3.emby.at
 
 # > Jellyfin Paradise(Charity)
 DOMAIN-SUFFIX, ws1.jellyfin.asia
