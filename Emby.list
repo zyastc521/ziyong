@@ -77,7 +77,7 @@ DOMAIN-SUFFIX, emby.freetz.top
 DOMAIN-SUFFIX, kr.freetz.top
 
 # > Infinityfly+
-DOMAIN-SUFFIX, nc1.infinityfly.top
+ip-cidr, 5.78.69.60/32
 
 # > EmbyClub
 DOMAIN-SUFFIX, emby.kim
@@ -157,6 +157,9 @@ DOMAIN-SUFFIX, media.nijigem.by
 
 ########################################
 # 🟢可能跑路的🟢
+
+# > Infinityfly+
+DOMAIN-SUFFIX, nc1.infinityfly.top
 
 # > Emby Hub
 DOMAIN-SUFFIX, emby.ednovas.org
