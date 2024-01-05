@@ -3,7 +3,7 @@
 "description":"收集互联网公开图标文件，版权属于原作者和商标持有人。",
 "icons":
     [
-	{"name":"PikPak", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/PikPak.png"},
+	{"name":"PikPak", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/PikPak-qx.png"},
 	{"name":"ChatGPT", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/ChatGPT-1.png"},
 	{"name":"OpenAI", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/dd.PNG"},
     ]
