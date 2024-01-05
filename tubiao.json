@@ -1,0 +1,8 @@
+{
+"name":"自制", 
+"icons":
+    [
+	{"name":"PikPak", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/PikPak-1.png"},
+	{"name":"ChatGPT", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/ChatGPT-1.png"},
+    ]
+}
