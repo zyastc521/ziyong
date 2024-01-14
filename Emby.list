@@ -82,8 +82,8 @@ DOMAIN-SUFFIX, cf.freetz.top
 DOMAIN-SUFFIX, emby.freetz.top
 DOMAIN-SUFFIX, kr.freetz.top
 
-# > Infinityfly-emby（共享账号）
-ip-cidr, 5.78.69.60/32
+# > Infinityfly+（共享账号）
+ip-cidr, 89.58.60.238/32
 
 # > EmbyClub
 DOMAIN-SUFFIX, emby.kim
