@@ -16,7 +16,6 @@ DOMAIN-SUFFIX, sg01.mjjemby.org
 DOMAIN-SUFFIX, kr.mjjemby.org
 
 # > BURGER KING®
-DOMAIN-SUFFIX, ntrrr.am.sb
 DOMAIN-SUFFIX, stream.ntrrr.top
 
 # > ✨ Singularity
@@ -43,7 +42,6 @@ DOMAIN-SUFFIX, kr.bili.rip
 ip-cidr, 152.70.239.210/32
 DOMAIN-SUFFIX, cmi.bili.rip
 DOMAIN-SUFFIX, cf.bili.rip
-DOMAIN-SUFFIX, 4837.bili.rip
 DOMAIN-SUFFIX, netlab.bili.rip
 
 ########################################
