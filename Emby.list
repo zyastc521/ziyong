@@ -150,6 +150,11 @@ DOMAIN-SUFFIX, emby.carlos.trade
 DOMAIN-SUFFIX, cf.carlos.trade
 DOMAIN-SUFFIX, emby.carlos.trade
 
+# > Lyrebirde
+DOMAIN-SUFFIX, lyrebirdemby.com
+DOMAIN-SUFFIX, direct.lyrebirdemby.com
+DOMAIN-SUFFIX, cdn.lyrebirdemby.com
+
 ########################################
 # ❤️二次元❤️
 
