@@ -37,12 +37,8 @@ DOMAIN-SUFFIX, emby.misakaf.org
 # > hxd_emby （没续费）
 DOMAIN-SUFFIX, bili.rip
 DOMAIN-SUFFIX, bili.bili.rip
-DOMAIN-SUFFIX, 4837.bili.rip
-DOMAIN-SUFFIX, kr.bili.rip
-ip-cidr, 152.70.239.210/32
-DOMAIN-SUFFIX, cmi.bili.rip
 DOMAIN-SUFFIX, cf.bili.rip
-DOMAIN-SUFFIX, netlab.bili.rip
+DOMAIN-SUFFIX, cdn.bili.rip
 
 ########################################
 # ✈️机场服✈️
