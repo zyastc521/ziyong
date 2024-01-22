@@ -46,9 +46,6 @@ DOMAIN-SUFFIX, cdn.bili.rip
 # > Prisms Red
 DOMAIN-SUFFIX, red.prisms.cc
 
-# > Lend
-DOMAIN-SUFFIX, emby.lcloud.wiki
-
 # > ACA
 DOMAIN-SUFFIX, porn.aca.best
 DOMAIN-SUFFIX, emby.aca.best
@@ -190,6 +187,9 @@ DOMAIN-SUFFIX, embysf.200300.xyz
 DOMAIN-SUFFIX, kuan1.yutron.eu.org
 DOMAIN-SUFFIX, h.200300.xyz
 ip-cidr, 139.162.16.54/32
+
+# > Lend（机场服）
+DOMAIN-SUFFIX, emby.lcloud.wiki
 
 ########################################
 # > 🌐关键词🌐
