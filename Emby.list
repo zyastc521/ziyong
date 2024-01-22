@@ -114,12 +114,6 @@ DOMAIN-SUFFIX, krde.xmsl.org
 DOMAIN-SUFFIX, cf.xmsl.org
 DOMAIN-SUFFIX, free.xmsl.org
 
-# > 酷安Emby私服
-DOMAIN-SUFFIX, embysf.200300.xyz
-DOMAIN-SUFFIX, kuan1.yutron.eu.org
-DOMAIN-SUFFIX, h.200300.xyz
-ip-cidr, 139.162.16.54/32
-
 # > paul_电报服
 DOMAIN-SUFFIX, cf.imetyou.top
 DOMAIN-SUFFIX, emby.imetyou.top
@@ -194,6 +188,12 @@ ip-cidr, 188.40.224.93/32
 # > 酷安Emby
 DOMAIN-SUFFIX, kuan2.yutron.eu.org
 ip-cidr, 94.16.122.183/32
+
+# > 酷安Emby私服
+DOMAIN-SUFFIX, embysf.200300.xyz
+DOMAIN-SUFFIX, kuan1.yutron.eu.org
+DOMAIN-SUFFIX, h.200300.xyz
+ip-cidr, 139.162.16.54/32
 
 ########################################
 # > 🌐关键词🌐
