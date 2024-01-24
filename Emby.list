@@ -4,10 +4,12 @@
 DOMAIN-SUFFIX, pornemby.club
 
 # > 叔服
+DOMAIN-SUFFIX, mcjoker.xyz
 DOMAIN-SUFFIX, emby3.mcjoker.xyz
 DOMAIN-SUFFIX, jz.mcjoker.xyz
 
 # > MJJ-Emby
+DOMAIN-SUFFIX, mjjemby.org
 DOMAIN-SUFFIX, cf.mjjemby.org
 DOMAIN-SUFFIX, jp01.mjjemby.org
 DOMAIN-SUFFIX, jp02.mjjemby.org
@@ -25,12 +27,14 @@ DOMAIN-SUFFIX, singularity.bagpipe.moe
 # 💰公费服💰
 
 # > 垃圾影音 （没续费）
+DOMAIN-SUFFIX, xmsl.org
 DOMAIN-SUFFIX, bcn.xmsl.org
 DOMAIN-SUFFIX, cfde.xmsl.org
 DOMAIN-SUFFIX, line.xmsl.org
 DOMAIN-SUFFIX, pm.xmsl.org
 
 # > MisakaF （没续费）
+DOMAIN-SUFFIX, misakaf.org
 DOMAIN-SUFFIX, cdn.misakaf.org
 DOMAIN-SUFFIX, emby.misakaf.org
 
@@ -47,6 +51,7 @@ DOMAIN-SUFFIX, cdn.bili.rip
 DOMAIN-SUFFIX, red.prisms.cc
 
 # > ACA
+DOMAIN-SUFFIX, aca.best
 DOMAIN-SUFFIX, porn.aca.best
 DOMAIN-SUFFIX, emby.aca.best
 
@@ -54,11 +59,13 @@ DOMAIN-SUFFIX, emby.aca.best
 # 🐲影音🐲
 
 # > GuGu
+DOMAIN-SUFFIX, gugumedia.link
 DOMAIN-SUFFIX, main.gugumedia.link
 DOMAIN-SUFFIX, front.gugumedia.link
 DOMAIN-SUFFIX, pro.gugumedia.link
 
 # > Marmot_Emby
+DOMAIN-SUFFIX, 20120714.xyz
 DOMAIN-SUFFIX, marmot.20120714.xyz
 DOMAIN-SUFFIX, v.20120714.xyz
 
@@ -70,6 +77,7 @@ DOMAIN-SUFFIX, embymv.tk
 ip-cidr, 193.123.232.141/32
 
 # > Magic Cloud
+DOMAIN-SUFFIX, freetz.top
 DOMAIN-SUFFIX, cf.freetz.top
 DOMAIN-SUFFIX, emby.freetz.top
 DOMAIN-SUFFIX, kr.freetz.top
@@ -108,6 +116,7 @@ DOMAIN-SUFFIX, cf.xmsl.org
 DOMAIN-SUFFIX, free.xmsl.org
 
 # > paul_电报服
+DOMAIN-SUFFIX, imetyou.top
 DOMAIN-SUFFIX, cf.imetyou.top
 DOMAIN-SUFFIX, emby.imetyou.top
 DOMAIN-SUFFIX, fk.imetyou.top
@@ -124,6 +133,7 @@ DOMAIN-SUFFIX, temby4837.285286.xyz
 DOMAIN-SUFFIX, emby.bangumi.ca
 
 # > 私人影院
+DOMAIN-SUFFIX, agon.cf
 DOMAIN-SUFFIX, emby.agon.cf
 DOMAIN-SUFFIX, alist-proxy.agon.cf
 
