@@ -73,8 +73,7 @@ DOMAIN-SUFFIX, v.20120714.xyz
 DOMAIN-SUFFIX, cc.ccemby.tk
 
 # > peach_公益服
-DOMAIN-SUFFIX, embymv.tk
-ip-cidr, 193.123.232.141/32
+DOMAIN-SUFFIX, peachmv.me
 
 # > Magic Cloud
 DOMAIN-SUFFIX, freetz.top
