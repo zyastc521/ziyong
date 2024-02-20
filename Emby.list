@@ -19,8 +19,6 @@ DOMAIN-SUFFIX, kr.mjjemby.org
 
 # > BURGER KING®
 DOMAIN-SUFFIX, stream.ntrrr.top
-DOMAIN-SUFFIX, stream.synn.cc, SYN Emby
-DOMAIN-SUFFIX, stream-zz.synn.cc, SYN Emby
 
 # > ✨ Singularity
 DOMAIN-SUFFIX, singularity.bagpipe.moe
