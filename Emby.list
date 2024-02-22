@@ -17,11 +17,6 @@ DOMAIN-SUFFIX, direct.mjjemby.org
 DOMAIN-SUFFIX, sg01.mjjemby.org
 DOMAIN-SUFFIX, kr.mjjemby.org
 
-# > BURGER KING®
-DOMAIN-SUFFIX, stream.ntrrr.top
-DOMAIN-SUFFIX, kr-stream.ntrrr.top
-DOMAIN-SUFFIX, jp-stream.ntrrr.top
-
 # > ✨ Singularity
 DOMAIN-SUFFIX, singularity.bagpipe.moe
 
@@ -175,6 +170,11 @@ DOMAIN-SUFFIX, media.nijigem.by
 
 ########################################
 # 🟢可能跑路的🟢
+
+# > BURGER KING®（号已封）
+DOMAIN-SUFFIX, stream.ntrrr.top
+DOMAIN-SUFFIX, kr-stream.ntrrr.top
+DOMAIN-SUFFIX, jp-stream.ntrrr.top
 
 # > Infinityfly+
 DOMAIN-SUFFIX, nc1.infinityfly.top
