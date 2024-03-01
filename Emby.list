@@ -5,78 +5,78 @@ DOMAIN-SUFFIX, pornemby.club
 
 # > 叔服
 DOMAIN-SUFFIX, mcjoker.xyz
-DOMAIN-SUFFIX, emby3.mcjoker.xyz
-DOMAIN-SUFFIX, jz.mcjoker.xyz
+DOMAIN, emby3.mcjoker.xyz
+DOMAIN, jz.mcjoker.xyz
 
 # > MJJ-Emby
 DOMAIN-SUFFIX, mjjemby.org
-DOMAIN-SUFFIX, cf.mjjemby.org
-DOMAIN-SUFFIX, jp01.mjjemby.org
-DOMAIN-SUFFIX, jp02.mjjemby.org
-DOMAIN-SUFFIX, direct.mjjemby.org
-DOMAIN-SUFFIX, sg01.mjjemby.org
-DOMAIN-SUFFIX, kr.mjjemby.org
+DOMAIN, cf.mjjemby.org
+DOMAIN, jp01.mjjemby.org
+DOMAIN, jp02.mjjemby.org
+DOMAIN, direct.mjjemby.org
+DOMAIN, sg01.mjjemby.org
+DOMAIN, kr.mjjemby.org
 
 # > ✨ Singularity
-DOMAIN-SUFFIX, singularity.bagpipe.moe
+DOMAIN, singularity.bagpipe.moe
 
 ########################################
 # 💰公费服💰
 
 # > 垃圾影音 （没续费）
 DOMAIN-SUFFIX, xmsl.org
-DOMAIN-SUFFIX, bcn.xmsl.org
-DOMAIN-SUFFIX, cfde.xmsl.org
-DOMAIN-SUFFIX, line.xmsl.org
-DOMAIN-SUFFIX, pm.xmsl.org
+DOMAIN, bcn.xmsl.org
+DOMAIN, cfde.xmsl.org
+DOMAIN, line.xmsl.org
+DOMAIN, pm.xmsl.org
 
 # > MisakaF （没续费）
 DOMAIN-SUFFIX, misakaf.org
-DOMAIN-SUFFIX, cdn.misakaf.org
-DOMAIN-SUFFIX, emby.misakaf.org
+DOMAIN, cdn.misakaf.org
+DOMAIN, emby.misakaf.org
 
 # > hxd_emby （没续费）
 DOMAIN-SUFFIX, bili.rip
-DOMAIN-SUFFIX, bili.bili.rip
-DOMAIN-SUFFIX, cf.bili.rip
-DOMAIN-SUFFIX, cdn.bili.rip
+DOMAIN, bili.bili.rip
+DOMAIN, cf.bili.rip
+DOMAIN, cdn.bili.rip
 
 ########################################
 # ✈️机场服✈️
 
 # > Prisms Red
-DOMAIN-SUFFIX, red.prisms.cc
+DOMAIN, red.prisms.cc
 
 # > ACA
 DOMAIN-SUFFIX, aca.best
-DOMAIN-SUFFIX, porn.aca.best
-DOMAIN-SUFFIX, emby.aca.best
+DOMAIN, porn.aca.best
+DOMAIN, emby.aca.best
 
 ########################################
 # 🐲影音🐲
 
 # > GuGu
 DOMAIN-SUFFIX, gugumedia.link
-DOMAIN-SUFFIX, main.gugumedia.link
-DOMAIN-SUFFIX, front.gugumedia.link
-DOMAIN-SUFFIX, pro.gugumedia.link
+DOMAIN, main.gugumedia.link
+DOMAIN, front.gugumedia.link
+DOMAIN, pro.gugumedia.link
 
 # > Marmot_Emby
 DOMAIN-SUFFIX, 20120714.xyz
-DOMAIN-SUFFIX, if.20120714.xyz
-DOMAIN-SUFFIX, v.20120714.xyz
+DOMAIN, if.20120714.xyz
+DOMAIN, v.20120714.xyz
 
 # > cc公益
-DOMAIN-SUFFIX, cc.coemn.com
+DOMAIN, cc.coemn.com
 
 # > peach_公益服
 DOMAIN-SUFFIX, peachmv.me
 
 # > Magic Cloud
 DOMAIN-SUFFIX, freetz.top
-DOMAIN-SUFFIX, cf.freetz.top
-DOMAIN-SUFFIX, emby.freetz.top
-DOMAIN-SUFFIX, kr.freetz.top
+DOMAIN, cf.freetz.top
+DOMAIN, emby.freetz.top
+DOMAIN, kr.freetz.top
 
 # > Infinityfly+（共享账号）
 ip-cidr, 140.83.59.29/32
@@ -86,69 +86,64 @@ DOMAIN-SUFFIX, emby.kim
 
 # > PandaTV
 DOMAIN-SUFFIX, emby.at
-DOMAIN-SUFFIX, v.emby.at
-DOMAIN-SUFFIX, t.emby.at
-DOMAIN-SUFFIX, line1.emby.at
-DOMAIN-SUFFIX, line2.emby.at
-DOMAIN-SUFFIX, line3.emby.at
+DOMAIN, v.emby.at
+DOMAIN, t.emby.at
+DOMAIN, line1.emby.at
+DOMAIN, line2.emby.at
+DOMAIN, line3.emby.at
 
 # > Jellyfin Paradise(Charity)
-DOMAIN-SUFFIX, ws1.jellyfin.asia
+DOMAIN, ws1.jellyfin.asia
 
 # > 卷毛鼠公益服
-DOMAIN-SUFFIX, cf2.jmsooo.com
+DOMAIN, cf2.jmsooo.com
 
 # > 即将倒闭
-DOMAIN-SUFFIX, c.emby.pro
-DOMAIN-SUFFIX, zwei.bgka.me
+DOMAIN, c.emby.pro
+DOMAIN, zwei.bgka.me
 
 # > TreeDiagram
-DOMAIN-SUFFIX, 789.123456.al
+DOMAIN, 789.123456.al
 
 # > 垃圾影音
 DOMAIN-SUFFIX, xmsl.org
-DOMAIN-SUFFIX, krde.xmsl.org
-DOMAIN-SUFFIX, cf.xmsl.org
-DOMAIN-SUFFIX, free.xmsl.org
+DOMAIN, krde.xmsl.org
+DOMAIN, cf.xmsl.org
+DOMAIN, free.xmsl.org
 
 # > paul_电报服
 DOMAIN-SUFFIX, imetyou.top
-DOMAIN-SUFFIX, cf.imetyou.top
-DOMAIN-SUFFIX, emby.imetyou.top
-DOMAIN-SUFFIX, fk.imetyou.top
-DOMAIN-SUFFIX, kr.imetyou.top
-DOMAIN-SUFFIX, sg.imetyou.top
-DOMAIN-SUFFIX, chun.imetyou.top
+DOMAIN, cf.imetyou.top
+DOMAIN, emby.imetyou.top
+DOMAIN, fk.imetyou.top
+DOMAIN, kr.imetyou.top
+DOMAIN, sg.imetyou.top
+DOMAIN, chun.imetyou.top
 
 # > Temby
 DOMAIN-SUFFIX, 285286.xyz
-DOMAIN-SUFFIX, temby.285286.xyz
-DOMAIN-SUFFIX, temby4837.285286.xyz
+DOMAIN, temby.285286.xyz
+DOMAIN, temby4837.285286.xyz
 
 # > nyamedia
-DOMAIN-SUFFIX, emby.bangumi.ca
-
-# > 私人影院
-DOMAIN-SUFFIX, agon.cf
-DOMAIN-SUFFIX, emby.agon.cf
-DOMAIN-SUFFIX, alist-proxy.agon.cf
+DOMAIN, emby.bangumi.ca
 
 # > 放映厅
-DOMAIN-SUFFIX, emby.9191001.xyz
+DOMAIN, emby.9191001.xyz
 
 # > NMEmby
-DOMAIN-SUFFIX, film.ohhhh.org
+DOMAIN, film.ohhhh.org
 
 # > TeCar
 DOMAIN-SUFFIX, carlos.trade
-DOMAIN-SUFFIX, emby.carlos.trade
-DOMAIN-SUFFIX, cf.carlos.trade
-DOMAIN-SUFFIX, sg.carlos.trade
+DOMAIN, emby.carlos.trade
+DOMAIN, cf.carlos.trade
+DOMAIN, sg.carlos.trade
 
 # > Lyrebirde
 DOMAIN-SUFFIX, lyrebirdemby.com
-DOMAIN-SUFFIX, direct.lyrebirdemby.com
-DOMAIN-SUFFIX, cdn.lyrebirdemby.com
+DOMAIN, direct.lyrebirdemby.com
+DOMAIN, cdn.lyrebirdemby.com
 
 # > Misty
 DOMAIN-SUFFIX, misty.cx
@@ -158,37 +153,37 @@ DOMAIN-SUFFIX, misty.cx
 
 # > PiliPili Ultra
 DOMAIN-SUFFIX, pilipiliultra.com
-DOMAIN-SUFFIX, push.pilipiliultra.com
-DOMAIN-SUFFIX, emby.pilipiliultra.top
-DOMAIN-SUFFIX, emby.pilipiliultra.com
+DOMAIN, push.pilipiliultra.com
+DOMAIN, emby.pilipiliultra.top
+DOMAIN, emby.pilipiliultra.com
 
 # > 纸片人小站
 DOMAIN-SUFFIX, embyplus.org
-DOMAIN-SUFFIX, gd.9521732.xyz
+DOMAIN, gd.9521732.xyz
 
 # > 二刺螈
-DOMAIN-SUFFIX, media.nijigem.by
+DOMAIN, media.nijigem.by
 
 ########################################
 # 🟢可能跑路的🟢
 
 # > BURGER KING®（号已封）
-DOMAIN-SUFFIX, stream.ntrrr.top
-DOMAIN-SUFFIX, kr-stream.ntrrr.top
-DOMAIN-SUFFIX, jp-stream.ntrrr.top
-DOMAIN-SUFFIX, stream-direct.synn.cc
+DOMAIN, stream.ntrrr.top
+DOMAIN, kr-stream.ntrrr.top
+DOMAIN, jp-stream.ntrrr.top
+DOMAIN, stream-direct.synn.cc
 
 # > Infinityfly+
-DOMAIN-SUFFIX, nc1.infinityfly.top
+DOMAIN, nc1.infinityfly.top
 
 # > Emby Hub
-DOMAIN-SUFFIX, emby.ednovas.org
+DOMAIN, emby.ednovas.org
 
 # > CharonTV
-DOMAIN-SUFFIX, play.charontv.com
+DOMAIN, play.charontv.com
 
 # > NIRVANA
-DOMAIN-SUFFIX, emby.lucasmedia.top
+DOMAIN, emby.lucasmedia.top
 
 # > JUDOG剧狗
 DOMAIN-SUFFIX, ju.dog
@@ -197,17 +192,22 @@ DOMAIN-SUFFIX, ju.dog
 ip-cidr, 188.40.224.93/32
 
 # > 酷安Emby
-DOMAIN-SUFFIX, kuan2.yutron.eu.org
+DOMAIN, kuan2.yutron.eu.org
 ip-cidr, 94.16.122.183/32
 
 # > 酷安Emby私服
-DOMAIN-SUFFIX, embysf.200300.xyz
-DOMAIN-SUFFIX, kuan1.yutron.eu.org
-DOMAIN-SUFFIX, h.200300.xyz
+DOMAIN, embysf.200300.xyz
+DOMAIN, kuan1.yutron.eu.org
+DOMAIN, h.200300.xyz
 ip-cidr, 139.162.16.54/32
 
 # > Lend（机场服）
-DOMAIN-SUFFIX, emby.lcloud.wiki
+DOMAIN, emby.lcloud.wiki
+
+# > 私人影院
+DOMAIN-SUFFIX, agon.cf
+DOMAIN, emby.agon.cf
+DOMAIN, alist-proxy.agon.cf
 
 ########################################
 # > 🌐关键词🌐
