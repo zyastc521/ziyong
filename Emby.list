@@ -23,6 +23,10 @@ DOMAIN, singularity.bagpipe.moe
 ########################################
 # 💰公费服💰
 
+# > 太空人
+DOMAIN-SUFFIX, tkremby.xyz
+DOMAIN, emby.tkremby.xyz
+
 # > 垃圾影音 （没续费）
 DOMAIN-SUFFIX, xmsl.org
 DOMAIN, bcn.xmsl.org
