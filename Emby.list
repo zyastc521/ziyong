@@ -76,12 +76,6 @@ DOMAIN, cc.coemn.com
 # > peach_公益服
 DOMAIN-SUFFIX, peachmv.me
 
-# > Magic Cloud
-DOMAIN-SUFFIX, freetz.top
-DOMAIN, cf.freetz.top
-DOMAIN, emby.freetz.top
-DOMAIN, kr.freetz.top
-
 # > Infinityfly+（共享账号）
 ip-cidr, 140.83.59.29/32
 
@@ -212,6 +206,12 @@ DOMAIN, emby.lcloud.wiki
 DOMAIN-SUFFIX, agon.cf
 DOMAIN, emby.agon.cf
 DOMAIN, alist-proxy.agon.cf
+
+# > Magic Cloud
+DOMAIN-SUFFIX, freetz.top
+DOMAIN, cf.freetz.top
+DOMAIN, emby.freetz.top
+DOMAIN, kr.freetz.top
 
 ########################################
 # > 🌐关键词🌐
