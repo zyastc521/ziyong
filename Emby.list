@@ -41,6 +41,10 @@ DOMAIN, pm.xmsl.org
 DOMAIN-SUFFIX, misakaf.org
 DOMAIN, cdn.misakaf.org
 DOMAIN, emby.misakaf.org
+DOMAIN, stream1.misakaf.org
+DOMAIN, stream2.misakaf.org
+DOMAIN, stream3.misakaf.org
+DOMAIN, stream4.misakaf.org
 
 # > hxd_emby （没续费）
 DOMAIN-SUFFIX, bili.rip
