@@ -159,8 +159,9 @@ DOMAIN, flarex.starcat.eu.org
 # > Akuai
 DOMAIN-SUFFIX, biekan.lol
 
-# > Akuai
+# > Apop
 DOMAIN, api.apopcloud.me
+DOMAIN, apiemby.apopcloud.com
 
 ########################################
 # ❤️二次元❤️
