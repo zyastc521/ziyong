@@ -84,7 +84,7 @@ DOMAIN, cc.coemn.com
 DOMAIN-SUFFIX, peachmv.me
 
 # > Infinityfly+（共享账号）
-ip-cidr, 140.83.59.29/32
+ip-cidr, 140.83.59.29/32,no-resolve
 
 # > EmbyClub
 DOMAIN-SUFFIX, emby.kim
@@ -203,17 +203,17 @@ DOMAIN, emby.lucasmedia.top
 DOMAIN-SUFFIX, ju.dog
 
 # > 456
-ip-cidr, 188.40.224.93/32
+ip-cidr, 188.40.224.93/32,no-resolve
 
 # > 酷安Emby
 DOMAIN, kuan2.yutron.eu.org
-ip-cidr, 94.16.122.183/32
+ip-cidr, 94.16.122.183/32,no-resolve
 
 # > 酷安Emby私服
 DOMAIN, embysf.200300.xyz
 DOMAIN, kuan1.yutron.eu.org
 DOMAIN, h.200300.xyz
-ip-cidr, 139.162.16.54/32
+ip-cidr, 139.162.16.54/32,no-resolve
 
 # > Lend（机场服）
 DOMAIN, emby.lcloud.wiki
