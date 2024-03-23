@@ -88,7 +88,7 @@ DOMAIN, cc.coemn.com
 DOMAIN-SUFFIX, peachmv.me
 
 # > Infinityfly+（共享账号）
-ip-cidr, 140.83.59.29/32,no-resolve
+DOMAIN, nc1.infinityfly.top
 
 # > EmbyClub
 DOMAIN-SUFFIX, emby.kim
@@ -190,9 +190,6 @@ DOMAIN, stream.ntrrr.top
 DOMAIN, kr-stream.ntrrr.top
 DOMAIN, jp-stream.ntrrr.top
 DOMAIN, stream-direct.synn.cc
-
-# > Infinityfly+
-DOMAIN, nc1.infinityfly.top
 
 # > Emby Hub
 DOMAIN, emby.ednovas.org
