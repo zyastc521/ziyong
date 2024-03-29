@@ -163,8 +163,8 @@ DOMAIN, flare.catlinks.co.uk
 DOMAIN-SUFFIX, biekan.lol
 
 # > Apop
-DOMAIN, api.apopcloud.me
-DOMAIN, apiemby.apopcloud.com
+DOMAIN-SUFFIX, apopcloud.com
+DOMAIN, emby.apopcloud.com
 
 ########################################
 # ❤️二次元❤️
