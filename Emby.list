@@ -170,6 +170,15 @@ DOMAIN, emby.apopcloud.com
 DOMAIN, emby-us-v4.mius.uk
 DOMAIN, emby-fr-v6.mius.uk
 
+# > 搬服
+DOMAIN-SUFFIX, 955557.xyz
+DOMAIN, byg.955557.xyz
+DOMAIN, cdn01.byg.955557.xyz
+DOMAIN, cdn03.byg.955557.xyz
+DOMAIN, cdn04.byg.955557.xyz
+DOMAIN, cdn05.byg.955557.xyz
+DOMAIN, cdn06.byg.955557.xyz
+
 ########################################
 # ❤️二次元❤️
 
