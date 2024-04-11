@@ -27,6 +27,9 @@ DOMAIN, emby.airpor.top
 DOMAIN-SUFFIX, reddust.link
 DOMAIN, film.reddust.link
 
+# > 飞跃彩虹
+ip-cidr, 152.53.19.231/32,no-resolve
+
 ########################################
 # 💰公费服💰
 
