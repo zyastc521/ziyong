@@ -33,10 +33,6 @@ ip-cidr, 152.53.19.231/32,no-resolve
 ########################################
 # 💰公费服💰
 
-# > 太空人
-DOMAIN-SUFFIX, tkremby.xyz
-DOMAIN, emby.tkremby.xyz
-
 # > 垃圾影音 （没续费）
 DOMAIN-SUFFIX, xmsl.org
 DOMAIN, bcn.xmsl.org
@@ -245,6 +241,10 @@ DOMAIN-SUFFIX, freetz.top
 DOMAIN, cf.freetz.top
 DOMAIN, emby.freetz.top
 DOMAIN, kr.freetz.top
+
+# > 太空人
+DOMAIN-SUFFIX, tkremby.xyz
+DOMAIN, emby.tkremby.xyz
 
 ########################################
 # > 🌐关键词🌐
