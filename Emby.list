@@ -66,6 +66,13 @@ DOMAIN-SUFFIX, aca.best
 DOMAIN, porn.aca.best
 DOMAIN, emby.aca.best
 
+# > OuO
+DOMAIN-SUFFIX, emby.ws
+DOMAIN, public.emby.ws
+DOMAIN, ct.emby.ws
+DOMAIN, cm.emby.ws
+DOMAIN, cu.emby.ws
+
 ########################################
 # 🐲影音🐲
 
