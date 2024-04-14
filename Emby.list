@@ -50,7 +50,7 @@ DOMAIN, stream3.misakaf.org
 DOMAIN, stream4.misakaf.org
 
 # > hxd_emby （没续费）
-DOMAIN-SUFFIX, bili.rip
+DOMAIN-KEYWORD, bili
 DOMAIN, bili.bili.rip
 DOMAIN, cf.bili.rip
 DOMAIN, cdn.bili.rip
