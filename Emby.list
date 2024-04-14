@@ -4,12 +4,12 @@
 DOMAIN-SUFFIX, pornemby.club
 
 # > 叔服
-DOMAIN-SUFFIX, mcjoker.xyz
+DOMAIN-KEYWORD, mcjoker
 DOMAIN, emby3.mcjoker.xyz
 DOMAIN, jz.mcjoker.xyz
 
 # > MJJ-Emby
-DOMAIN-SUFFIX, mjjemby.org
+DOMAIN-KEYWORD, mjjemby
 DOMAIN, cf.mjjemby.org
 DOMAIN, jp01.mjjemby.org
 DOMAIN, jp02.mjjemby.org
@@ -24,7 +24,7 @@ DOMAIN, singularity.bagpipe.moe
 DOMAIN, emby.airpor.top
 
 # > 江湖
-DOMAIN-SUFFIX, reddust.link
+DOMAIN-KEYWORD, reddust
 DOMAIN, film.reddust.link
 
 # > 飞跃彩虹
@@ -34,14 +34,14 @@ ip-cidr, 152.53.19.231/32,no-resolve
 # 💰公费服💰
 
 # > 垃圾影音 （没续费）
-DOMAIN-SUFFIX, xmsl.org
+DOMAIN-KEYWORD, xmsl
 DOMAIN, bcn.xmsl.org
 DOMAIN, cfde.xmsl.org
 DOMAIN, line.xmsl.org
 DOMAIN, pm.xmsl.org
 
 # > MisakaF （没续费）
-DOMAIN-SUFFIX, misakaf.org
+DOMAIN-KEYWORD, misakaf
 DOMAIN, cdn.misakaf.org
 DOMAIN, emby.misakaf.org
 DOMAIN, stream1.misakaf.org
@@ -62,12 +62,11 @@ DOMAIN, cdn.bili.rip
 DOMAIN, red.prisms.cc
 
 # > ACA
-DOMAIN-SUFFIX, aca.best
+DOMAIN-KEYWORD, aca
 DOMAIN, porn.aca.best
 DOMAIN, emby.aca.best
 
 # > OuO
-DOMAIN-SUFFIX, emby.ws
 DOMAIN, public.emby.ws
 DOMAIN, ct.emby.ws
 DOMAIN, cm.emby.ws
@@ -101,7 +100,6 @@ DOMAIN, nc1.infinityfly.top
 DOMAIN-SUFFIX, emby.kim
 
 # > PandaTV
-DOMAIN-SUFFIX, emby.at
 DOMAIN, v.emby.at
 DOMAIN, t.emby.at
 DOMAIN, line1.emby.at
@@ -122,13 +120,13 @@ DOMAIN, zwei.bgka.me
 DOMAIN, 789.123456.al
 
 # > 垃圾影音
-DOMAIN-SUFFIX, xmsl.org
+DOMAIN-KEYWORD, xmsl
 DOMAIN, krde.xmsl.org
 DOMAIN, cf.xmsl.org
 DOMAIN, free.xmsl.org
 
 # > paul_电报服
-DOMAIN-SUFFIX, imetyou.top
+DOMAIN-KEYWORD, imetyou
 DOMAIN, cf.imetyou.top
 DOMAIN, emby.imetyou.top
 DOMAIN, fk.imetyou.top
@@ -151,13 +149,13 @@ DOMAIN, emby.9191001.xyz
 DOMAIN, film.ohhhh.org
 
 # > TeCar
-DOMAIN-SUFFIX, carlos.trade
+DOMAIN-KEYWORD, carlos
 DOMAIN, emby.carlos.trade
 DOMAIN, cf.carlos.trade
 DOMAIN, us.carlos.trade
 
 # > Lyrebirde
-DOMAIN-SUFFIX, lyrebirdemby.com
+DOMAIN-KEYWORD, lyrebirdemby
 DOMAIN, cdn.lyrebirdemby.com
 
 # > Misty
@@ -170,12 +168,13 @@ DOMAIN, flare.catlinks.co.uk
 DOMAIN-SUFFIX, biekan.lol
 
 # > Apop
-DOMAIN-SUFFIX, apopcloud.com
+DOMAIN-KEYWORD, apopcloud
 DOMAIN, api.apopcloud.me 
 DOMAIN, emby.apopcloud.com
 DOMAIN, portal.apopcloud.com
 
 # > 牢大的野兽餐厅
+DOMAIN-KEYWORD, mius
 DOMAIN, emby-us-v4.mius.uk
 DOMAIN, emby-fr-v6.mius.uk
 
@@ -230,30 +229,28 @@ ip-cidr, 188.40.224.93/32,no-resolve
 
 # > 酷安Emby
 DOMAIN, kuan2.yutron.eu.org
-ip-cidr, 94.16.122.183/32,no-resolve
 
 # > 酷安Emby私服
 DOMAIN, embysf.200300.xyz
 DOMAIN, kuan1.yutron.eu.org
 DOMAIN, h.200300.xyz
-ip-cidr, 139.162.16.54/32,no-resolve
 
 # > Lend（机场服）
 DOMAIN, emby.lcloud.wiki
 
 # > 私人影院
-DOMAIN-SUFFIX, agon.cf
+DOMAIN-KEYWORD, agon
 DOMAIN, emby.agon.cf
 DOMAIN, alist-proxy.agon.cf
 
 # > Magic Cloud
-DOMAIN-SUFFIX, freetz.top
+DOMAIN-KEYWORD, freetz
 DOMAIN, cf.freetz.top
 DOMAIN, emby.freetz.top
 DOMAIN, kr.freetz.top
 
 # > 太空人
-DOMAIN-SUFFIX, tkremby.xyz
+DOMAIN-KEYWORD, tkremby
 DOMAIN, emby.tkremby.xyz
 
 ########################################
