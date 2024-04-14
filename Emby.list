@@ -207,10 +207,12 @@ DOMAIN, media.nijigem.by
 # 🟢可能跑路的🟢
 
 # > BURGER KING®（号已封）
+DOMAIN-KEYWORD, ntrrr
 DOMAIN, stream.ntrrr.top
 DOMAIN, kr-stream.ntrrr.top
 DOMAIN, jp-stream.ntrrr.top
 DOMAIN, stream-direct.synn.cc
+DOMAIN, stream-zz.synn.cc
 
 # > Emby Hub
 DOMAIN, emby.ednovas.org
