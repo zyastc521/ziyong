@@ -77,10 +77,9 @@ DOMAIN, cu.emby.ws
 
 # > GuGu
 DOMAIN-KEYWORD, gugu
-DOMAIN, main.gugumedia.link
-DOMAIN, front.gugumedia.link
-DOMAIN, pro.gugumedia.link
 DOMAIN, main.gugu.media
+DOMAIN, pro.gugu.media
+DOMAIN, v6.gugu.media
 
 # > Marmot_Emby
 DOMAIN-SUFFIX, 20120714.xyz
