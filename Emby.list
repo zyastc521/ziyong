@@ -66,7 +66,7 @@ DOMAIN-KEYWORD, aca
 DOMAIN, porn.aca.best
 DOMAIN, emby.aca.best
 
-# > OuO
+# > OuO（没续费）
 DOMAIN, public.emby.ws
 DOMAIN, ct.emby.ws
 DOMAIN, cm.emby.ws
@@ -85,9 +85,6 @@ DOMAIN, v6.gugu.media
 DOMAIN-SUFFIX, 20120714.xyz
 DOMAIN, if.20120714.xyz
 DOMAIN, v.20120714.xyz
-
-# > cc公益
-DOMAIN, cc.coemn.com
 
 # > peach_公益服
 DOMAIN-SUFFIX, peachmv.me
@@ -163,9 +160,6 @@ DOMAIN-SUFFIX, misty.cx
 # > StarCat
 DOMAIN, flare.catlinks.co.uk
 
-# > Akuai
-DOMAIN-SUFFIX, biekan.lol
-
 # > Apop
 DOMAIN-KEYWORD, apopcloud
 DOMAIN, api.apopcloud.me 
@@ -176,15 +170,6 @@ DOMAIN, portal.apopcloud.com
 DOMAIN-KEYWORD, mius
 DOMAIN, emby-us-v4.mius.uk
 DOMAIN, emby-fr-v6.mius.uk
-
-# > 搬服
-DOMAIN-SUFFIX, 955557.xyz
-DOMAIN, byg.955557.xyz
-DOMAIN, cdn01.byg.955557.xyz
-DOMAIN, cdn03.byg.955557.xyz
-DOMAIN, cdn04.byg.955557.xyz
-DOMAIN, cdn05.byg.955557.xyz
-DOMAIN, cdn06.byg.955557.xyz
 
 ########################################
 # ❤️二次元❤️
@@ -261,6 +246,21 @@ DOMAIN, kr.freetz.top
 # > 太空人
 DOMAIN-KEYWORD, tkremby
 DOMAIN, emby.tkremby.xyz
+
+# > 搬服
+DOMAIN-SUFFIX, 955557.xyz
+DOMAIN, byg.955557.xyz
+DOMAIN, cdn01.byg.955557.xyz
+DOMAIN, cdn03.byg.955557.xyz
+DOMAIN, cdn04.byg.955557.xyz
+DOMAIN, cdn05.byg.955557.xyz
+DOMAIN, cdn06.byg.955557.xyz
+
+# > cc公益
+DOMAIN, cc.coemn.com
+
+# > Akuai（抢不到号）
+DOMAIN-SUFFIX, biekan.lol
 
 ########################################
 # > 🌐关键词🌐
