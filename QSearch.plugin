@@ -51,7 +51,7 @@
 #^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 ^https:\/\/duckduckgo.com\/\?q=ph(\+|%20)([^&]+).+ https://cn.pornhub.com/video/search?search=$2 302
 # av  xxx（MissAV）
-^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://missav.com/cn/search/$1 302
+^https:\/\/duckduckgo.com\/\?q=av\+([^&]+).+ https://missav.com/cn/search/$1 302
 # ys xxx (cupfox)
 ^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+ https://cupfox.app/search?key=$1 302
 # so xxx (Stack Overflow)
