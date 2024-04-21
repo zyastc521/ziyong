@@ -48,8 +48,10 @@
 # af  xxx (Acfun)
 ^https:\/\/duckduckgo.com\/\?q=af\+([^&]+).+ https://www.acfun.cn/search?keyword=$1 302
 # ph  xxx (PornHub)
-^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
-#^https:\/\/duckduckgo.com\/\?q=ph(\+|%20)([^&]+).+ https://cn.pornhub.com/video/search?search=$2 302
+#^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+^https:\/\/duckduckgo.com\/\?q=ph(\+|%20)([^&]+).+ https://cn.pornhub.com/video/search?search=$2 302
+# av  xxx（MissAV）
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://missav.com/cn/search/$1 302
 # ys xxx (cupfox)
 ^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+ https://cupfox.app/search?key=$1 302
 # so xxx (Stack Overflow)
