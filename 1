@@ -1,0 +1,251 @@
+#default config
+#Date: 2022.06.01
+#Author: Loon
+
+[General]
+mitm-on-wifi-access = true
+ipv6 = false
+#doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query
+dns-server = system,223.5.5.5,119.29.29.29
+wifi-access-http-port = 7222
+wifi-access-socks5-port = 7221
+allow-wifi-access = false
+test-timeout = 2
+interface-mode = auto
+sni-sniffing = true
+disable-stun = true
+fast-switch = false
+disconnect-on-policy-change = false
+switch-node-after-failure-times = 2
+internet-test-url = http://223.6.6.6
+proxy-test-url = http://www.bing.com
+resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/latest/downloads/sub-store-parser.loon.min.js
+geoip-url = https://gitlab.com/Masaiki/GeoIP2-CN/-/raw/release/Country.mmdb
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+
+[Proxy]
+
+[Remote Proxy]
+西部数据（主力） = https://sub.store/download/%E8%A5%BF%E9%83%A8%E6%95%B0%E6%8D%AE?target=Loon,udp=true,fast-open=true,vmess-aead=true,enabled=true
+ACA（常用） = https://misaka0501.xn--wqr30o34q.xn--io0a7i/api/v1/client/subscribe?token=bf32387d975e2cf1012084cadaaa407d,udp=true,fast-open=true,vmess-aead=true,enabled=true
+Error is Best（备用） = https://board.0xcc.icu/api/v1/client/subscribe?token=a543eed870ca6f3b691b9a6bfbf0d39e,udp=true,fast-open=false,vmess-aead=true,enabled=true
+XQC = https://api.xqc.best/api/v1/client/subscribe?token=eaa7046e1a5cb9d1cde911f4d2cd0c36,udp=true,fast-open=false,vmess-aead=true,enabled=true
+Kiku = http://xyz.ucloudhost.top:7001/api/v1/client/subscribe?token=eb766ad6bb4bfdd73280971c548395ac,udp=true,fast-open=false,vmess-aead=true,enabled=true
+E 神自建 = http://ethanhunt.me/api/v1/client/subscribe?token=849329c6d03767b5570c7eee00923c1f,udp=true,fast-open=false,vmess-aead=true,enabled=true
+Kiku（不限时） = http://xyz.ucloudhost.top:7001/api/v1/client/subscribe?token=1d89edc6437c3b8ba301d5f89c378471,udp=true,fast-open=false,vmess-aead=true,enabled=false
+CTC（e 神） = https://sub.store/download/CTC%EF%BC%88e%20%E7%A5%9E%EF%BC%89?target=Loon,udp=true,fast-open=false,vmess-aead=true,enabled=false
+M78 = https://sub.7878787878.top/api/v1/client/subscribe?token=d23776336187b30823b67d9d4411371b,udp=true,fast-open=false,vmess-aead=true,enabled=false
+
+[Proxy Chain]
+
+[Proxy Group]
+# --------------------------------
+# 手动选择地区策略
+全球加速 = select,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,DIRECT,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
+Emby = select,媒体故障转移,香港策略,台湾策略,日本策略,DIRECT,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
+PornHub = select,新国节点（特定）,媒体故障转移,香港策略,美国策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Pornhub.png
+PikPak = select,全部节点（低倍）,E 神自建,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/PikPak.png
+YouTube = select,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+TikTok = select,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/TikTok.png
+X = select,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/X.png
+Facebook = select,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Facebook.png
+Instagram = select,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png
+Disney = select,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
+Netflix = select,新国节点（特定）,香港策略,台湾策略,日本策略,新国策略,美国策略,低倍策略,专线策略,冷门策略,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+Spotify = select,媒体故障转移,香港策略,台湾策略,日本策略,新国策略,美国策略,DIRECT,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/spotify(green).png
+Telegram = fallback,新国节点（主力）,新国节点（备用）,TG节点,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png
+AI = fallback,美国节点（主力）,美国节点（常用）,美国节点（备用）,美国节点（特定）,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/Copilot.png
+1password = fallback,美国节点（主力）,美国节点（常用）,美国节点（备用）,DIRECT,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/1password.png
+香港策略 = select,香港节点（低倍）,香港故障转移,香港自动选择（主力）,香港自动选择（常用）,香港自动选择（备用）,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾策略 = select,台湾节点（低倍）,台湾故障转移,台湾自动选择（主力）,台湾自动选择（常用）,台湾自动选择（备用）,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本策略 = select,日本节点（低倍）,日本故障转移,日本自动选择（主力）,日本自动选择（常用）,日本自动选择（备用）,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+新国策略 = select,新国节点（低倍）,新国故障转移,新国自动选择（主力）,新国自动选择（常用）,新国自动选择（备用）,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国策略 = select,美国节点（低倍）,美国故障转移,美国自动选择（主力）,美国自动选择（常用）,美国自动选择（备用）,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+低倍策略 = select,全部节点（低倍）,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+专线策略 = select,专线节点,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Dinosaur.png
+冷门策略 = select,冷门节点,url = http://www.bing.com,img-url = https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute1/1658318.png
+# --------------------------------
+# 自动
+# --------------------------------
+# 故障转移
+媒体故障转移 = fallback,香港节点（低倍）,新国节点（低倍）,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Emby.png
+香港故障转移 = fallback,香港自动选择（主力）,香港自动选择（常用）,香港自动选择（备用）,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾故障转移 = fallback,台湾自动选择（主力）,台湾自动选择（常用）,台湾自动选择（备用）,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本故障转移 = fallback,日本自动选择（常用）,日本自动选择（主力）,日本自动选择（备用）,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+新国故障转移 = fallback,新国自动选择（主力）,新国自动选择（常用）,新国自动选择（备用）,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国故障转移 = fallback,美国自动选择（主力）,美国自动选择（常用）,美国自动选择（备用）,url = http://www.bing.com,interval = 60,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+# --------------------------------
+# 延时优选
+香港自动选择（主力） = url-test,香港节点（主力）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾自动选择（主力） = url-test,台湾节点（主力）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本自动选择（主力） = url-test,日本节点（主力）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+新国自动选择（主力） = url-test,新国节点（主力）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国自动选择（主力） = url-test,美国节点（主力）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+香港自动选择（常用） = url-test,香港节点（常用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾自动选择（常用） = url-test,台湾节点（常用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本自动选择（常用） = url-test,日本节点（常用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+新国自动选择（常用） = url-test,新国节点（常用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国自动选择（常用） = url-test,美国节点（常用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+香港自动选择（备用） = url-test,香港节点（备用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾自动选择（备用） = url-test,台湾节点（备用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本自动选择（备用） = url-test,日本节点（备用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+新国自动选择（备用） = url-test,新国节点（备用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国自动选择（备用） = url-test,美国节点（备用）,url = http://www.bing.com,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+# --------------------------------
+# 负载均衡
+# --------------------------------
+
+[Remote Filter]
+TG节点 = NameRegex,CTC（e 神）,M78,E 神自建, FilterKey = "(?=.*(SG|x2))^((?!(港|日本|台|韩|美|菲|HK|US|TW|JP|KR|LU|UK|Hong|Tai|Japan|Korea|States|0.01)).)*$"
+专线节点 = NameRegex, FilterKey = "(?=.*((?i)x|香港|家宽))^((?!(菲|0.1|0.2|0.3|0.5|0.75|0.01|TypeA|TypeB|TypeC|ws)).)*$"
+冷门节点 = NameRegex, FilterKey = "^(?!.*(港|台|日|韩|坡|美|4837|3.0x|20.0x|ws|HK|US|TW|JP|KR|SG|TG|SP|Hong|Tai|Japan|Singapore|States))"
+媒体节点 = NameRegex,ACA（常用）,XQC,Kiku,E 神自建, FilterKey = "(?=.*(0.2|SG|香港 01|新加坡 01|韩国 01|公益|LB))^((?!(广港|Japan|0.01)).)*$"
+新国节点（特定） = NameRegex,ACA（常用）, FilterKey = "劫持"
+美国节点（特定） = NameRegex,E 神自建, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|4837|0.1|0.2|0.01|20.0|🎮|(\b(GAME)\b))).*$"
+全部节点（低倍） = NameRegex, FilterKey = "(?=.*(0.1|0.2|0.3|0.75|香港 01|韩国 01|新加坡 01|公益|LB))^((?!(0.01)).)*$"
+香港节点（低倍） = NameRegex, FilterKey = "(?=.*(0.2|0.3|0.5|0.75|香港 01|公益|LB))^((?!(台|韩|坡|美|日本|US|TW|JP|KR|SG|LU|UK|Tai|Japan|Korea|Singapore|States)).)*$"
+台湾节点（低倍） = NameRegex, FilterKey = "(?=.*(0.2|0.3|0.5|0.75|TW))^((?!(1X|港|日本|韩|坡|美|HK|US|JP|KR|SG|UK|Hong|Japan|Korea|Singapore|States)).)*$"
+日本节点（低倍） = NameRegex, FilterKey = "(?=.*(0.2|0.3|0.5|0.75|0.01))^((?!(香港|台|韩|坡|美|HK|US|TW|KR|SG|LU|UK|Hong|Tai|Korea|Singapore|States)).)*$"
+新国节点（低倍） = NameRegex, FilterKey = "(?=.*(0.2|0.3|0.5|0.75|SG|新加坡 01))^((?!(1X|港|日本|台|韩|美|HK|US|TW|JP|KR|LU|UK|Hong|Tai|Japan|Korea|States)).)*$"
+美国节点（低倍） = NameRegex, FilterKey = "(?=.*(0.1|0.2|0.5|0.75))^((?!(香港|日本|台|韩|坡|HK|TW|JP|KR|SG|LU|ZA|AU|UK|Hong|Tai|Japan|Korea|Singapore)).)*$"
+香港节点（主力） = NameRegex,西部数据（主力）, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+台湾节点（主力） = NameRegex,西部数据（主力）, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+日本节点（主力） = NameRegex,西部数据（主力）, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+新国节点（主力） = NameRegex,西部数据（主力）, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|劫持|x|🎮|(\b(GAME)\b))).*$"
+美国节点（主力） = NameRegex,西部数据（主力）, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+香港节点（常用） = NameRegex,ACA（常用）, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+台湾节点（常用） = NameRegex,ACA（常用）, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+日本节点（常用） = NameRegex,ACA（常用）, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+新国节点（常用） = NameRegex,ACA（常用）, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|劫持|x|🎮|(\b(GAME)\b))).*$"
+美国节点（常用） = NameRegex,ACA（常用）, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|家宽|x|🎮|(\b(GAME)\b))).*$"
+香港节点（备用） = NameRegex,Error is Best（备用）, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|专线|家宽|x|🎮|(\b(GAME)\b))).*$"
+台湾节点（备用） = NameRegex,Error is Best（备用）, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|专线|x|🎮|(\b(GAME)\b))).*$"
+日本节点（备用） = NameRegex,Error is Best（备用）, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|专线|x|🎮|(\b(GAME)\b))).*$"
+新国节点（备用） = NameRegex,Error is Best（备用）, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|专线|劫持|x|🎮|(\b(GAME)\b))).*$"
+美国节点（备用） = NameRegex,Error is Best（备用）, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\d{0,2}\b)))(?!.*((?i)回国|校园|游戏|专线|x|🎮|(\b(GAME)\b))).*$"
+
+[Rule]
+DOMAIN-KEYWORD,synn,DIRECT
+DOMAIN-KEYWORD,huang,DIRECT
+#Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR
+#Strategy:DIRECT,PROXY,REJECT
+#Options:no-resolve(only for IP-CIDR,IP-CIDR2,GEOIP,IP-ASN)
+
+FINAL,全球加速
+
+[Remote Rule]
+https://adrules.top/adrules.list, policy=REJECT, tag=拦截广告, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/ApplePushNotificationService.list, policy=DIRECT, tag=Apple  推送服务, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/AppleID.list, policy=DIRECT, tag=Apple ID, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/AppStore.list, policy=DIRECT, tag=App Store, enabled=false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TestFlight/TestFlight.list, policy=DIRECT, tag=TestFlight, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/Telegram/Telegram.list, policy=Telegram, tag=Telegram, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/AI.list, policy=AI, tag=AI, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/1PasswordUS.list, policy=1password, tag=1password, enabled=true
+https://raw.githubusercontent.com/zyastc521/ziyong/main/Emby.list, policy=Emby, tag=Emby, enabled=true
+https://raw.githubusercontent.com/zyastc521/ziyong/main/PornHub.list, policy=PornHub, tag=PornHub, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PikPak/PikPak.list, policy=PikPak, tag=PikPak, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/YouTube/YouTube.list, policy=YouTube, tag=YouTube, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/TikTok.list, policy=TikTok, tag=TikTok, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/Twitter/Twitter.list, policy=X, tag=X, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/Facebook/Facebook.list, policy=Facebook, tag=Facebook, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/Instagram/Instagram.list, policy=Instagram, tag=Instagram, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/Disney/Disney.list, policy=Disney, tag=Disney, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/Netflix/Netflix.list, policy=Netflix, tag=Netflix, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/Spotify/Spotify.list, policy=Spotify, tag=Spotify, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/LAN, policy=DIRECT, tag=LAN, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Rule/CN_REGION, policy=DIRECT, tag=CN REGION, enabled=true
+
+[Host]
+[Rewrite]
+
+[Script]
+
+[Remote Script]
+[Plugin]
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Remove_ads_by_keli.plugin, enabled=true
+https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.plugin, enabled=false
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/zhvip.js/_end_/zhvip.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=知乎破解, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/wangyiyun.js/_end_/wangyiyun.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=网易云音乐破解, enabled=false
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/xmly.js/_end_/xmly.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=喜马拉雅会员破解, enabled=true
+https://raw.githubusercontent.com/Keywos/rule/main/script/netisp/netisp.plugin, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Bahamut_ADS.plugin, tag=巴哈姆特动画疯, enabled=false
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/wxds.js/_end_/wxds.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=微信读书会员破解, enabled=false
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/cytq.js/_end_/cytq.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=彩云天气会员破解, enabled=false
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js/_end_/mgtv.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=芒果TV 破解, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/QQ_Redirect.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/JD_Price.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/BingAI.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/PICC_Insurance_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/HUPU_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/mobileClouds_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/NeteaseNews_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/QQKSong_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Reddit_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/12306_remove_ads.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Soul_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/deezertidal/private/master/plugallery/bdwk.plugin, enabled=true
+https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.plugin, enabled=false
+http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/adblockpro.js/_end_/adblockpro.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=AdBlock Pro会员破解, enabled=true
+http://script.hub/file/_start_/https://gist.githubusercontent.com/ddgksf2013/dbb1695cd96743eef18f3fac5c6fe227/raw/revenuecat.js/_end_/revenuecat.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=会员合集, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/NodeLinkCheck.Plugin, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPuserCrack.js/_end_/WPSuperVIPuserCrack.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=WPS 本地会员破解, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Advertising/main/sssp.js/_end_/sssp.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=瑟瑟视频 去广告, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/QuantumultX/master/javbdvipcrack.js/_end_/javbdvipcrack.plugin?type=qx-rewrite&target=loon-plugin&del=true, tag=Javdb 会员破解, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/BaiduNetDisk_remove_ads.plugin, tag=百度网盘去广告, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Bilibili_remove_ads.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Himalaya_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/JD_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/RedPaper_remove_ads.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Taobao_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Tieba_remove_ads.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/TikTok_redirect.plugin, policy=TikTok, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/YouTube_remove_ads.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/LoonGallery.plugin, policy=全球加速, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/BaiduSearchWebpage_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Spotify_remove_ads.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Spotify_lyrics_translation.plugin, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/QuickSearch.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/AliYunDrive_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Amap_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/BabyTree_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Baidu_input_method_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Cainiao_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/CaixinMedia_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/CoolApk_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Fileball_mount.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Daily_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/DragonRead_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/IThome_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/PiPiXia_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/QiDian_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/QQMusic_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/SevenCat_remove_ads_with_ssl_unpinning.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/smzdm_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy=全球加速, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Umetrip_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Weibo_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Auto_Join_TF.plugin, policy=DIRECT, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/TestFlight.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Google.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/VVebo_repair.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/1.1.1.1.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/WARP_Node_Query.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/YouTubeSubtitlesTranslation.plugin, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Prevent_DNS_Leaks.plugin, policy=全球加速, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/BoxJs.plugin, policy=全球加速, enabled=false
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Sub-Store.plugin, policy=全球加速, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Script-Hub.plugin, policy=全球加速, enabled=true
+https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Plugin/Node_detection_tool.plugin, enabled=true
+[Mitm]
+hostname =
+ca-p12 = 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
+ca-passphrase = C51RQK5S
+skip-server-cert-verify = false
