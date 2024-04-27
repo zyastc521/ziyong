@@ -175,6 +175,9 @@ DOMAIN, emby-fr-v6.mius.uk
 DOMAIN, joker1.top
 DOMAIN, sss.889393.xyz
 
+# > Akuai（需要抢号）
+DOMAIN-SUFFIX, akuai.9012345.xyz
+
 ########################################
 # ❤️二次元❤️
 
@@ -263,9 +266,6 @@ DOMAIN, cdn06.byg.955557.xyz
 
 # > cc公益
 DOMAIN, cc.coemn.com
-
-# > Akuai（抢不到号）
-DOMAIN-SUFFIX, biekan.lol
 
 ########################################
 # > 🌐关键词🌐
