@@ -28,7 +28,7 @@ DOMAIN-KEYWORD, reddust
 DOMAIN, film.reddust.link
 
 # > 飞跃彩虹
-ip-cidr, 152.53.19.231/32,no-resolve
+DOMAIN-SUFFIX, 7777777.buzz
 
 ########################################
 # 💰公费服💰
