@@ -1,9 +1,0 @@
-#!name=JavDB
-#!desc=JavDB
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Genshin/Genshin-1138.png
-
-[Script]
-http-response ^https?:\/\/api\.liquidlink\.cn\/api\/v\d\/(users|startup|ads) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/JavDB.js, requires-body=true, timeout=60, tag=JavDB
-
-[MITM]
-hostname = api.liquidlink.cn
