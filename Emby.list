@@ -178,6 +178,11 @@ DOMAIN, sss.889393.xyz
 # > Akuai（需要抢号）
 DOMAIN-SUFFIX, akuai.9012345.xyz
 
+# > 终点站
+DOMAIN, pub1.emby.wtf
+DOMAIN, pub2.emby.wtf
+DOMAIN, pub3.emby.wtf
+
 ########################################
 # ❤️二次元❤️
 
