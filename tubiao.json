@@ -3,10 +3,20 @@
 "description":"收集互联网公开图标文件，版权属于原作者和商标持有人。",
 "icons":
     [
-	{"name":"PikPak", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/PikPak.png"},
 	{"name":"ChatGPT", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/ChatGPT.png"},
 	{"name":"1password", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/1password.png"},
 	{"name":"Telegram", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Telegram.png"},
+	{"name":"yybx", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/yybx.png"},
+	{"name":"Emby", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Emby.png"},
+	{"name":"PikPak", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/PikPak.png"},
+	{"name":"YouTube", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/YouTube.png"},
+	{"name":"TikTok", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/TikTok.png"},
+	{"name":"X", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/X.png"},
 	{"name":"Facebook", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Facebook.png"},
+	{"name":"Instagram", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Instagram.png"},
+	{"name":"Disney+", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Disney+.png"},
+	{"name":"Netflix", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Netflix.png"},
+	{"name":"Spotify", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Spotify.png"},
+	{"name":"IP", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/IP.png"},
     ]
 }
