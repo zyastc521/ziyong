@@ -183,6 +183,9 @@ DOMAIN, pub1.emby.wtf
 DOMAIN, pub2.emby.wtf
 DOMAIN, pub3.emby.wtf
 
+# > cc公益
+DOMAIN, cc.coemn.com
+
 ########################################
 # ❤️二次元❤️
 
@@ -268,9 +271,6 @@ DOMAIN, cdn03.byg.955557.xyz
 DOMAIN, cdn04.byg.955557.xyz
 DOMAIN, cdn05.byg.955557.xyz
 DOMAIN, cdn06.byg.955557.xyz
-
-# > cc公益
-DOMAIN, cc.coemn.com
 
 ########################################
 # > 🌐关键词🌐
