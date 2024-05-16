@@ -37,6 +37,7 @@ DOMAIN, line.xmsl.org
 DOMAIN, pm.xmsl.org
 
 # > MisakaF （没续费）
+DOMAIN-KEYWORD, misakaf
 DOMAIN, cdn.misakaf.org
 DOMAIN, emby.misakaf.org
 DOMAIN, stream1.misakaf.org
