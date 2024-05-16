@@ -4,12 +4,10 @@
 DOMAIN-SUFFIX, pornemby.club
 
 # > 叔服
-DOMAIN-KEYWORD, mcjoker
 DOMAIN, emby3.mcjoker.xyz
 DOMAIN, jz.mcjoker.xyz
 
 # > MJJ-Emby
-DOMAIN-KEYWORD, mjjemby
 DOMAIN, cf.mjjemby.org
 DOMAIN, jp01.mjjemby.org
 DOMAIN, jp02.mjjemby.org
@@ -24,7 +22,6 @@ DOMAIN, singularity.bagpipe.moe
 DOMAIN, emby.airpor.top
 
 # > 江湖
-DOMAIN-KEYWORD, reddust
 DOMAIN, film.reddust.link
 
 # > 飞跃彩虹
@@ -34,14 +31,12 @@ DOMAIN-SUFFIX, 7777777.buzz
 # 💰公费服💰
 
 # > 垃圾影音 （没续费）
-DOMAIN-KEYWORD, xmsl
 DOMAIN, bcn.xmsl.org
 DOMAIN, cfde.xmsl.org
 DOMAIN, line.xmsl.org
 DOMAIN, pm.xmsl.org
 
 # > MisakaF （没续费）
-DOMAIN-KEYWORD, misakaf
 DOMAIN, cdn.misakaf.org
 DOMAIN, emby.misakaf.org
 DOMAIN, stream1.misakaf.org
@@ -50,7 +45,6 @@ DOMAIN, stream3.misakaf.org
 DOMAIN, stream4.misakaf.org
 
 # > hxd_emby （没续费）
-DOMAIN-KEYWORD, bili
 DOMAIN, bili.bili.rip
 DOMAIN, cf.bili.rip
 DOMAIN, cdn.bili.rip
@@ -62,7 +56,6 @@ DOMAIN, cdn.bili.rip
 DOMAIN, red.prisms.cc
 
 # > ACA
-DOMAIN-KEYWORD, aca
 DOMAIN, porn.aca.best
 DOMAIN, emby.aca.best
 
@@ -76,13 +69,11 @@ DOMAIN, cu.emby.ws
 # 🐲影音🐲
 
 # > GuGu
-DOMAIN-KEYWORD, gugu
 DOMAIN, main.gugu.media
 DOMAIN, pro.gugu.media
 DOMAIN, v6.gugu.media
 
 # > Marmot_Emby
-DOMAIN-SUFFIX, 20120714.xyz
 DOMAIN, if.20120714.xyz
 DOMAIN, v.20120714.xyz
 
@@ -94,7 +85,7 @@ DOMAIN-SUFFIX, embymv.tk
 DOMAIN, nc1.infinityfly.top
 
 # > EmbyClub
-DOMAIN-SUFFIX, emby.kim
+DOMAIN, emby.kim
 
 # > PandaTV
 DOMAIN, v.emby.at
@@ -117,13 +108,11 @@ DOMAIN, zwei.bgka.me
 DOMAIN, 789.123456.al
 
 # > 垃圾影音
-DOMAIN-KEYWORD, xmsl
 DOMAIN, cf.emby.moe
 DOMAIN, cf.xmsl.org
 DOMAIN, free.xmsl.org
 
 # > paul_电报服
-DOMAIN-KEYWORD, imetyou
 DOMAIN, cf.imetyou.top
 DOMAIN, emby.imetyou.top
 DOMAIN, fk.imetyou.top
@@ -132,7 +121,6 @@ DOMAIN, sg.imetyou.top
 DOMAIN, chun.imetyou.top
 
 # > Temby
-DOMAIN-SUFFIX, 285286.xyz
 DOMAIN, temby.285286.xyz
 DOMAIN, temby4837.285286.xyz
 
@@ -146,13 +134,11 @@ DOMAIN, emby.9191001.xyz
 DOMAIN, film.hovervan.org
 
 # > TeCar
-DOMAIN-KEYWORD, carlos
 DOMAIN, emby.carlos.trade
 DOMAIN, cf.carlos.trade
 DOMAIN, us.carlos.trade
 
 # > Lyrebirde
-DOMAIN-KEYWORD, lyrebirdemby
 DOMAIN, cdn.lyrebirdemby.com
 
 # > Misty
@@ -162,12 +148,10 @@ DOMAIN-SUFFIX, misty.cx
 DOMAIN, flare.catlinks.co.uk
 
 # > Apop
-DOMAIN-KEYWORD, apopcloud
 DOMAIN, emby.apopcloud.com
 DOMAIN, portal.apopcloud.com
 
 # > 牢大的野兽餐厅
-DOMAIN-KEYWORD, mius
 DOMAIN, emby-us-v4.mius.uk
 DOMAIN, emby-fr-v6.mius.uk
 
@@ -189,14 +173,12 @@ DOMAIN, cc.coemn.com
 # ❤️二次元❤️
 
 # > PiliPili Ultra
-DOMAIN-KEYWORD, pilipiliultra
 DOMAIN, push.pilipiliultra.com
 DOMAIN, emby.pilipiliultra.top
 DOMAIN, emby.pilipiliultra.com
 
 # > 纸片人小站
-DOMAIN-SUFFIX, embyplus.org
-DOMAIN, gd.9521732.xyz
+DOMAIN, embyplus.org
 
 # > 二刺螈
 DOMAIN, media.nijigem.by
@@ -213,7 +195,6 @@ DOMAIN, music.imetyou.top
 # 🟢可能跑路的🟢
 
 # > BURGER KING®（号已封）
-DOMAIN-KEYWORD, ntrrr
 DOMAIN, stream.ntrrr.top
 DOMAIN, kr-stream.ntrrr.top
 DOMAIN, jp-stream.ntrrr.top
@@ -231,10 +212,7 @@ DOMAIN, play.charontv.com
 DOMAIN, emby.lucasmedia.top
 
 # > JUDOG剧狗
-DOMAIN-SUFFIX, ju.dog
-
-# > 456
-ip-cidr, 188.40.224.93/32,no-resolve
+DOMAIN, ju.dog
 
 # > 酷安Emby
 DOMAIN, kuan2.yutron.eu.org
@@ -248,22 +226,18 @@ DOMAIN, h.200300.xyz
 DOMAIN, emby.lcloud.wiki
 
 # > 私人影院
-DOMAIN-KEYWORD, agon
 DOMAIN, emby.agon.cf
 DOMAIN, alist-proxy.agon.cf
 
 # > Magic Cloud
-DOMAIN-KEYWORD, freetz
 DOMAIN, cf.freetz.top
 DOMAIN, emby.freetz.top
 DOMAIN, kr.freetz.top
 
 # > 太空人
-DOMAIN-KEYWORD, tkremby
 DOMAIN, emby.tkremby.xyz
 
 # > 搬服
-DOMAIN-SUFFIX, 955557.xyz
 DOMAIN, byg.955557.xyz
 DOMAIN, cdn01.byg.955557.xyz
 DOMAIN, cdn03.byg.955557.xyz
