@@ -111,9 +111,7 @@ DOMAIN, nc1.infinityfly.top
 DOMAIN-SUFFIX, emby.kim
 
 # > PandaTV
-DOMAIN-SUFFIX, emby.at
-DOMAIN, v.emby.at
-DOMAIN, t.emby.at
+DOMAIN-SUFFIX, pdatv.cc
 DOMAIN, line1.emby.at
 DOMAIN, line2.emby.at
 DOMAIN, line3.emby.at
