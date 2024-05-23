@@ -112,9 +112,10 @@ DOMAIN-SUFFIX, emby.kim
 
 # > PandaTV
 DOMAIN-SUFFIX, pdatv.cc
-DOMAIN, line1.emby.at
-DOMAIN, line2.emby.at
-DOMAIN, line3.emby.at
+DOMAIN, line1.pdatv.cc
+DOMAIN, line2.pdatv.cc
+DOMAIN, line3.pdatv.cc
+DOMAIN, line4.pdatv.cc
 
 # > Jellyfin Paradise(Charity)
 DOMAIN, ws1.jellyfin.asia
