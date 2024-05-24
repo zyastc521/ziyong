@@ -205,11 +205,11 @@ DOMAIN, play.charontv.com
 # > Nanflix
 DOMAIN, emby.tnx.one
 
-# > 终点站
-DOMAIN-SUFFIX, emby.wtf
-DOMAIN, pub1.emby.wtf
-DOMAIN, pub2.emby.wtf
-DOMAIN, pub3.emby.wtf
+# > des's Emby
+IP-CIDR, 146.56.36.1/32, no-resolve
+IP-CIDR, 193.123.67.207/32, no-resolve
+IP-CIDR, 38.6.225.148/32, no-resolve
+IP-CIDR, 185.126.80.94/32, no-resolve
 
 ########################################
 # ❤️二次元❤️
