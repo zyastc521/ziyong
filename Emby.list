@@ -202,6 +202,15 @@ DOMAIN, cc.coemn.com
 # > CharonTV（停更）
 DOMAIN, play.charontv.com
 
+# > Nanflix
+DOMAIN, emby.tnx.one
+
+# > 终点站
+DOMAIN-SUFFIX, emby.wtf
+DOMAIN, pub1.emby.wtf
+DOMAIN, pub2.emby.wtf
+DOMAIN, pub3.emby.wtf
+
 ########################################
 # ❤️二次元❤️
 
