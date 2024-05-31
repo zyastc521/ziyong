@@ -212,6 +212,9 @@ IP-CIDR, 193.123.67.207/32, no-resolve
 IP-CIDR, 38.6.225.148/32, no-resolve
 IP-CIDR, 185.126.80.94/32, no-resolve
 
+# > 大V影院-Su
+DOMAIN, su.viclub.top
+
 ########################################
 # ❤️二次元❤️
 
