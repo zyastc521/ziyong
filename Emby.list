@@ -106,6 +106,7 @@ DOMAIN, embymv.tk
 
 # > Infinityfly+（共享账号）
 DOMAIN, nc1.infinityfly.top
+IP-CIDR, 140.83.59.29/32, no-resolve
 
 # > EmbyClub
 DOMAIN-SUFFIX, emby.kim
