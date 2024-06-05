@@ -242,8 +242,11 @@ DOMAIN, music.imetyou.top
 DOMAIN, direct.atomjaylee.top
 DOMAIN, music.k1kyo.com
 
-# > Hi-Music
+# > 飞跃音乐服
 DOMAIN-SUFFIX, 6666666.buzz
+
+# > 派大星的音乐服
+DOMAIN, na.iuii.cc
 
 ########################################
 # 🟢可能跑路的🟢
