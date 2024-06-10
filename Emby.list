@@ -17,12 +17,6 @@ DOMAIN, direct.mjjemby.org
 DOMAIN, sg01.mjjemby.org
 DOMAIN, kr.mjjemby.org
 
-# > ✨ Singularity（维护）
-DOMAIN, singularity.bagpipe.moe
-
-# > 白浪兔（维护）
-DOMAIN, emby.airpor.top
-
 # > 江湖
 DOMAIN, film.reddust.link
 
@@ -297,6 +291,12 @@ DOMAIN, cdn03.byg.955557.xyz
 DOMAIN, cdn04.byg.955557.xyz
 DOMAIN, cdn05.byg.955557.xyz
 DOMAIN, cdn06.byg.955557.xyz
+
+# > ✨ Singularity（维护）
+DOMAIN, singularity.bagpipe.moe
+
+# > 白浪兔（维护）
+DOMAIN, emby.airpor.top
 
 ########################################
 # > 🌐关键词🌐
