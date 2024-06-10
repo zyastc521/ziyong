@@ -41,31 +41,6 @@ DOMAIN, stream.synn.cc
 DOMAIN, e01.811920.xyz
 
 ########################################
-# 💰公费服💰
-
-# > 垃圾影音 （没续费）
-DOMAIN, bcn.xmsl.org
-DOMAIN, cfde.xmsl.org
-DOMAIN, line.xmsl.org
-DOMAIN, pm.xmsl.org
-
-# > MisakaF （没续费）
-#DOMAIN-KEYWORD, misakaf
-DOMAIN-SUFFIX, misakaf.org
-DOMAIN, cdn.misakaf.org
-DOMAIN, emby.misakaf.org
-DOMAIN, stream1.misakaf.org
-DOMAIN, stream2.misakaf.org
-DOMAIN, stream3.misakaf.org
-DOMAIN, stream4.misakaf.org
-
-# > hxd_emby （没续费）
-DOMAIN-SUFFIX, bili.rip
-DOMAIN, bili.bili.rip
-DOMAIN, cf.bili.rip
-DOMAIN, cdn.bili.rip
-
-########################################
 # ✈️机场服✈️
 
 # > Prisms Red
@@ -100,7 +75,7 @@ DOMAIN, v.20120714.xyz
 DOMAIN, peachmv.me
 DOMAIN, embymv.tk
 
-# > Infinityfly+（共享账号）
+# > Infinityfly+
 DOMAIN, nc1.infinityfly.top
 IP-CIDR, 140.83.59.29/32, no-resolve
 
@@ -246,6 +221,31 @@ DOMAIN-SUFFIX, 6666666.buzz
 
 # > 派大星的音乐服
 DOMAIN, na.iuii.cc
+
+########################################
+# 💰公费服💰
+
+# > 垃圾影音 （没续费）
+DOMAIN, bcn.xmsl.org
+DOMAIN, cfde.xmsl.org
+DOMAIN, line.xmsl.org
+DOMAIN, pm.xmsl.org
+
+# > MisakaF （没续费）
+#DOMAIN-KEYWORD, misakaf
+DOMAIN-SUFFIX, misakaf.org
+DOMAIN, cdn.misakaf.org
+DOMAIN, emby.misakaf.org
+DOMAIN, stream1.misakaf.org
+DOMAIN, stream2.misakaf.org
+DOMAIN, stream3.misakaf.org
+DOMAIN, stream4.misakaf.org
+
+# > hxd_emby （没续费）
+DOMAIN-SUFFIX, bili.rip
+DOMAIN, bili.bili.rip
+DOMAIN, cf.bili.rip
+DOMAIN, cdn.bili.rip
 
 ########################################
 # 🟢可能跑路的🟢
