@@ -61,12 +61,6 @@ DOMAIN, cu.emby.ws
 ########################################
 # 🐲影音🐲
 
-# > GuGu
-DOMAIN-SUFFIX, gugu.media
-DOMAIN, main.gugu.media
-DOMAIN, pro.gugu.media
-DOMAIN, v6.gugu.media
-
 # > Marmot_Emby
 DOMAIN, if.20120714.xyz
 DOMAIN, v.20120714.xyz
@@ -246,6 +240,12 @@ DOMAIN-SUFFIX, bili.rip
 DOMAIN, bili.bili.rip
 DOMAIN, cf.bili.rip
 DOMAIN, cdn.bili.rip
+
+# > GuGu
+DOMAIN-SUFFIX, gugu.media
+DOMAIN, main.gugu.media
+DOMAIN, pro.gugu.media
+DOMAIN, v6.gugu.media
 
 ########################################
 # 🟢可能跑路的🟢
