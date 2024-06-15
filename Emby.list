@@ -247,6 +247,12 @@ DOMAIN, main.gugu.media
 DOMAIN, pro.gugu.media
 DOMAIN, v6.gugu.media
 
+# > MICU Cloud Media （没续费）
+DOMAIN-SUFFIX, gugu.media
+DOMAIN, main.gugu.media
+DOMAIN, pro.gugu.media
+DOMAIN, v6.gugu.media
+
 ########################################
 # 🟢可能跑路的🟢
 
