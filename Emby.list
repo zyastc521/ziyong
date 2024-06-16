@@ -150,13 +150,6 @@ DOMAIN-SUFFIX, mius.uk
 DOMAIN, emby-us-v4.mius.uk
 DOMAIN, emby-fr-v6.mius.uk
 
-# > 终·站
-DOMAIN-SUFFIX, agan2.vip
-DOMAIN, sss.889393.xyz
-
-# > Akuai（没抢到号）
-DOMAIN, akuai.9012345.xyz
-
 # > 终点站
 DOMAIN-SUFFIX, emby.wtf
 DOMAIN, pub1.emby.wtf
@@ -220,13 +213,13 @@ DOMAIN, na.iuii.cc
 ########################################
 # 💰公费服💰
 
-# > 垃圾影音 （没续费）
+# > 垃圾影音（没续费）
 DOMAIN, bcn.xmsl.org
 DOMAIN, cfde.xmsl.org
 DOMAIN, line.xmsl.org
 DOMAIN, pm.xmsl.org
 
-# > MisakaF （没续费）
+# > MisakaF（没续费）
 #DOMAIN-KEYWORD, misakaf
 DOMAIN-SUFFIX, misakaf.org
 DOMAIN, cdn.misakaf.org
@@ -236,23 +229,26 @@ DOMAIN, stream2.misakaf.org
 DOMAIN, stream3.misakaf.org
 DOMAIN, stream4.misakaf.org
 
-# > hxd_emby （没续费）
+# > hxd_emby（没续费）
 DOMAIN-SUFFIX, bili.rip
 DOMAIN, bili.bili.rip
 DOMAIN, cf.bili.rip
 DOMAIN, cdn.bili.rip
 
-# > GuGu （没续费）
+# > GuGu（没续费）
 DOMAIN-SUFFIX, gugu.media
 DOMAIN, main.gugu.media
 DOMAIN, pro.gugu.media
 DOMAIN, v6.gugu.media
 
-# > MICU Cloud Media （没续费）
+# > MICU Cloud Media（没续费）
 DOMAIN-SUFFIX, micu.hk
 DOMAIN, tv.micu.hk
 DOMAIN, tv1.micu.hk
 DOMAIN, media.micu.hk
+
+# > 终·站（没续费）
+DOMAIN-SUFFIX, agan2.vip
 
 ########################################
 # 🟢可能跑路的🟢
@@ -304,6 +300,9 @@ DOMAIN, singularity.bagpipe.moe
 
 # > 白浪兔（维护）
 DOMAIN, emby.airpor.top
+
+# > Akuai（没抢到号）
+DOMAIN, akuai.9012345.xyz
 
 ########################################
 # > 🌐关键词🌐
