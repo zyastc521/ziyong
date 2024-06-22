@@ -229,9 +229,7 @@ DOMAIN, cf.bili.rip
 DOMAIN, cdn.bili.rip
 
 # > GuGu（没续费）
-DOMAIN-SUFFIX, gugu.media
-DOMAIN, main.gugu.media
-DOMAIN, pro.gugu.media
+DOMAIN, main.gugumedia.site
 DOMAIN, v6.gugu.media
 
 # > MICU Cloud Media（没续费）
