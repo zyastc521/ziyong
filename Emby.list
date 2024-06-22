@@ -168,7 +168,7 @@ IP-CIDR, 185.126.80.94/32, no-resolve
 DOMAIN, su.viclub.top
 
 # > 开心服
-DOMAIN, emby.127255.best
+IP-CIDR, 132.226.229.139/32, no-resolve
 
 ########################################
 # ❤️二次元❤️
