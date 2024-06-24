@@ -170,6 +170,9 @@ DOMAIN, su.viclub.top
 # > 开心服
 IP-CIDR, 132.226.229.139/32, no-resolve
 
+# > Akuai（需抢号）
+DOMAIN, emby.5412838.xyz
+
 ########################################
 # ❤️二次元❤️
 
@@ -291,9 +294,6 @@ DOMAIN, singularity.bagpipe.moe
 
 # > 白浪兔（维护）
 DOMAIN, emby.airpor.top
-
-# > Akuai（没抢到号）
-DOMAIN, akuai.9012345.xyz
 
 ########################################
 # > 🌐关键词🌐
