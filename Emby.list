@@ -18,7 +18,9 @@ DOMAIN, sg01.mjjemby.org
 DOMAIN, kr.mjjemby.org
 
 # > 江湖
+DOMAIN-SUFFIX, reddust.link
 DOMAIN, film.reddust.link
+DOMAIN, jh.reddust.link
 
 # > 飞跃彩虹
 DOMAIN-SUFFIX, 581658.best
