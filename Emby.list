@@ -59,6 +59,7 @@ DOMAIN, emby.aca.best
 # > Marmot_Emby
 DOMAIN, if.20120714.xyz
 DOMAIN, v.20120714.xyz
+IP-CIDR, 36.137.22.140/32, no-resolve
 
 # > peach_公益服
 DOMAIN, peachmv.me
