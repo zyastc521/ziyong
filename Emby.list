@@ -22,8 +22,9 @@ DOMAIN-SUFFIX, reddust.link
 DOMAIN, film.reddust.link
 DOMAIN, jh.reddust.link
 
-# > 飞跃彩虹
+# > 飞跃彩虹/飞跃银河（MJJ）
 DOMAIN-SUFFIX, 581658.best
+DOMAIN-SUFFIX, 7777777.buzz
 
 # > Heisi
 DOMAIN-SUFFIX, i109.com
@@ -173,6 +174,9 @@ DOMAIN, su.viclub.top
 # > 开心服
 DOMAIN, emby.127255.best
 IP-CIDR, 132.226.229.139/32, no-resolve
+
+# > Freeemby
+DOMAIN, emby.intel.im
 
 # > Akuai（需抢号）
 DOMAIN, emby.5412838.xyz
