@@ -8,15 +8,6 @@ DOMAIN-SUFFIX, mcjoker.xyz
 DOMAIN, emby3.mcjoker.xyz
 DOMAIN, jz.mcjoker.xyz
 
-# > MJJ-Emby
-DOMAIN-SUFFIX, mjjemby.org
-DOMAIN, cf.mjjemby.org
-DOMAIN, jp01.mjjemby.org
-DOMAIN, jp02.mjjemby.org
-DOMAIN, direct.mjjemby.org
-DOMAIN, sg01.mjjemby.org
-DOMAIN, kr.mjjemby.org
-
 # > 江湖
 DOMAIN-SUFFIX, reddust.link
 DOMAIN, film.reddust.link
@@ -56,6 +47,12 @@ DOMAIN, red.prisms.cc
 DOMAIN-SUFFIX, aca.best
 DOMAIN, porn.aca.best
 DOMAIN, emby.aca.best
+
+# > hxd_emby
+DOMAIN-SUFFIX, bili.rip
+DOMAIN, bili.bili.rip
+DOMAIN, cf.bili.rip
+DOMAIN, cdn.bili.rip
 
 ########################################
 # 🐲影音🐲
@@ -182,9 +179,6 @@ IP-CIDR, 132.226.229.139/32, no-resolve
 # > Freeemby
 DOMAIN, emby.intel.im
 
-# > Akuai（需抢号）
-DOMAIN, emby.5412838.xyz
-
 ########################################
 # ❤️二次元❤️
 
@@ -233,12 +227,6 @@ DOMAIN, stream1.misakaf.org
 DOMAIN, stream2.misakaf.org
 DOMAIN, stream3.misakaf.org
 DOMAIN, stream4.misakaf.org
-
-# > hxd_emby（没续费）
-DOMAIN-SUFFIX, bili.rip
-DOMAIN, bili.bili.rip
-DOMAIN, cf.bili.rip
-DOMAIN, cdn.bili.rip
 
 # > GuGu（没续费）
 DOMAIN, main.gugumedia.site
@@ -297,6 +285,9 @@ DOMAIN, cdn03.byg.955557.xyz
 DOMAIN, cdn04.byg.955557.xyz
 DOMAIN, cdn05.byg.955557.xyz
 DOMAIN, cdn06.byg.955557.xyz
+
+# > Akuai（需抢号）
+DOMAIN, emby.5412838.xyz
 
 # > ✨ Singularity（维护）
 DOMAIN, singularity.bagpipe.moe
