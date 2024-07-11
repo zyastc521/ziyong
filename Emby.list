@@ -61,9 +61,10 @@ DOMAIN, emby.aca.best
 # 🐲影音🐲
 
 # > Marmot_Emby
+DOMAIN-SUFFIX, 20120714.xyz
 DOMAIN, if.20120714.xyz
 DOMAIN, v.20120714.xyz
-IP-CIDR, 36.137.22.140/32, no-resolve
+DOMAIN, cn.20120714.xyz
 
 # > peach_公益服
 DOMAIN, peachmv.me
@@ -200,12 +201,6 @@ DOMAIN, media.nijigem.by
 
 ########################################
 # 🎵音乐服🎵
-
-# > Paul
-DOMAIN-SUFFIX, imetyou.top
-DOMAIN, chunmusic.imetyou.top
-DOMAIN, cfmusic.imetyou.top
-DOMAIN, music.imetyou.top
 
 # > Hi-Music
 DOMAIN, direct.atomjaylee.top
