@@ -174,8 +174,8 @@ DOMAIN, su.viclub.top
 DOMAIN, emby.127255.best
 IP-CIDR, 132.226.229.139/32, no-resolve
 
-# > Freeemby
-DOMAIN, emby.intel.im
+# > Plumber
+DOMAIN, emby.tiancheng.cf
 
 ########################################
 # ❤️二次元❤️
@@ -292,6 +292,9 @@ DOMAIN, singularity.bagpipe.moe
 
 # > 白浪兔（维护）
 DOMAIN, emby.airpor.top
+
+# > Freeemby
+DOMAIN, emby.intel.im
 
 ########################################
 # > 🌐关键词🌐
