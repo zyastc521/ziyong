@@ -8,10 +8,6 @@ DOMAIN-SUFFIX, mcjoker.xyz
 DOMAIN, emby3.mcjoker.xyz
 DOMAIN, jz.mcjoker.xyz
 
-# > 江湖
-DOMAIN-SUFFIX, reddust.link
-DOMAIN, jh.reddust.link
-
 # > 探花TV
 DOMAIN-SUFFIX, tanhuatv.site
 
@@ -282,6 +278,10 @@ DOMAIN, emby.airpor.top
 
 # > Freeemby
 DOMAIN, emby.intel.im
+
+# > 江湖
+DOMAIN-SUFFIX, reddust.link
+DOMAIN, jh.reddust.link
 
 ########################################
 # > 🌐关键词🌐
