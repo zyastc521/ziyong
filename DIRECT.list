@@ -18,10 +18,4 @@ DOMAIN-SUFFIX,1050qm.com
 DOMAIN-SUFFIX,sjygml.lol
 
 # > 无敌风火轮
-DOMAIN, emby1.ycxdy.top
-DOMAIN, emby2.ycxdy.top
-DOMAIN, emby3.ycxdy.top
-DOMAIN, emby4.ycxdy.top
-DOMAIN, emby5.ycxdy.top
-DOMAIN, emby6.ycxdy.top
-DOMAIN, emby7.ycxdy.top
+DOMAIN-SUFFIX,ycxdy.top
