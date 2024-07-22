@@ -7,6 +7,9 @@ DOMAIN-KEYWORD,xiaobai
 # > huang1111（网盘）
 DOMAIN-KEYWORD,huang
 
+# > 老王（论坛）
+DOMAIN-KEYWORD,laowang
+
 # > 阡陌居（小说）
 DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,1050qm.com
@@ -14,5 +17,5 @@ DOMAIN-SUFFIX,1050qm.com
 # > 奶昔（机场）
 DOMAIN-SUFFIX,sjygml.lol
 
-# > 无敌风火轮
+# > 无敌风火轮（Emby）
 DOMAIN-SUFFIX,ycxdy.top
