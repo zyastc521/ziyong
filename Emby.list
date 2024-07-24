@@ -52,8 +52,8 @@ DOMAIN, v.20120714.xyz
 DOMAIN, cn.20120714.xyz
 
 # > peach_公益服
-DOMAIN, peachmv.me
 DOMAIN, embymv.tk
+IP-CIDR, 193.123.232.141/32, no-resolve
 
 # > Infinityfly+
 DOMAIN, nc1.infinityfly.top
