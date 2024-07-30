@@ -204,6 +204,7 @@ DOMAIN, emby.misakaf.org
 # > GuGu（没续费）
 DOMAIN, main.gugumedia.site
 DOMAIN, v6.gugu.media
+DOMAIN, node1.guguemby.site
 
 # > MICU Cloud Media（没续费）
 DOMAIN-SUFFIX, micu.hk
