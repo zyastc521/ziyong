@@ -154,6 +154,9 @@ IP-CIDR, 132.226.229.139/32, no-resolve
 # > Plumber
 DOMAIN, emby.tiancheng.cf
 
+# > Yomo服不服
+DOMAIN, yomo.7777777.buzz
+
 ########################################
 # ❤️二次元❤️
 
