@@ -120,6 +120,7 @@ DOMAIN, emby.apopcloud.com
 DOMAIN-SUFFIX, mius.uk
 DOMAIN, emby-micax-ca-v2.mius.uk
 DOMAIN, emby-mica-us-v1.mius.uk
+DOMAIN, ph.16bit.cfd
 
 # > 终点站
 DOMAIN-SUFFIX, emby.wtf
