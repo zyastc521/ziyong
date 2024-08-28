@@ -157,6 +157,7 @@ DOMAIN, emby.tiancheng.cf
 
 # > Yomo服不服
 DOMAIN, emby.yomo.lol
+IP-CIDR, 104.161.22.116/32, no-resolve
 
 ########################################
 # ❤️二次元❤️
