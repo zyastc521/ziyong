@@ -15,6 +15,8 @@ DOMAIN-SUFFIX,sjygml.lol
 DOMAIN-SUFFIX,ycxdy.top
 # > 饭涵游戏（论坛）
 DOMAIN-KEYWORD,fanhangame
+# > 次元狗动漫（漫画）
+DOMAIN-KEYWORD,acgndog
 ########################################
 # > CN_REGION
 GEOIP,cn
