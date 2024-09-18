@@ -15,4 +15,7 @@ DOMAIN-SUFFIX,sjygml.lol
 DOMAIN-SUFFIX,ycxdy.top
 # > 饭涵游戏（论坛）
 DOMAIN-KEYWORD,fanhangame
+########################################
+# > CN_REGION
+GEOIP, cn
 
