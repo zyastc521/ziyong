@@ -1,5 +1,9 @@
 # > SYN（机场）
 DOMAIN,go.synn.cc
+# > 奶昔（机场）
+DOMAIN-SUFFIX,sjygml.lol
+# > 无敌风火轮（Emby）
+DOMAIN-SUFFIX,ycxdy.top
 # > JavDB（瑟瑟）
 DOMAIN-KEYWORD,liquidlink
 # > 小白下载（磁力）
@@ -9,14 +13,12 @@ DOMAIN-KEYWORD,huang
 # > 阡陌居（小说）
 DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,1050qm.com
-# > 奶昔（机场）
-DOMAIN-SUFFIX,sjygml.lol
-# > 无敌风火轮（Emby）
-DOMAIN-SUFFIX,ycxdy.top
 # > 饭涵游戏（论坛）
 DOMAIN-KEYWORD,fanhangame
 # > 次元狗动漫（漫画）
 DOMAIN-KEYWORD,acgndog
+# > 松鼠游戏（App）
+DOMAIN-KEYWORD,songshuyouxi
 ########################################
 # > CN_REGION
 GEOIP,cn
