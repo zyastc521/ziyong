@@ -19,6 +19,8 @@ DOMAIN-KEYWORD,fanhangame
 DOMAIN-KEYWORD,acgndog
 # > 松鼠游戏（App）
 DOMAIN-KEYWORD,songshuyouxi
+# > WeTab（网址收藏）
+DOMAIN-SUFFIX,wetab.link
 ########################################
 # > CN_REGION
 GEOIP,cn
