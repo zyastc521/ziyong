@@ -21,6 +21,8 @@ DOMAIN-KEYWORD,acgndog
 DOMAIN-KEYWORD,songshuyouxi
 # > WeTab（网址收藏）
 DOMAIN-SUFFIX,wetab.link
+# > Raindrop.io（网址收藏）
+DOMAIN-SUFFIX,raindrop.io
 ########################################
 # > CN_REGION
 GEOIP,cn
