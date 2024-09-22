@@ -14,7 +14,8 @@ DOMAIN-KEYWORD,huang
 DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,1050qm.com
 # > 饭涵游戏（论坛）
-DOMAIN-KEYWORD,fanhangame
+DOMAIN-SUFFIX,fanhangame.com
+DOMAIN-SUFFIX,staticfile.org
 # > 次元狗动漫（漫画）
 DOMAIN-KEYWORD,acgndog
 # > 松鼠游戏（App）
