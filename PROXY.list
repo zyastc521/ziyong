@@ -1,7 +1,2 @@
-# > 卷毛鼠（Emby）
-DOMAIN-SUFFIX,jmsuper.com
-# > yomo服不服（Emby）
-DOMAIN-SUFFIX,yomo.lol
-IP-CIDR,104.161.22.116/32,no-resolve
 # > Hanime1（瑟瑟动漫）
 DOMAIN-SUFFIX,hanime1.me
