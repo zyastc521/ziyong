@@ -1,7 +1,5 @@
 # > 奶昔（机场）
 DOMAIN-SUFFIX,sjygml.lol
-# > 无敌风火轮（Emby）
-DOMAIN-SUFFIX,ycxdy.top
 # > JavDB（瑟瑟）
 #DOMAIN-KEYWORD,liquidlink
 # > huang1111（网盘）
@@ -17,6 +15,11 @@ DOMAIN-SUFFIX,1050qm.com
 DOMAIN-SUFFIX,wetab.link
 # > Raindrop.io（网址收藏）
 DOMAIN-SUFFIX,raindrop.io
+###########################################
+# > 无敌风火轮（Emby）
+DOMAIN-SUFFIX,ycxdy.top
+# > Lemby（Emby）
+DOMAIN,gl.lemby.me
 ###########################################
 # > IP-CIDR
 IP-CIDR,28.0.0.1/8,no-resolve
