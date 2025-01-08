@@ -1,5 +1,7 @@
 # > 终点站（Emby）
 DOMAIN-SUFFIX,emby.wtf
+# > SaturDay.Lite（Emby）
+DOMAIN,lite.saturday.video
 ###########################################
 # > 老王论坛（瑟瑟）
 DOMAIN-SUFFIX,laowang.vip
