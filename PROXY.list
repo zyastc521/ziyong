@@ -1,4 +1,4 @@
-# >《Emby》
+# 《Emby》
 # > 终点站
 DOMAIN-SUFFIX,emby.wtf
 # > SaturDay.Lite
@@ -7,6 +7,8 @@ DOMAIN,lite.saturday.video
 #DOMAIN,emby.127255.best
 # > 卷毛鼠
 DOMAIN,nano.jmsuper.com
+# > 无名小服
+DOMAIN,emby.pppp.us.kg
 ###########################################
 # > 老王论坛（瑟瑟）
 DOMAIN-SUFFIX,laowang.vip
