@@ -1,14 +1,8 @@
 # > 奶昔（机场）
 DOMAIN-SUFFIX,sjygml.lol
-# > huang1111（网盘）
-#DOMAIN-KEYWORD,huang
 # > 阡陌居（小说）
 DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,1050qm.com
-# > 次元狗动漫（漫画）
-#DOMAIN-KEYWORD,acgndog
-# > 松鼠游戏（App）
-#DOMAIN-KEYWORD,songshuyouxi
 # > WeTab（网址收藏）
 DOMAIN-SUFFIX,wetab.link
 # > Raindrop.io（网址收藏）
