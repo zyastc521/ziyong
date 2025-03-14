@@ -1,12 +1,10 @@
 # > 奶昔（机场）
 DOMAIN-SUFFIX,sjygml.lol
-# > 哪吒云（机场）
-DOMAIN-SUFFIX,nezhasu.com
 # > 阡陌居（小说）
 DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,1050qm.com
 # > WeTab（网址收藏）
-DOMAIN-SUFFIX,wetab.link
+#DOMAIN-SUFFIX,wetab.link
 # > Raindrop.io（网址收藏）
 DOMAIN-SUFFIX,raindrop.io
 ###########################################
