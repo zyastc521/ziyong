@@ -1,8 +1,12 @@
 # 《Emby》
 # > 终点站
 DOMAIN-SUFFIX,emby.wtf
+# > SaturDay.Lite
+DOMAIN-SUFFIX,saturday.video
 ###########################################
 # > 包子漫画（漫画）
 DOMAIN-SUFFIX,baozimh.com
 # > Linux Do（论坛）
 DOMAIN-SUFFIX,linux.do
+# > MissAV（瑟瑟）
+DOMAIN-SUFFIX,missav.ws
