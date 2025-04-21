@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,1050qm.com
 # > WeTab（书签）
 DOMAIN-SUFFIX,wetab.link
+# > WeTab（书签）
+DOMAIN-SUFFIX,baidu.com
 ###########################################
 # > 无敌风火轮（Emby）
 DOMAIN-SUFFIX,ycxdy.top
