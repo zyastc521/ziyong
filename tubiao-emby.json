@@ -1,1 +1,27 @@
-
+{
+"name":"自制自用-Emby",
+"description":"收集互联网公开图标文件，版权属于原作者和商标持有人。",
+"icons":
+    [
+	{"name":"ChatGPT", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/ChatGPT.png"},
+	{"name":"Copilot", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/iconLoon//Copilot.png"},
+	{"name":"1password", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/1password.png"},
+	{"name":"Telegram", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Telegram.png"},
+	{"name":"yybx", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/yybx.png"},
+	{"name":"Emby", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Emby.png"},
+	{"name":"PikPak", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/PikPak.png"},
+	{"name":"YouTube", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/YouTube.png"},
+	{"name":"TikTok", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/TikTok.png"},
+	{"name":"X", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/X.png"},
+	{"name":"Facebook", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Facebook.png"},
+	{"name":"Instagram", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Instagram.png"},
+	{"name":"Disney+", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Disney+.png"},
+	{"name":"Netflix", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Netflix.png"},
+	{"name":"Spotify", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Spotify.png"},
+	{"name":"IP", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/IP.png"},
+	{"name":"Google", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Google.png"},
+	{"name":"GitHub", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/GitHub.png"},
+	{"name":"Discord", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Discord.png"},
+	{"name":"Bitwarden", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Bitwarden.png"},
+    ]
+}
