@@ -3,6 +3,7 @@
 "description":"收集互联网公开图标文件，版权属于原作者和商标持有人。", 
 "icons":
     [
+	    #数字
 	{"name":"1111", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Emby/1111.jpg"},
 	{"name":"123", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Emby/123.jpg"},   
 	{"name":"ask", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Emby/ask.jpg"},
