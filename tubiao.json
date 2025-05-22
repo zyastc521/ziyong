@@ -1,6 +1,6 @@
 {
 "name":"自制自用",
-"description":"收集互联网公开图标文件，版权属于原作者和商标持有人。（排序A~Z）",
+"description":"收集互联网公开图标文件，版权属于原作者和商标持有人。（按照A~Z排序）",
 "icons":
     [
 	{"name":"1password", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/1password.png"},
