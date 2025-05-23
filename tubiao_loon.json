@@ -3,6 +3,7 @@
 "description":"收集互联网公开图标文件，版权属于原作者和商标持有人。（按照A~Z排序）",
 "icons":
     [
+	{"name":"18+", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/18+.png"},
 	{"name":"1password", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/1password.png"},
 	
 	{"name":"Adblock4limbo", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Adblock4limbo.png"},
@@ -21,9 +22,11 @@
 	
 	{"name":"Google", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Google.png"},
 	{"name":"GitHub", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/GitHub.png"},
+	{"name":"geshizhuanhuangongju", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/geshizhuanhuangongju.png"},
 	
 	{"name":"Instagram", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Instagram.png"},
 	{"name":"IP", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/IP.png"},
+	{"name":"iLovePDF", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/iLovePDF.png"},
 	
 	{"name":"Netflix", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Netflix.png"},
 	
@@ -35,6 +38,7 @@
 	{"name":"TikTok", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/TikTok.png"},
 	
 	{"name":"X", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/X.png"},
+	{"name":"xiaobaizhihuidayin", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/xiaobaizhihuidayin.png"},
 	
 	{"name":"yybx", "url":"https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/yybx.png"},
 	
