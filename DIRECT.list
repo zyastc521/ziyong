@@ -1,3 +1,9 @@
+#  Emby
+# > 无敌风火轮
+DOMAIN-SUFFIX,ycxdy.top
+# > 开心服
+DOMAIN-SUFFIX,127255.best
+###########################################
 # > 奶昔（机场）
 DOMAIN-SUFFIX,sjygml.lol
 # > 阡陌居（小说）
@@ -5,7 +11,3 @@ DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,1050qm.com
 # > WeTab（书签）
 DOMAIN-SUFFIX,wetab.link
-###########################################
-# > 无敌风火轮（Emby）
-DOMAIN-SUFFIX,ycxdy.top
-
