@@ -26,7 +26,7 @@ proxy-groups:
       - SG
       - TW
       - US
-    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Disney.png  
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png  
   - name: Netflix
     type: select
     proxies:
@@ -110,7 +110,7 @@ proxy-groups:
       - SG
       - TW
       - US
-    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/PayPal.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Paypal.png
   - name: Apple
     type: select
     proxies:
