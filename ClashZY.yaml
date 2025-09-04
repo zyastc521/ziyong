@@ -10,7 +10,6 @@ proxy-groups:
 #分流分组
   - {name: 手动切换,  type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
   - {name: 兜底分流,  type: select, proxies: [手动切换, DIRECT, 自动选择, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
-  - {name: 媒体分流,  type: select, proxies: [手动切换, DIRECT, 自动选择, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png }
   - {name: 国内分流,  type: select, proxies: [DIRECT, 手动切换, 自动选择, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
   - {name: Telegram, type: select, proxies: [手动切换, DIRECT, 自动选择, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
   - {name: Ai,       type: select, proxies: [美国节点, 手动切换], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
@@ -53,7 +52,7 @@ rules:
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Github,兜底分流
   - RULE-SET,Google,兜底分流
-  - RULE-SET,YouTube,媒体分流
+  - RULE-SET,YouTube,兜底分流
   - RULE-SET,Twitter,兜底分流
   - RULE-SET,Instagram,兜底分流
   - RULE-SET,Disney,兜底分流
