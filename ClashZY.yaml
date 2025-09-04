@@ -55,7 +55,7 @@ rules:
   - RULE-SET,Google,兜底分流
   - RULE-SET,YouTube,媒体分流
   - RULE-SET,Twitter,兜底分流
-  - RULE-SET,Instagram兜底分流
+  - RULE-SET,Instagram,兜底分流
   - RULE-SET,Disney,兜底分流
   - RULE-SET,Netflix,兜底分流
   - RULE-SET,TikTok,兜底分流
