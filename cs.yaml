@@ -1,16 +1,16 @@
 #==========================================
 # @ConfigName        晚安自用MihomoParty配置文件
 # @UpdateTime        2025/09/04
-# @Function          支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、策略图标等  
+# @Function          支持Proxies、自动测速、广告屏蔽、兜底分流、按国家分组节点、策略图标等  
 # @mihomo-party      https://github.com/mihomo-party-org/mihomo-party/releases
 # @howtouse          主界面添加本配置[覆写]，然后使用内置的[SubStore]添加机场，之后去[订阅管理]，在配置的[编辑信息]中绑定机场订阅，开启系统代理即可使用
 #==========================================
 proxy-groups:
-  - {name: 手动选择,  type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
+  - {name: Proxies,  type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
   - name: YouTube
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -20,7 +20,7 @@ proxy-groups:
   - name: Disney
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -30,7 +30,7 @@ proxy-groups:
   - name: Netflix
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -40,7 +40,7 @@ proxy-groups:
   - name: Spotify
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - DIRECT
       - 香港
       - 日本
@@ -51,7 +51,7 @@ proxy-groups:
   - name: Steam
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - DIRECT
       - 香港
       - 日本
@@ -62,7 +62,7 @@ proxy-groups:
   - name: Telegram
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -72,7 +72,7 @@ proxy-groups:
   - name: Google
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -82,8 +82,8 @@ proxy-groups:
   - name: Microsoft
     type: select
     proxies:
-       - DIRECT
-       - 手动选择
+      - DIRECT
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -93,7 +93,7 @@ proxy-groups:
   - name: OpenAI
     type: select
     proxies:
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -104,7 +104,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -115,7 +115,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
@@ -126,7 +126,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 手动选择
+      - Proxies
       - 香港
       - 日本
       - 新加坡
