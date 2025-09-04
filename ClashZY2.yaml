@@ -7,6 +7,26 @@
 #==========================================
 proxy-groups:
   - {name: Proxies,  type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxies
+      - 香港
+      - 日本
+      - 新加坡
+      - 台湾
+      - 美国
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+  - name: Google
+    type: select
+    proxies:
+      - Proxies
+      - 香港
+      - 日本
+      - 新加坡
+      - 台湾
+      - 美国
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
   - name: YouTube
     type: select
     proxies:
@@ -59,37 +79,6 @@ proxy-groups:
       - 台湾
       - 美国
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png
-  - name: Telegram
-    type: select
-    proxies:
-      - Proxies
-      - 香港
-      - 日本
-      - 新加坡
-      - 台湾
-      - 美国
-    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-  - name: Google
-    type: select
-    proxies:
-      - Proxies
-      - 香港
-      - 日本
-      - 新加坡
-      - 台湾
-      - 美国
-    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
-  - name: Microsoft
-    type: select
-    proxies:
-      - DIRECT
-      - Proxies
-      - 香港
-      - 日本
-      - 新加坡
-      - 台湾
-      - 美国
-    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
   - name: OpenAI
     type: select
     proxies:
@@ -111,6 +100,17 @@ proxy-groups:
       - 台湾
       - 美国
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Paypal.png
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - 香港
+      - 日本
+      - 新加坡
+      - 台湾
+      - 美国
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
   - name: Apple
     type: select
     proxies:
