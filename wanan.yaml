@@ -30,8 +30,8 @@ proxy-groups:
 # 分流规则 
 rule-providers:
   AdBlock:     {behavior: domain,    interval: 86400, format: text, type: http, url: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt ,                                           path: ./ruleset/anti-ad-clash.txt }
-  OpenAi:      {behavior: classical, interval: 86400, format: yaml, type: http, url: https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml ,                               path: ./ruleset/OpenAi.yaml       }
   Proxy:       {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/refs/heads/main/PROXY.list ,                                            path: ./ruleset/PROXY.list        }
+  OpenAi:      {behavior: classical, interval: 86400, format: yaml, type: http, url: https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml ,                               path: ./ruleset/OpenAi.yaml       }
   GlobalMedia: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml ,  path: ./ruleset/GlobalMedia.yaml  }
   Apple:       {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml ,              path: ./ruleset/Apple.yaml        }
   Github:      {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml ,                      path: ./ruleset/Github.yaml       }
@@ -47,8 +47,8 @@ rule-providers:
 # 分流Policy 
 rules:
   - RULE-SET,AdBlock,AdBlock
-  - RULE-SET,OpenAi,OpenAi
   - RULE-SET,Proxy,兜底分流
+  - RULE-SET,OpenAi,OpenAi
   - RULE-SET,GlobalMedia,国际媒体
   - RULE-SET,Apple,苹果服务
   - RULE-SET,Github,全球加速
