@@ -30,7 +30,7 @@ proxy-groups:
       - SG
       - TW
       - US
-   - name: Netflix
+  - name: Netflix
     type: select
     proxies:
       - Proxies
