@@ -58,7 +58,7 @@ rules:
   - RULE-SET,Instagram兜底分流
   - RULE-SET,Disney,兜底分流
   - RULE-SET,Netflix,兜底分流
-  - RULE-SET,TikTok,兜底分流务
+  - RULE-SET,TikTok,兜底分流
   - RULE-SET,Ai,Ai
   - RULE-SET,Apple,国内分流
   - RULE-SET,Microsoft,国内分流
