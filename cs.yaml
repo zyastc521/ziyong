@@ -21,6 +21,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
   - name: Disney
     type: select
     proxies:
@@ -30,6 +31,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Disney.png  
   - name: Netflix
     type: select
     proxies:
@@ -39,6 +41,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png  
   - name: Spotify
     type: select
     proxies:
@@ -49,6 +52,7 @@ proxy-groups:
       - SG
       - TW
       - US
+      icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png
   - name: Steam
     type: select
     proxies:
@@ -59,6 +63,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png
   - name: Telegram
     type: select
     proxies:
@@ -68,6 +73,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
   - name: Google
     type: select
     proxies:
@@ -77,6 +83,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/ Google.png
   - name: Microsoft
     type: select
     proxies:
@@ -87,6 +94,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
   - name: OpenAI
     type: select
     proxies:
@@ -96,6 +104,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
   - name: PayPal
     type: select
     proxies:
@@ -106,6 +115,7 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/PayPal.png
   - name: Apple
     type: select
     proxies:
@@ -116,11 +126,13 @@ proxy-groups:
       - SG
       - TW
       - US
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
   - name: Final
     type: select
     proxies:
       - Proxies
       - DIRECT
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 rules:
  - DOMAIN,app.adjust.com,DIRECT
  - DOMAIN,app.appsflyer.com,DIRECT
