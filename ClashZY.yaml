@@ -26,9 +26,9 @@ proxy-groups:
 
 # 分流规则 
 rule-providers:
-  Proxy:       {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/PROXY.list ,
-  DirectZY:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/DIRECT.list ,
-  Bitwarden:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Bitwarden.list ,
+  ProxyZY:     {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml ,
+  DirectZY:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/DirectZY.yaml ,
+  Bitwarden:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml ,
   Telegram:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml ,
   Github:      {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml ,
   Google:      {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml ,
@@ -47,7 +47,7 @@ rule-providers:
 
 # 分流Policy 
 rules:
-  - RULE-SET,Proxy,兜底分流
+  - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,DirectZY,DIRECT
   - RULE-SET,Bitwarden,国内分流
   - RULE-SET,Telegram,Telegram
