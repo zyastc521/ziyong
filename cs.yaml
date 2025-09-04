@@ -14,15 +14,6 @@ proxy-groups:
   - {name: JP, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "日|东京|JP|(?i)Japan", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
   - {name: SG, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "新|坡|SG|(?i)Singapore", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png }
   - {name: US, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
-
-  - name: Proxies
-    type: select
-    proxies:
-      - HK
-      - JP
-      - SG
-      - TW
-      - US
   - name: YouTube
     type: select
     proxies:
