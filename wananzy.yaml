@@ -57,7 +57,7 @@ rules:
   - RULE-SET,Github,Google
   - RULE-SET,Google,Google
   - RULE-SET,YouTube,媒体分流
-  - RULE-SET,Twitter,媒体分流r
+  - RULE-SET,Twitter,媒体分流
   - RULE-SET,Instagram,媒体分流
   - RULE-SET,Disney,媒体分流
   - RULE-SET,Netflix,媒体分流
