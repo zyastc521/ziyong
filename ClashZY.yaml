@@ -62,11 +62,11 @@ rules:
   - RULE-SET,Discord,Telegram
   - RULE-SET,Github,Github
   - RULE-SET,Google,Google
-  - RULE-SET,YouTube,媒体分流
-  - RULE-SET,Twitter,媒体分流
-  - RULE-SET,Instagram,媒体分流
-  - RULE-SET,Disney,媒体分流
-  - RULE-SET,Netflix,媒体分流
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Instagram,Instagram
+  - RULE-SET,Disney,Disney
+  - RULE-SET,Netflix,Netflix
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Ai,Ai
   - RULE-SET,Apple,国内分流
