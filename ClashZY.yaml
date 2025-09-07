@@ -58,7 +58,7 @@ rule-providers:
 rules:
   - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,DirectZY,DIRECT
-  - RULE-SET,Bitwarden,国内分流
+  - RULE-SET,Bitwarden,Apple
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
   - RULE-SET,Github,Github
