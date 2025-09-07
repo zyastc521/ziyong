@@ -12,9 +12,10 @@ proxy-groups:
   - {name: 兜底分流,  type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
   - {name: 媒体分流,  type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png }
   - {name: TikTok,   type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png }
-  - {name: 国内分流,  type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
   - {name: Telegram, type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
   - {name: Ai,       type: select, proxies: [美国节点, 手动切换], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
+  - {name: 国内分流,  type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
+
   
   
 #节点分组
