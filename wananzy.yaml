@@ -11,18 +11,12 @@ proxy-groups:
   - {name: 手动切换,   type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
   - {name: 兜底分流,   type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
   - {name: Telegram,  type: select, include-all: true, filter: "新|坡|SG|(?i)Singapore", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: Github,    type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png }
   - {name: Google,    type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
-  - {name: YouTube,   type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png }
-  - {name: Twitter,   type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png }
-  - {name: Instagram, type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Instagram.png }
-  - {name: Disney,    type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png }
-  - {name: Netflix,   type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png }
+  - {name: 媒体分流,   type: select, proxies: [手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png }
   - {name: TikTok,    type: select, include-all: true, filter: "日|东京|JP|(?i)Japan", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png }
   - {name: Ai,        type: select, include-all: true, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
-  - {name: Apple,     type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
-  - {name: Microsoft, type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png }
-
+  - {name: 国内分流,   type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
+  
 # 节点分组
   # 自动选择
   - {name: 香港节点, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "港|HK|(?i)Hong", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }             
@@ -57,20 +51,20 @@ rule-providers:
 rules:
   - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,DirectZY,DIRECT
-  - RULE-SET,Bitwarden,Apple
+  - RULE-SET,Bitwarden,国内分流
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
-  - RULE-SET,Github,Github
+  - RULE-SET,Github,Google
   - RULE-SET,Google,Google
-  - RULE-SET,YouTube,YouTube
-  - RULE-SET,Twitter,Twitter
-  - RULE-SET,Instagram,Instagram
-  - RULE-SET,Disney,Disney
-  - RULE-SET,Netflix,Netflix
+  - RULE-SET,YouTube,媒体分流
+  - RULE-SET,Twitter,媒体分流r
+  - RULE-SET,Instagram,媒体分流
+  - RULE-SET,Disney,媒体分流
+  - RULE-SET,Netflix,媒体分流
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Ai,Ai
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Apple,国内分流
+  - RULE-SET,Microsoft,国内分流
   - RULE-SET,ChinaIP,DIRECT
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
