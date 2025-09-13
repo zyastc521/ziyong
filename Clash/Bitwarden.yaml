@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN-KEYWORD,emby
   - DOMAIN-SUFFIX,bitwarden.com
   - DOMAIN-SUFFIX,bitwarden.net
   - DOMAIN-SUFFIX,bitwarden.eu
