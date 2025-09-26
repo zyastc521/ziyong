@@ -13,7 +13,7 @@ proxy-groups:
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
   - {name: Ai,       type: fallback, include-all: true, interval: 600, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
   - {name: Apple,    type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png }
-  - {name: Spotify,   type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
+  - {name: Spotify,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
   
 # 节点分组
   # 手动选择
