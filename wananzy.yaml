@@ -48,7 +48,6 @@ rule-providers:
 rules:
   - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,DirectZY,DIRECT
-  - RULE-SET,Bitwarden,Ai
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
   - RULE-SET,Github,兜底分流
@@ -60,6 +59,7 @@ rules:
   - RULE-SET,Netflix,兜底分流
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Ai,Ai
+  - RULE-SET,Bitwarden,Ai
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Apple
   - RULE-SET,Lan,DIRECT
