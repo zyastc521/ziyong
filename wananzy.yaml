@@ -8,12 +8,13 @@
 
 proxy-groups:
 # 节点选择
-  - {name: 手动切换, type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
-  - {name: 兜底分流, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
-  - {name: Telegram,type: select, include-all: true, filter: "新|坡|SG|(?i)Singapore", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: TikTok,  type: select, include-all: true, filter: "日|东京|JP|(?i)Japan", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png }
-  - {name: Ai,      type: select, include-all: true, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
-  - {name: 国内分流, type: select, proxies: [DIRECT, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
+  - {name: 手动切换,  type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
+  - {name: 兜底分流,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
+  - {name: Telegram, type: select, include-all: true, filter: "新|坡|SG|(?i)Singapore", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
+  - {name: TikTok,   type: select, include-all: true, filter: "日|东京|JP|(?i)Japan", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png }
+  - {name: Ai,       type: select, include-all: true, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
+  - {name: Bitwarden,type: select, include-all: true, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Bitwarden.png }
+  - {name: 国内分流,  type: select, proxies: [DIRECT, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
   
 # 节点分组
   # 自动选择
@@ -47,7 +48,7 @@ rule-providers:
 rules:
   - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,DirectZY,DIRECT
-  - RULE-SET,Bitwarden,国内分流
+  - RULE-SET,Bitwarden,Bitwarden
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
   - RULE-SET,Github,兜底分流
