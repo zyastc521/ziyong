@@ -1,7 +1,7 @@
 #==========================================
 # @ConfigName        晚安自用MihomoParty配置文件
-# @UpdateTime        2025/09/08
-# @Function          支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、策略图标等  
+# @UpdateTime        2025/09/26
+# @Function          支持手动选择、自动测速、兜底分流、按国家分组节点、策略图标等  
 # @mihomo-party      https://github.com/mihomo-party-org/mihomo-party/releases
 # @howtouse          主界面添加本配置[覆写]，然后使用内置的[SubStore]添加机场，之后去[订阅管理]，在配置的[编辑信息]中绑定机场订阅，开启系统代理即可使用
 #==========================================
@@ -10,11 +10,11 @@ proxy-groups:
 # 节点选择
   - {name: 手动切换,  type: select, include-all: true, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
   - {name: 兜底分流,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
-  - {name: Telegram, type: select, include-all: true, filter: "新|坡|SG|(?i)Singapore", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: TikTok,   type: select, include-all: true, filter: "日|东京|JP|(?i)Japan", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png }
-  - {name: Ai,       type: select, include-all: true, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
+  - {name: Telegram, type: select, include-all: true, filter: "新|坡|SG|(?i)Singapore", icon: https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Telegram.png }
+  - {name: TikTok,   type: select, include-all: true, filter: "日|东京|JP|(?i)Japan", icon: https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/TikTok.png }
+  - {name: Ai,       type: select, include-all: true, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/ChatGPT.png }
   - {name: Bitwarden,type: select, include-all: true, filter: "美|US|(?i)States|American", icon: https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Bitwarden.png }
-  - {name: 国内分流,  type: select, proxies: [DIRECT, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png }
+  - {name: Apple,    type: select, proxies: [DIRECT, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png }
   
 # 节点分组
   # 自动选择
@@ -60,8 +60,8 @@ rules:
   - RULE-SET,Netflix,兜底分流
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Ai,Ai
-  - RULE-SET,Apple,国内分流
-  - RULE-SET,Microsoft,国内分流
+  - RULE-SET,Apple,Apple
+  - RULE-SET,Microsoft,Apple
   - RULE-SET,Lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流
