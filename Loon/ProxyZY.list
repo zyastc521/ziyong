@@ -1,20 +1,25 @@
-# 《Emby》
+#  【Emby】
 DOMAIN-KEYWORD,emby
 # > 星海
 DOMAIN-SUFFIX,digimon.ink
 # > anisaga
 DOMAIN-SUFFIX,anisaga.tv
-###########################################
+#################################################
+#  【瑟瑟】
+# > 探花（论坛）
+DOMAIN-SUFFIX,navix.site
+# > MissAV
+DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,missav.ai
+# > 油猴H（脚本）
+DOMAIN-SUFFIX,sleazyfork.org
+#################################################
 # > 包子漫画（漫画）
 DOMAIN-SUFFIX,baozimh.com
 # > Linux Do（论坛）
 DOMAIN-SUFFIX,linux.do
-# > MissAV（瑟瑟）
-DOMAIN-SUFFIX,missav.ws
-DOMAIN-SUFFIX,missav.ai
-# > 油猴H（瑟瑟）
-DOMAIN-SUFFIX,sleazyfork.org
 # > 渔云（机场）
 DOMAIN,yuyun.sffyn.com
 # > 次元狗动漫（动漫）
 DOMAIN-SUFFIX,acgndog.com
+
