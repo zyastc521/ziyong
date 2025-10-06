@@ -1,8 +1,6 @@
 payload:
   # 《Emby》
   - DOMAIN-KEYWORD,emby
-  # > 星海
-  - DOMAIN-SUFFIX,digimon.ink
   # > anisaga
   - DOMAIN-SUFFIX,anisaga.tv
 #################################################
