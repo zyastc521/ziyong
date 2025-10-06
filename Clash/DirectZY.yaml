@@ -4,8 +4,10 @@ payload:
   - DOMAIN-SUFFIX,ycxdy.top
   # > 开心服
   - DOMAIN-SUFFIX,127255.best
-   # > SaoDu
+  # > SaoDu
   - DOMAIN-SUFFIX,saodu.asia
+  # > 星海
+  - DOMAIN-SUFFIX,digimon.ink
   ###########################################
   # > 奶昔（机场）
   - DOMAIN-SUFFIX,sjygml.lol
