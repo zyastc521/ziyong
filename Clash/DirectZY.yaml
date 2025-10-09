@@ -8,6 +8,8 @@ payload:
   - DOMAIN-SUFFIX,saodu.asia
   # > 星海
   - DOMAIN-SUFFIX,digimon.ink
+  # > 开心
+  - DOMAIN-SUFFIX,127255.best
   ###########################################
   # > 奶昔（机场）
   - DOMAIN-SUFFIX,sjygml.lol
