@@ -27,8 +27,8 @@ proxy-groups:
   
 # 分流规则 
 rule-providers:
-  ProxyZY:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml }
   DirectZY:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/DirectZY.yaml }
+  ProxyZY:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml }
   Bitwarden: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml }
   Telegram:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml }
   Discord:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml }
@@ -48,8 +48,8 @@ rule-providers:
 
 # 分流策略
 rules:
-  - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,DirectZY,DIRECT
+  - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
   - RULE-SET,Github,兜底分流
