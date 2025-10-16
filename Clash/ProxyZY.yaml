@@ -7,10 +7,10 @@ payload:
   #  【瑟瑟】
   # > 探花（论坛）
   - DOMAIN-SUFFIX,navix.site
-  # > MissAV（瑟瑟）
+  # > MissAV
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,missav.ai
-  # > 油猴H（瑟瑟）
+  # > 油猴H（脚本）
   - DOMAIN-SUFFIX,sleazyfork.org
 ################################################
   # > 包子漫画（漫画）
