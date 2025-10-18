@@ -1,6 +1,6 @@
 #==========================================
 # @ConfigName        晚安自用Clash Party配置文件
-# @UpdateTime        2025/10/17
+# @UpdateTime        2025/10/18
 # @Function          支持手动选择、自动测速、兜底分流、按国家分组节点、策略图标等  
 # @mihomo-party      https://github.com/mihomo-party-org/mihomo-party/releases
 # @howtouse          主界面添加本配置[覆写]，然后使用内置的[SubStore]添加机场，之后去[订阅管理]，在配置的[编辑信息]中绑定机场订阅，开启系统代理即可使用
@@ -8,9 +8,9 @@
 
 proxy-groups:
 # 节点选择
-  - {name: 兜底分流, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT],icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png }
-  - {name: Telegram, type: fallback, include-all: true, interval: 60, filter: "(?=.*(新加坡|坡|SG|(?i)Singapore))^((?!(0.1|0.2|0.3|0.01)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: Ai,       type: fallback, include-all: true, interval: 60, filter: "(?=.*(美|US|(?i)States|American))^((?!(0.1|0.2|0.3|0.01)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
+  - {name: 兜底分流,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT],icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png }
+  - {name: Telegram, type: fallback, include-all: true, interval: 60, filter: "(?=.*(新加坡|坡|SG|(?i)Singapore))^((?!(倍|占位)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
+  - {name: Ai,       type: fallback, include-all: true, interval: 60, filter: "(?=.*(美|US|(?i)States|American))^((?!(倍|占位)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
   - {name: Spotify,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
   - {name: Apple,    type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png }
@@ -19,11 +19,11 @@ proxy-groups:
   # 手动选择
   - {name: 手动切换, type: select, include-all: true, filter: "^(?!.*(占位))", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png }
   # 自动选择
-  - {name: 香港节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(港|HK|(?i)Hong))^((?!(0.1|0.2|0.3|0.01)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }             
-  - {name: 台湾节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(台|湾|TW|(?i)Taiwan))^((?!(0.1|0.2|0.3|0.01)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png }
-  - {name: 日本节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(日|东京|JP|(?i)Japan))^((?!(0.1|0.2|0.3|0.01)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
-  - {name: 狮城节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(新|坡|SG|(?i)Singapore))^((?!(0.1|0.2|0.3|0.01|西部数据)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png }
-  - {name: 美国节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(美|US|(?i)States|American))^((?!(0.1|0.2|0.3|0.01|西部数据)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
+  - {name: 香港节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(港|HK|(?i)Hong))^((?!(倍|X)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }             
+  - {name: 台湾节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(台|湾|TW|(?i)Taiwan))^((?!(倍|X)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png }
+  - {name: 日本节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(日|东京|JP|(?i)Japan))^((?!(倍|X)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
+  - {name: 狮城节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(新|坡|SG|(?i)Singapore))^((?!(倍|X|西部数据)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png }
+  - {name: 美国节点, type: url-test, include-all: true, interval: 60, tolerance: 50, filter: "(?=.*(美|US|(?i)States|American))^((?!(倍|X|西部数据)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
   
 # 分流规则 
 rule-providers:
