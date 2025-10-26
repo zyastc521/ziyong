@@ -9,6 +9,7 @@
 proxy-groups:
 # 节点选择
   - {name: 兜底分流,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT],icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png }
+  - {name: Google,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换],icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
   - {name: Telegram, type: fallback, include-all: true, interval: 60, filter: "(?=.*(新|坡|SG|(?i)Singapore))^((?!(倍|占位)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
   - {name: Ai,       type: fallback, include-all: true, interval: 60, filter: "(?=.*(美|US|(?i)States|American))^((?!(倍|占位)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
@@ -50,16 +51,16 @@ rule-providers:
 rules:
   - RULE-SET,Lan,DIRECT
   - RULE-SET,DirectZY,DIRECT
-  - RULE-SET,ProxyZY,兜底分流
+  - RULE-SET,ProxyZY,Google
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
-  - RULE-SET,Github,兜底分流
-  - RULE-SET,Google,兜底分流
-  - RULE-SET,YouTube,兜底分流
-  - RULE-SET,Twitter,兜底分流
-  - RULE-SET,Instagram,兜底分流
-  - RULE-SET,Disney,兜底分流
-  - RULE-SET,Netflix,兜底分流
+  - RULE-SET,Github,Google
+  - RULE-SET,Google,Google
+  - RULE-SET,YouTube,Google
+  - RULE-SET,Twitter,Google
+  - RULE-SET,Instagram,Google
+  - RULE-SET,Disney,Google
+  - RULE-SET,Netflix,Google
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Spotify,Spotify
   - RULE-SET,Ai,Ai
