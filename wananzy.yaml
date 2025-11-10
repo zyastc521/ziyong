@@ -51,7 +51,7 @@ rule-providers:
 rules:
   - RULE-SET,Lan,DIRECT
   - RULE-SET,DirectZY,DIRECT
-  - RULE-SET,ProxyZY,Google
+  - RULE-SET,ProxyZY,兜底分流
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
   - RULE-SET,Github,Google
