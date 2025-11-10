@@ -11,7 +11,7 @@ proxy-groups:
   - {name: 兜底分流,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT],icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png }
   - {name: Google,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换],icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
   - {name: Telegram, type: fallback, include-all: true, interval: 60, filter: "(?=.*(新|坡|SG|(?i)Singapore))^((?!(倍|占位)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: Ai,       type: fallback, include-all: true, interval: 60, filter: "(?=.*(美|US|(?i)States|American))^((?!(倍|占位)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
+  - {name: Ai,       type: fallback, include-all: true, interval: 60, filter: "(?=.*(美|US|(?i)States|American))^((?!(倍|0.3)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
   - {name: Spotify,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
   - {name: Apple,    type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png }
