@@ -22,4 +22,7 @@ payload:
   # > 次元狗动漫（动漫）
   - DOMAIN-SUFFIX,acgndog.com
     # > ViiTor实时翻译（插件）
-  - DOMAIN-SUFFIX,viitor.info
+  #- DOMAIN-SUFFIX,viitor.info
+  - DOMAIN,rtvt.ilivedata.com
+
+
