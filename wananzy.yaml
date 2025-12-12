@@ -29,28 +29,29 @@ proxy-groups:
   
 # 分流规则 
 rule-providers:
-  Lan:              {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/LAN_SPLITTER.yaml }
+  Lan:              {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml }
   DirectZY:         {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/DirectZY.yaml }
   ProxyZY:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml }
-  Telegram:         {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Telegram.yaml }
-  Discord:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Discord.yaml }
-  Ai:               {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/AI.yaml }
+  Github:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml }
+  Google:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml }
+  YouTube:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml }
+  Twitter:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml }
+  Instagram:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml }
+  Disney:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml }
+  Netflix:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml }
+  Telegram:         {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml }
+  Discord:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml }
+  Ai:               {behavior: classical, interval: 86400, format: yaml, type: http, url: https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml }
   Bitwarden:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml }
   1Password:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/1PasswordUS.yaml }
-  TikTok:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/TikTok.yaml }
-  Spotify:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Spotify.yaml }
+  TikTok:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml }
+  Spotify:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml }
   Game:             {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Game.yaml }
-  Github:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/GitHub.yaml }
-  Google:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Google.yaml }
-  YouTube:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/YouTube.yaml }
-  Twitter:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash//Twitter.yaml }
-  Instagram:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Instagram.yaml }
-  Disney:           {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash//Disney.yaml }
-  Netflix:          {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Netflix.yaml }
-  Apple:            {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Apple.yaml }
-  Microsoft:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Microsoft.yaml }
+  Apple:            {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml }
+  Microsoft:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml }
   ChinaDownloadCDN: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/ChinaDownloadCDN.yaml }
- 
+
+
 # 分流策略
 rules:
   - RULE-SET,Lan,DIRECT
