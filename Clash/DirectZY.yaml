@@ -7,8 +7,12 @@ payload:
   # > 星海
   - DOMAIN-SUFFIX,digimon.ink
   ###########################################
-  # > 奶昔（机场）
+  #  【机场】
+  # > 奶昔
   - DOMAIN-SUFFIX,sjygml.lol
+  # > 绿叶
+  - DOMAIN-SUFFIX,linkcube.org
+   ###########################################
   # > 阡陌居（小说）
   - DOMAIN-SUFFIX,1000qm.vip
   - DOMAIN-SUFFIX,1050qm.com
