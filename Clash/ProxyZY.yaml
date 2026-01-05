@@ -8,8 +8,6 @@ payload:
   - DOMAIN-SUFFIX,ctyunxs.cn
   # > CookieEmby
   - DOMAIN,aguiaeh-my.sharepoint.com
-  # > ETFLIX
-  - DOMAIN-SUFFIX,entertang.work
 #################################################
   #  【瑟瑟】
   # > 探花（论坛）
