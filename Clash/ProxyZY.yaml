@@ -10,6 +10,8 @@ payload:
   - DOMAIN,aguiaeh-my.sharepoint.com
   # > 小姨子
   - DOMAIN-SUFFIX,emby.yun
+  # > ETFLIX
+  - DOMAIN-SUFFIX,entertang.work
 #################################################
   #  【瑟瑟】
   # > 探花（论坛）
