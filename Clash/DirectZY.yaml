@@ -8,6 +8,8 @@ payload:
   - DOMAIN-SUFFIX,digimon.ink
   # > 不吃香菜
   - DOMAIN-SUFFIX,iemby.cn
+  # > dada
+  - DOMAIN-SUFFIX,10520.xyz
   ###########################################
   #  【机场】
   # > 奶昔
