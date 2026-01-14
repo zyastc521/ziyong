@@ -14,7 +14,7 @@ proxy-groups:
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
   - {name: Spotify,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
   - {name: Game,     type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png }
-  - {name: 国内策略,    type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png }
+  - {name: 国内策略,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png }
   
 # 节点分组
   # 手动选择
