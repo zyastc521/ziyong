@@ -10,6 +10,10 @@ payload:
   - DOMAIN-SUFFIX,iemby.cn
   # > dada
   - DOMAIN-SUFFIX,10520.xyz
+  # > Cloud
+  - DOMAIN-SUFFIX,s1.xxzi.top
+  - DOMAIN-SUFFIX,455676.xyz
+  - DOMAIN-SUFFIX,115cdn.net
   ###########################################
   #  【机场】
   # > 奶昔
