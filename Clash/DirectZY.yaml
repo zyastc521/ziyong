@@ -10,6 +10,8 @@ payload:
   - DOMAIN-SUFFIX,iemby.cn
   # > dada
   - DOMAIN-SUFFIX,10520.xyz
+  # > 小姨妈
+  - DOMAIN-SUFFIX,emby.yun
   # > Cloud
   - DOMAIN-SUFFIX,xxzi.top
   - DOMAIN-SUFFIX,455676.xyz
