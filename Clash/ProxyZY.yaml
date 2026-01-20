@@ -8,6 +8,8 @@ payload:
   - DOMAIN-SUFFIX,ctyunxs.cn
   # > CookieEmby
   - DOMAIN,aguiaeh-my.sharepoint.com
+  # > 小姨子
+  - DOMAIN-SUFFIX,66990000.xyz
 #################################################
   #  【瑟瑟】
   # > 探花（论坛）
