@@ -9,12 +9,13 @@ proxy-groups:
 # 节点选择
   - {name: 兜底策略,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT],icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png }
   - {name: Google,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换],icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
-  - {name: Telegram, type: fallback, include-all: true, interval: 60, filter: "(?=.*(新|坡|SG|(?i)Singapore))^((?!(占位)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: Ai,       type: fallback, include-all: true, interval: 60, filter: "(?=.*(美|US|(?i)States|American))^((?!(占位)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
   - {name: Spotify,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
   - {name: Game,     type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png }
   - {name: 国内策略,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png }
+  - {name: Telegram, type: fallback, include-all: true, interval: 60, filter: "(?=.*(新|坡|SG|(?i)Singapore))^((?!(占位)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
+  - {name: Ai,       type: fallback, include-all: true, interval: 60, filter: "(?=.*(美|US|(?i)States|American))^((?!(占位)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
+
   
 # 节点分组
   # 手动选择
@@ -31,11 +32,6 @@ rule-providers:
   Lan:       {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/LAN_SPLITTER.yaml }
   DirectZY:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/DirectZY.yaml }
   ProxyZY:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml }
-  Telegram:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Telegram.yaml }
-  Discord:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Discord.yaml }
-  Ai:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/AI.yaml }
-  Bitwarden: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml }
-  1Password: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/1PasswordUS.yaml }
   TikTok:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/TikTok.yaml }
   Spotify:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Spotify.yaml }
   Game:      {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Game.yaml }
@@ -48,6 +44,12 @@ rule-providers:
   Netflix:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Netflix.yaml }
   Apple:     {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Apple.yaml }
   Microsoft: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Microsoft.yaml }
+  Telegram:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Telegram.yaml }
+  Discord:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Discord.yaml }
+  Ai:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/AI.yaml }
+  Bitwarden: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml }
+  1Password: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/1PasswordUS.yaml }
+
  
 # 分流策略
 rules:
