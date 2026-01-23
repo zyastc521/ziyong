@@ -12,6 +12,10 @@ payload:
   #  【机场】
   # > 奶昔
   - DOMAIN-SUFFIX,sjygml.lol
+  # > 渔云（机场）
+  - DOMAIN,yuyun.sffyn.com
+  # > Alphaio
+  - DOMAIN-SUFFIX,z01.azurefd.net
 ###########################################
   #  【瑟瑟】
   # > 探花（论坛）
@@ -26,8 +30,6 @@ payload:
   - DOMAIN-SUFFIX,baozimh.com
   # > Linux Do（论坛）
   - DOMAIN-SUFFIX,linux.do
-  # > 渔云（机场）
-  - DOMAIN,yuyun.sffyn.com
   # > 次元狗动漫（动漫）
   - DOMAIN-SUFFIX,acgndog.com
   # > ViiTor实时翻译（插件）
