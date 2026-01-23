@@ -10,9 +10,7 @@ payload:
   - DOMAIN,aguiaeh-my.sharepoint.com
 ###########################################
   #  【机场】
-  # > 奶昔
-  - DOMAIN-SUFFIX,sjygml.lol
-  # > 渔云（机场）
+  # > 渔云
   - DOMAIN,yuyun.sffyn.com
   # > Alphaio
   - DOMAIN-SUFFIX,z01.azurefd.net
