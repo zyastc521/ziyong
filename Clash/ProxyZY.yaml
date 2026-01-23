@@ -8,7 +8,11 @@ payload:
   - DOMAIN-SUFFIX,ctyunxs.cn
   # > CookieEmby
   - DOMAIN,aguiaeh-my.sharepoint.com
-#################################################
+###########################################
+  #  【机场】
+  # > 奶昔
+  - DOMAIN-SUFFIX,sjygml.lol
+###########################################
   #  【瑟瑟】
   # > 探花（论坛）
   - DOMAIN-SUFFIX,navix.site
@@ -17,7 +21,7 @@ payload:
   - DOMAIN-SUFFIX,missav.ai
   # > 油猴H（脚本）
   - DOMAIN-SUFFIX,sleazyfork.org
-################################################
+###########################################
   # > 包子漫画（漫画）
   - DOMAIN-SUFFIX,baozimh.com
   # > Linux Do（论坛）
