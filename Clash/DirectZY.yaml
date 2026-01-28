@@ -9,8 +9,6 @@ payload:
   # > 不吃香菜
   - DOMAIN-SUFFIX,l0323.top
   - DOMAIN,e.iemby.cn
-  # > dada
-  - DOMAIN-SUFFIX,10520.xyz
   # > 小姨妈
   - DOMAIN-SUFFIX,emby.yun
   # > Cloud
