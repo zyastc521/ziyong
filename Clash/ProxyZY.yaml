@@ -3,9 +3,6 @@ payload:
   - DOMAIN-KEYWORD,emby
   # > anisaga
   - DOMAIN-SUFFIX,anisaga.tv
-  # > 不吃香菜
-  - DOMAIN-SUFFIX,ctyun.cn
-  - DOMAIN-SUFFIX,ctyunxs.cn
   # > CookieEmby
   - DOMAIN,aguiaeh-my.sharepoint.com
 ###########################################
