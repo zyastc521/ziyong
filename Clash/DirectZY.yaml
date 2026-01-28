@@ -7,7 +7,9 @@ payload:
   # > 星海
   - DOMAIN-SUFFIX,digimon.ink
   # > 不吃香菜
-  - DOMAIN-SUFFIX,iemby.cn
+  - DOMAIN,xc.l0323.top
+  - DOMAIN,a.l0323.top
+  - DOMAIN,e.iemby.cn
   # > dada
   - DOMAIN-SUFFIX,10520.xyz
   # > 小姨妈
