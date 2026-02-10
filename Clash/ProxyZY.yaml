@@ -18,9 +18,10 @@ payload:
   # > MissAV
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,missav.ai
+###########################################
   # > 油猴H（脚本）
   - DOMAIN-SUFFIX,sleazyfork.org
-###########################################
+  - DOMAIN-SUFFIX,greasyfork.org
   # > 包子漫画（漫画）
   - DOMAIN-SUFFIX,baozimh.com
   # > Linux Do（论坛）
