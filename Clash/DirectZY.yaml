@@ -18,6 +18,8 @@ payload:
   - DOMAIN-SUFFIX,xhyonline.com
   # > DPeak
   - DOMAIN-SUFFIX,bwihz.cn
+  # > ETFLIX
+  - DOMAIN-SUFFIX,entertang.work
 ###########################################
   #  【机场】
   # > 奶昔
