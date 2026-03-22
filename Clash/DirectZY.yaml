@@ -6,7 +6,7 @@ payload:
   - DOMAIN-SUFFIX,127255.best
   # > 不吃香菜
   - DOMAIN-SUFFIX,l0323.top
-  - DOMAIN,dec.iemby.cn
+  - DOMAIN-SUFFIX,iemby.cn
   # > 小姨妈
   - DOMAIN-SUFFIX,emby.yun
   # > Cloud
