@@ -14,7 +14,6 @@ proxy-groups:
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
   - {name: Spotify,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
   - {name: Game,     type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png }
-  - {name: 国内策略,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png }
  
 
   
@@ -48,8 +47,6 @@ rule-providers:
   TikTok:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/TikTok.yaml }
   Spotify:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Spotify.yaml }
   Game:      {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Game.yaml }
-  Apple:     {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Apple.yaml }
-  Microsoft: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Microsoft.yaml }
 
  
 # 分流策略
@@ -72,7 +69,5 @@ rules:
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Spotify,Spotify
   - RULE-SET,Game,Game
-  - RULE-SET,Apple,国内策略
-  - RULE-SET,Microsoft,国内策略
   - GEOIP,CN,DIRECT
   - MATCH,兜底策略
