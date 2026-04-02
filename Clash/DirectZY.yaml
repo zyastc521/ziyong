@@ -34,3 +34,5 @@ payload:
   - DOMAIN-SUFFIX,fanhangame.com
   # > Asspp（下载软件）
   - DOMAIN,app.localhost.qaq.wiki
+  # > Linux Do（获取邀请码）
+  - DOMAIN,invite.linuxdo.org
