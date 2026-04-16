@@ -1,6 +1,5 @@
 payload:
   #  【Emby】
-  - DOMAIN-KEYWORD,emby
   # > 假日旅馆（卷毛鼠）
   - DOMAIN-SUFFIX,jmsuper.com
   # > Terminus（终点站）
