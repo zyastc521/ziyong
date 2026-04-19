@@ -3,3 +3,4 @@ payload:
   - DOMAIN-SUFFIX,bitwarden.net
   - DOMAIN-SUFFIX,bitwarden.eu
   - DOMAIN-SUFFIX,vaultwarden.net
+  - DOMAIN,nodewarden.zyastc521.workers.dev
