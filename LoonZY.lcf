@@ -29,16 +29,6 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 [Proxy]
 [Remote Proxy]
-ikuuuu = https://ag18c.no-mad-sub.one/link/YPVwsWWnL9PmgJZ8?clash=3&extend=1,parser-enabled = true,udp=true,block-quic=true,fast-open=default,vmess-aead=false,skip-cert-verify=true,enabled=false,flexible-sni=false,argument="ikuuuu = https://ag18c.no-mad-sub.one/link/YPVwsWWnL9PmgJZ8?clash=3&extend=1"
-良心云 = https://liangxin.xyz/api/v1/liangxin?OwO=a0b0a13a968cf9a5e01f055f6c93c481&name=良心云,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
-Alphaio = https://a-gvgya9fuh2fyd7bx.z01.azurefd.net/alphaio/id/menu?token=2c97076d570098349d1196237978e1a7,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
-CTC = https://47.115.49.124:9998/api/v1/client/subscribe?token=8dff5d75c81e6b0f6e05c34f0ff1b612,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-CTC-02（500G） = https://47.115.49.124:9999/api/v1/client/subscribe?token=86046ecf138df8069b246ff48a017b86,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-西部数据 = https://gist.githubusercontent.com/zyastc521/8ad3eea6db1efcd58a2b2f06c5c0124e/raw/xibushuju,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
-自建cf = https://long-dust-187d.zyastc7751.workers.dev/587bd23b-4157-4fa7-abb4-a3e722465562/ty,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
-一分（1T） = https://gist.githubusercontent.com/zyastc521/8ad3eea6db1efcd58a2b2f06c5c0124e/raw/yifen,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
-赔钱（1T） = https://gist.githubusercontent.com/zyastc521/8ad3eea6db1efcd58a2b2f06c5c0124e/raw/peiqian,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
-M78（200G） = https://sub.7878787878.top/api/v1/client/subscribe?token=d23776336187b30823b67d9d4411371b,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
 
 [Proxy Chain]
 
