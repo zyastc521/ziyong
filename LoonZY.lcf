@@ -1,0 +1,208 @@
+#Loon 自用配置
+#Date: 2026.4.23
+#Author: 晚安
+
+[General]
+mitm-on-wifi-access = true
+ip-mode = prefer-v4
+ipv6-vif = auto
+doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query
+dns-server = system,223.5.5.5,119.29.29.29
+sni-sniffing = true
+disable-stun = false
+dns-reject-mode = LoopbackIP
+domain-reject-mode = DNS
+udp-fallback-mode = REJECT
+wifi-access-http-port = 7222
+wifi-access-socks5-port = 7221
+allow-wifi-access = false
+interface-mode = auto
+test-timeout = 5
+disconnect-on-policy-change = false
+internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
+proxy-test-url = http://www.gstatic.com/generate_204
+resource-parser = https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
+geoip-url = https://geodata.kelee.one/Country-Masaiki.mmdb
+ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+
+[Proxy]
+[Remote Proxy]
+ikuuuu = https://ag18c.no-mad-sub.one/link/YPVwsWWnL9PmgJZ8?clash=3&extend=1,parser-enabled = true,udp=true,block-quic=true,fast-open=default,vmess-aead=false,skip-cert-verify=true,enabled=false,flexible-sni=false,argument="ikuuuu = https://ag18c.no-mad-sub.one/link/YPVwsWWnL9PmgJZ8?clash=3&extend=1"
+良心云 = https://liangxin.xyz/api/v1/liangxin?OwO=a0b0a13a968cf9a5e01f055f6c93c481&name=良心云,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
+Alphaio = https://a-gvgya9fuh2fyd7bx.z01.azurefd.net/alphaio/id/menu?token=2c97076d570098349d1196237978e1a7,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
+CTC = https://47.115.49.124:9998/api/v1/client/subscribe?token=8dff5d75c81e6b0f6e05c34f0ff1b612,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+CTC-02（500G） = https://47.115.49.124:9999/api/v1/client/subscribe?token=86046ecf138df8069b246ff48a017b86,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+西部数据 = https://gist.githubusercontent.com/zyastc521/8ad3eea6db1efcd58a2b2f06c5c0124e/raw/xibushuju,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
+自建cf = https://long-dust-187d.zyastc7751.workers.dev/587bd23b-4157-4fa7-abb4-a3e722465562/ty,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
+一分（1T） = https://gist.githubusercontent.com/zyastc521/8ad3eea6db1efcd58a2b2f06c5c0124e/raw/yifen,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
+赔钱（1T） = https://gist.githubusercontent.com/zyastc521/8ad3eea6db1efcd58a2b2f06c5c0124e/raw/peiqian,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
+M78（200G） = https://sub.7878787878.top/api/v1/client/subscribe?token=d23776336187b30823b67d9d4411371b,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=false,flexible-sni=false
+
+[Proxy Chain]
+
+[Proxy Group]
+#手动
+#--------------------------------
+#策略
+兜底策略 = select,香港故障转移,台湾故障转移,日本故障转移,新国故障转移,美国故障转移,全球策略,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
+全球策略 = select,香港自动选择（低倍）,美国自动选择（低倍）,其他自动选择（低倍）,媒体节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+Telegram = select,Telegram节点,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Telegram.png
+AI = select,美国节点,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/ChatGPT.png
+Google = select,香港故障转移,台湾故障转移,日本故障转移,新国故障转移,美国故障转移,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Google.png
+TikTok = select,香港故障转移,台湾故障转移,日本故障转移,新国故障转移,美国故障转移,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/TikTok.png
+Spotify = select,DIRECT,兜底策略,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Spotify.png
+#--------------------------------
+#自动
+#--------------------------------
+#故障转移
+香港故障转移 = fallback,香港节点,interval = 600,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾故障转移 = fallback,台湾节点,interval = 600,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本故障转移 = fallback,日本节点,interval = 600,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+新国故障转移 = fallback,新国节点,interval = 600,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国故障转移 = fallback,美国节点,interval = 600,max-timeout = 1000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+#--------------------------------
+#自动选择
+香港自动选择（低倍） = url-test,香港低倍,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+美国自动选择（低倍） = url-test,美国低倍,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+其他自动选择（低倍） = url-test,其他低倍,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+#--------------------------------
+#负载均衡
+#--------------------------------
+
+[Remote Filter]
+Telegram节点 = NameRegex, FilterKey = "(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(Premium)).)*$"
+媒体节点 = NameRegex, FilterKey = "(?=.*((?i)bgp-0倍率|bage|fxt|0.1))^((?!(bl)).)*$"
+香港低倍 = NameRegex, FilterKey = "(?=.*((?i)0.1bl))^((?!(us|美国|日本|英国|印度|荷兰)).)*$"
+美国低倍 = NameRegex,一分（1T）,赔钱（1T）, FilterKey = "(?=.*((?i)0.1bl))^((?!(香港|日本|英国|印度|荷兰)).)*$"
+其他低倍 = NameRegex, FilterKey = "(?=.*((?i)下载|cf|pro))^((?!(客户端)).)*$"
+高倍节点 = NameRegex,M78（200G）, FilterKey = "(?=.*((?i)x|倍))^((?!(0.6|0.3)).)*$"
+家宽节点 = NameRegex, FilterKey = "家宽|高级|原生|verizon|home"
+冷门节点 = NameRegex, FilterKey = "^(?!.*(Expire|Traffic|ws|emby|com|收藏|深港|原生|优惠码|高级|下载|秒连云|邀请|节点|机场|群|家宽|香港|台湾|日本|新加坡|美国|HK|US|TW|JP|SG|TG|SP|Hong|Tai|Japan|Singapore|States))"
+香港节点 = NameRegex, FilterKey = "(?=.*(港|HK|(?i)Hong))^((?!(筛选|Premium|香港S01|-2.0倍率|-2.5倍率|bl|游戏)).)*$"
+台湾节点 = NameRegex, FilterKey = "(?=.*(台|TW|(?i)Taiwan))^((?!(筛选|Premium|占位)).)*$"
+日本节点 = NameRegex, FilterKey = "(?=.*(日|JP|(?i)Japan))^((?!(筛选|Premium|尼日利亚|-1.1倍率|-4.0倍率|-5倍率)).)*$"
+新国节点 = NameRegex, FilterKey = "(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(筛选|Premium|占位)).)*$"
+美国节点 = NameRegex, FilterKey = "(?=.*(美|US|(?i)States|American))^((?!(筛选|Premium|bl|0.3|0.1倍|-0倍率|-1.5倍率|-0.8倍率)).)*$"
+
+[Rule]
+# 防止TG加载转圈
+#IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
+# Local Rule
+# Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,IP-CIDR6,IP-ASN
+# Strategy:DIRECT,Proxy,REJECT
+# Options:no-resolve(no-resolve(only for cidr))
+# IP-CIDR, 192.168.0.0/16, DIRECT
+# IP-CIDR, 10.0.0.0/8, DIRECT
+# IP-CIDR, 172.16.0.0/12, DIRECT
+# IP-CIDR, 127.0.0.0/8, DIRECT
+# 配置文件已自带远程GEOIP, cn, DIRECT规则，请勿在此添加
+# 请勿修改远程CN REGION规则的排序甚至删除
+# IP-CIDR,28.0.0.1/8,DIRECT
+# IP-CIDR,198.18.0.1/16,DIRECT
+# IP-CIDR,198.18.0.0/15,DIRECT
+# IP-CIDR6,fc00::/18,DIRECT
+FINAL,兜底策略
+
+[Remote Rule]
+https://kelee.one/Tool/Loon/Lsr/AppleAccount.lsr, policy=DIRECT, tag=Apple Account, enabled=true
+https://rule.kelee.one/Loon/TestFlight.lsr, policy=DIRECT, tag=TestFlight, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/DirectZY.yaml/_end_/DirectZY.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true, policy=DIRECT, tag=直连, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/EmbyZY.yaml/_end_/ProxyZY.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true, policy=新国故障转移, tag=EmbyZY, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml/_end_/ProxyZY.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true, policy=兜底策略, tag=代理, enabled=true
+https://rule.kelee.one/Loon/Telegram.lsr, policy=Telegram, tag=Telegram, enabled=true
+https://rule.kelee.one/Loon/Discord.lsr, policy=Telegram, tag=Discord, enabled=true
+https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=AI, tag=AI, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml/_end_/Bitwarden.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true, policy=AI, tag=Bitwarden, enabled=true
+https://kelee.one/Tool/Loon/Lsr/1PasswordUS.lsr, policy=AI, tag=1password, enabled=true
+https://rule.kelee.one/Loon/GitHub.lsr, policy=Google, tag=GitHub, enabled=true
+https://rule.kelee.one/Loon/Google.lsr, policy=Google, tag=Google, enabled=true
+https://rule.kelee.one/Loon/YouTube.lsr, policy=Google, tag=YouTube, enabled=true
+https://rule.kelee.one/Loon/Twitter.lsr, policy=Google, tag=X, enabled=true
+https://rule.kelee.one/Loon/Facebook.lsr, policy=Google, tag=Facebook, enabled=true
+https://rule.kelee.one/Loon/Instagram.lsr, policy=Google, tag=Instagram, enabled=true
+https://rule.kelee.one/Loon/Disney.lsr, policy=Google, tag=Disney, enabled=true
+https://rule.kelee.one/Loon/Netflix.lsr, policy=Google, tag=Netflix, enabled=true
+https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=TikTok, tag=TikTok, enabled=true
+https://rule.kelee.one/Loon/Spotify.lsr, policy=Spotify, tag=Spotify, enabled=true
+https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
+https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
+[Host]
+[Rewrite]
+
+[Script]
+
+[Remote Script]
+
+[Plugin]
+https://yfamilys.com/plugin/bdwk.plugin, enabled=true
+https://yfamilys.com/plugin/CamScanner.plugin, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, tag=拦截HTTPDNS-广告, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, pin=true, enabled=true
+https://ddgksf2013.top/module/ScriptHub.Loon.plugin, tag=墨鱼手记转换-增强, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx, pin=true, enabled=true
+http://script.hub/file/_start_/https://limbopro.com/Adblock4limbo.conf/_end_/Adblock4limbo.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true, tag=毒奶去广告, img-url=https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Adblock4limbo.png, pin=true, enabled=false
+https://kelee.one/Tool/Loon/Lpx/ColorfulClouds_remove_ads.lpx, enabled=false
+https://gitlab.com/isous/loonresource/-/raw/main/Plugin/ColorfulClouds_shared_membership.plugin, tag=彩云天气解锁, enabled=false
+https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/bdyy.js/_end_/bdyy.plugin?n=%E6%B3%A2%E7%82%B9%E9%9F%B3%E4%B9%90%E8%A7%A3%E9%94%81%2B%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81&type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true, img-url=https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/bodianyinyue.png, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/ximalaya.js/_end_/ximalaya.plugin?n=%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E8%A7%A3%E9%94%81%2B%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81&type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true, img-url=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Himalaya.png, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/sdsy.js/_end_/sdsy.plugin?n=%E9%97%AA%E7%94%B5%E6%B0%B4%E5%8D%B0%E8%A7%A3%E9%94%81%2B%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81&type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true, img-url=https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/shandianshuiyin.png, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/Marol62926/Quantumultx/main/iLovePDF.conf/_end_/iLovePDF.plugin?n=iLovePDF%20%E8%A7%A3%E9%94%81%2B%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81&type=qx-rewrite&target=loon-plugin&del=true, img-url=https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/iLovePDF.png, enabled=false
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js/_end_/mgtv.plugin?n=%E8%8A%92%E6%9E%9C%20TV%20%E8%A7%A3%E9%94%81%2B%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81&type=qx-rewrite&target=loon-plugin&del=true, img-url=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Mango_TV.png, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/gszhgj.js/_end_/gszhgj.plugin?n=%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7%E8%A7%A3%E9%94%81%2B%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81&type=qx-rewrite&target=loon-plugin&del=true, tag=格式转换工具解锁, img-url=https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/geshizhuanhuangongju.png, enabled=true
+https://raw.githubusercontent.com/Yswag/for-own-use/main/loon-plugin/cmsAdblock.plugin, tag=去广告｜CMS, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Bahamut_ADS.plugin, tag=巴哈姆特动画疯去广告, enabled=false
+https://kelee.one/Tool/Loon/Lpx/BaiduWenku_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/KGRing_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/YY_Voice_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/ZhuanZhuan_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Aiinquiry_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx, tag=QQ链接解锁, enabled=true
+https://kelee.one/Tool/Loon/Lpx/mobileClouds_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/BaiduNetDisk_remove_ads.lpx, tag=百度网盘去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx, tag=微信外部链接解锁, enabled=true
+https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx, tag=Spotify去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Spotify_lyrics_translation.lpx, tag=Spotify歌词-增强, enabled=true
+https://kelee.one/Tool/Loon/Lpx/AliYunDrive_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=Google, tag=BoxJs-增强, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=Google, tag=Sub-Store-增强, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=Google, tag=Script-Hub-增强, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, tag=节点检测工具-增强, enabled=true
+
+[Mitm]
+hostname =
+ca-p12 = 
+ca-passphrase = 
+skip-server-cert-verify = false
