@@ -40,3 +40,5 @@ payload:
   - DOMAIN,app.localhost.qaq.wiki
   # > Linux Do（获取邀请码）
   - DOMAIN,invite.linuxdo.org
+  # > Koofr（WebDAV）
+  - DOMAIN-SUFFIX,koofr.net
