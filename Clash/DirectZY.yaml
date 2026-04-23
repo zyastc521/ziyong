@@ -22,6 +22,8 @@ payload:
   - DOMAIN-SUFFIX,4348663.xyz
   # > 乐蛙影视站
   - DOMAIN-SUFFIX,taotu.ink
+  # > WE
+  - DOMAIN-SUFFIX,wedg.top
 ###########################################
   #  【机场】
   # > 奶昔
