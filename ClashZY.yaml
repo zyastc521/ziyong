@@ -20,7 +20,7 @@ proxy-groups:
   - {name: 手动切换, type: select, include-all: true, filter: "^(?!.*(占位))", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png }
   # 故障转移
   - {name: 香港节点, type: fallback, include-all: true, interval: 600, filter: "(?=.*(港|HK|(?i)Hong))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }             
-  - {name: 台湾节点, type: fallback, include-all: true, interval: 600, filter: "(?=.*(台|湾|TW|(?i)Taiwan))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png }
+  - {name: 台湾节点, type: fallback, include-all: true, interval: 600, filter: "(?=.*(台|湾|TW|(?i)Tai))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png }
   - {name: 日本节点, type: fallback, include-all: true, interval: 600, filter: "(?=.*(日|东京|JP|(?i)Japan))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
   - {name: 狮城节点, type: fallback, include-all: true, interval: 600, filter: "(?=.*(新|坡|SG|(?i)Singapore))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png }
   - {name: 美国节点, type: fallback, include-all: true, interval: 600, filter: "(?=.*(美|US|(?i)States|American))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
