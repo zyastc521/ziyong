@@ -8,12 +8,12 @@ payload:
   - DOMAIN-SUFFIX,l0323.top
   - DOMAIN-SUFFIX,iemby.cn
   # > 小姨妈
-  - DOMAIN-SUFFIX,emby.yun
+  #- DOMAIN-SUFFIX,emby.yun
   # > Cloud
-  - DOMAIN-SUFFIX,xxzi.top
-  - DOMAIN-SUFFIX,455676.xyz
-  - DOMAIN-SUFFIX,115cdn.net
-  - DOMAIN-SUFFIX,xhyonline.com
+  #- DOMAIN-SUFFIX,xxzi.top
+  #- DOMAIN-SUFFIX,455676.xyz
+  #- DOMAIN-SUFFIX,115cdn.net
+  #- DOMAIN-SUFFIX,xhyonline.com
   # > DPeak
   - DOMAIN-SUFFIX,bwihz.cn
   # > ETFLIX
