@@ -4,3 +4,5 @@ payload:
   - DOMAIN-SUFFIX,jmsuper.com
   # > Terminus（终点站）
   - DOMAIN-SUFFIX,emby.wtf
+  # > M78Emby（HXD）
+  - DOMAIN-SUFFIX,m78tv.com
