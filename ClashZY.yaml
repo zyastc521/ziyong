@@ -1,6 +1,6 @@
 #==========================================
 # @ConfigName        晚安自用 Clash 配置文件
-# @UpdateTime        2026/4/17
+# @UpdateTime        2026/5/1
 # @Function          支持手动选择、自动测速、兜底分流、按国家分组节点、策略图标等  
 # @howtouse          主界面添加本配置[覆写]，然后使用内置的[SubStore]添加机场，之后去[订阅管理]，在配置的[编辑信息]中绑定机场订阅，开启系统代理即可使用
 #==========================================
@@ -9,8 +9,8 @@ proxy-groups:
 # 节点选择
   - {name: 兜底策略,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换, DIRECT],icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png }
   - {name: Telegram, type: fallback, include-all: true, interval: 600, filter: "(?=.*(新|坡|SG|(?i)Singapore|TG))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: Ai,       type: fallback, include-all: true, interval: 600, filter: "(?=.*(美|US|(?i)States|American))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
-  - {name: Google,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换],icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
+  - {name: AI,       type: fallback, include-all: true, interval: 600, filter: "(?=.*(美|US|(?i)States|American))^((?!(筛选)).)*$", icon: https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT5.png }
+  - {name: YouTube,  type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png }
   - {name: TikTok,   type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png }
   - {name: Spotify,  type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png }
   - {name: Game,     type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png }
@@ -33,10 +33,10 @@ rule-providers:
   ProxyZY:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml }
   Telegram:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Telegram.yaml }
   Discord:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Discord.yaml }
-  Ai:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/AI.yaml }
+  Github:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/GitHub.yaml }
   Bitwarden: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml }
   1Password: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/1PasswordUS.yaml }
-  Github:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/GitHub.yaml }
+  AI:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/AI.yaml }
   Google:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Google.yaml }
   YouTube:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/YouTube.yaml }
   Twitter:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash//Twitter.yaml }
@@ -55,16 +55,16 @@ rules:
   - RULE-SET,ProxyZY,兜底策略
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Discord,Telegram
-  - RULE-SET,Ai,Ai
-  - RULE-SET,Bitwarden,Ai
-  - RULE-SET,1Password,Ai
-  - RULE-SET,Github,Google
-  - RULE-SET,Google,Google
-  - RULE-SET,YouTube,Google
-  - RULE-SET,Twitter,Google
-  - RULE-SET,Instagram,Google
-  - RULE-SET,Disney,Google
-  - RULE-SET,Netflix,Google
+  - RULE-SET,Github,Telegram
+  - RULE-SET,Bitwarden,Telegram
+  - RULE-SET,1Password,Telegram
+  - RULE-SET,AI,AI
+  - RULE-SET,Google,AI
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Twitter,YouTube
+  - RULE-SET,Instagram,YouTube
+  - RULE-SET,Disney,YouTube
+  - RULE-SET,Netflix,YouTube
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Spotify,Spotify
   - RULE-SET,Game,Game
