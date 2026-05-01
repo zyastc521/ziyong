@@ -1,5 +1,5 @@
 #Loon 自用配置
-#Date: 2026.4.23
+#Date: 2026.5.1
 #Author: 晚安
 
 [General]
@@ -40,7 +40,7 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 全球策略 = select,香港自动选择（低倍）,美国自动选择（低倍）,其他自动选择（低倍）,媒体节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 Telegram = select,Telegram节点,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Telegram.png
 AI = select,美国节点,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/ChatGPT.png
-Google = select,香港故障转移,台湾故障转移,日本故障转移,新国故障转移,美国故障转移,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Google.png
+YouTube = select,香港故障转移,台湾故障转移,日本故障转移,新国故障转移,美国故障转移,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/YouTube.png
 TikTok = select,香港故障转移,台湾故障转移,日本故障转移,新国故障转移,美国故障转移,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/TikTok.png
 Spotify = select,DIRECT,兜底策略,img-url = https://raw.githubusercontent.com/zyastc521/ziyong/main/icon/Loon/Spotify.png
 #--------------------------------
@@ -62,19 +62,19 @@ Spotify = select,DIRECT,兜底策略,img-url = https://raw.githubusercontent.com
 #--------------------------------
 
 [Remote Filter]
-Telegram节点 = NameRegex, FilterKey = "(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(Premium)).)*$"
-媒体节点 = NameRegex, FilterKey = "(?=.*((?i)bgp-0倍率|bage|fxt|0.1))^((?!(bl)).)*$"
+Telegram节点 = NameRegex, FilterKey = "(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(Premium|筛选|0.1)).)*$"
+媒体节点 = NameRegex, FilterKey = "(?=.*((?i)bgp-0倍率|bage|fxt|0.1|bgp-0.3))^((?!(jp|筛选)).)*$"
 香港低倍 = NameRegex, FilterKey = "(?=.*((?i)0.1bl))^((?!(us|美国|日本|英国|印度|荷兰)).)*$"
 美国低倍 = NameRegex,一分（1T）,赔钱（1T）, FilterKey = "(?=.*((?i)0.1bl))^((?!(香港|日本|英国|印度|荷兰)).)*$"
 其他低倍 = NameRegex, FilterKey = "(?=.*((?i)下载|cf|pro))^((?!(客户端)).)*$"
 高倍节点 = NameRegex,M78（200G）, FilterKey = "(?=.*((?i)x|倍))^((?!(0.6|0.3)).)*$"
 家宽节点 = NameRegex, FilterKey = "家宽|高级|原生|verizon|home"
 冷门节点 = NameRegex, FilterKey = "^(?!.*(Expire|Traffic|ws|emby|com|收藏|深港|原生|优惠码|高级|下载|秒连云|邀请|节点|机场|群|家宽|香港|台湾|日本|新加坡|美国|HK|US|TW|JP|SG|TG|SP|Hong|Tai|Japan|Singapore|States))"
-香港节点 = NameRegex, FilterKey = "(?=.*(港|HK|(?i)Hong))^((?!(筛选|Premium|香港S01|-2.0倍率|-2.5倍率|bl|游戏)).)*$"
-台湾节点 = NameRegex, FilterKey = "(?=.*(台|TW|(?i)Taiwan))^((?!(筛选|Premium|占位)).)*$"
+香港节点 = NameRegex, FilterKey = "(?=.*(港|HK|(?i)Hong))^((?!(筛选|Premium|香港S01|-2.0倍率|-2.5倍率|游戏)).)*$"
+台湾节点 = NameRegex, FilterKey = "(?=.*(台|TW|(?i)Tai))^((?!(筛选|Premium|占位)).)*$"
 日本节点 = NameRegex, FilterKey = "(?=.*(日|JP|(?i)Japan))^((?!(筛选|Premium|尼日利亚|-1.1倍率|-4.0倍率|-5倍率)).)*$"
 新国节点 = NameRegex, FilterKey = "(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(筛选|Premium|占位)).)*$"
-美国节点 = NameRegex, FilterKey = "(?=.*(美|US|(?i)States|American))^((?!(筛选|Premium|bl|0.3|0.1倍|-0倍率|-1.5倍率|-0.8倍率)).)*$"
+美国节点 = NameRegex, FilterKey = "(?=.*(美|US|(?i)States|American))^((?!(pure|筛选|Premium|bl|0.3|0.1倍|-0倍率|-1.5倍率|-0.8倍率)).)*$"
 
 [Rule]
 # 防止TG加载转圈
@@ -103,17 +103,17 @@ http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyon
 http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml/_end_/ProxyZY.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true, policy=兜底策略, tag=代理, enabled=true
 https://rule.kelee.one/Loon/Telegram.lsr, policy=Telegram, tag=Telegram, enabled=true
 https://rule.kelee.one/Loon/Discord.lsr, policy=Telegram, tag=Discord, enabled=true
+https://rule.kelee.one/Loon/GitHub.lsr, policy=Telegram, tag=GitHub, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml/_end_/Bitwarden.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true, policy=Telegram, tag=Bitwarden, enabled=true
+https://kelee.one/Tool/Loon/Lsr/1PasswordUS.lsr, policy=Telegram, tag=1password, enabled=true
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=AI, tag=AI, enabled=true
-http://script.hub/file/_start_/https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml/_end_/Bitwarden.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true, policy=AI, tag=Bitwarden, enabled=true
-https://kelee.one/Tool/Loon/Lsr/1PasswordUS.lsr, policy=AI, tag=1password, enabled=true
-https://rule.kelee.one/Loon/GitHub.lsr, policy=Google, tag=GitHub, enabled=true
-https://rule.kelee.one/Loon/Google.lsr, policy=Google, tag=Google, enabled=true
-https://rule.kelee.one/Loon/YouTube.lsr, policy=Google, tag=YouTube, enabled=true
-https://rule.kelee.one/Loon/Twitter.lsr, policy=Google, tag=X, enabled=true
-https://rule.kelee.one/Loon/Facebook.lsr, policy=Google, tag=Facebook, enabled=true
-https://rule.kelee.one/Loon/Instagram.lsr, policy=Google, tag=Instagram, enabled=true
-https://rule.kelee.one/Loon/Disney.lsr, policy=Google, tag=Disney, enabled=true
-https://rule.kelee.one/Loon/Netflix.lsr, policy=Google, tag=Netflix, enabled=true
+https://rule.kelee.one/Loon/Google.lsr, policy=AI, tag=Google, enabled=true
+https://rule.kelee.one/Loon/YouTube.lsr, policy=YouTube, tag=YouTube, enabled=true
+https://rule.kelee.one/Loon/Twitter.lsr, policy=YouTube, tag=X, enabled=true
+https://rule.kelee.one/Loon/Facebook.lsr, policy=YouTube, tag=Facebook, enabled=true
+https://rule.kelee.one/Loon/Instagram.lsr, policy=YouTube, tag=Instagram, enabled=true
+https://rule.kelee.one/Loon/Disney.lsr, policy=YouTube, tag=Disney, enabled=true
+https://rule.kelee.one/Loon/Netflix.lsr, policy=YouTube, tag=Netflix, enabled=true
 https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=TikTok, tag=TikTok, enabled=true
 https://rule.kelee.one/Loon/Spotify.lsr, policy=Spotify, tag=Spotify, enabled=true
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
@@ -186,9 +186,9 @@ https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx, enabled=false
 https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx, enabled=false
 https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx, enabled=false
 https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=Google, tag=BoxJs-增强, enabled=false
-https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=Google, tag=Sub-Store-增强, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=Google, tag=Script-Hub-增强, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=YouTube, tag=BoxJs-增强, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=YouTube, tag=Sub-Store-增强, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=YouTube, tag=Script-Hub-增强, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, tag=节点检测工具-增强, enabled=true
 
 [Mitm]
