@@ -7,5 +7,3 @@ payload:
   - DOMAIN,nodewarden.zyastc521.workers.dev
   # > Koofr（WebDAV）
   - DOMAIN-SUFFIX,koofr.net
-  # > InfiniCLOUD（WebDAV）
-  - DOMAIN-SUFFIX,infini-cloud.net
