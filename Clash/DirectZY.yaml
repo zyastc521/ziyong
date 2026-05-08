@@ -1,4 +1,10 @@
 payload:
+  #  【重要】    
+  # > WeTab（书签）
+  - DOMAIN-SUFFIX,wetab.link  
+  # > InfiniCLOUD（WebDAV）
+  - DOMAIN-SUFFIX,infini-cloud.net
+###########################################
   #  【Emby】
   # > 无敌风火轮
   - DOMAIN-SUFFIX,ycxdy.top
@@ -30,11 +36,10 @@ payload:
   # > 奶昔
   - DOMAIN-SUFFIX,sjygml.lol
 ###########################################
+  #  【其他】
   # > 阡陌居（小说）
   - DOMAIN-SUFFIX,1000qm.vip
   - DOMAIN-SUFFIX,1050qm.com
-  # > WeTab（书签）
-  - DOMAIN-SUFFIX,wetab.link
   # > 饭涵游戏（论坛）
   - DOMAIN-SUFFIX,fanhangame.com
   # > Asspp（下载软件）
