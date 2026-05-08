@@ -2,6 +2,8 @@ payload:
   #  【重要】    
   # > WeTab（书签）
   - DOMAIN-SUFFIX,wetab.link  
+  # > Koofr（WebDAV）
+  - DOMAIN-SUFFIX,koofr.net
   # > InfiniCLOUD（WebDAV）
   - DOMAIN-SUFFIX,infini-cloud.net
 ###########################################
