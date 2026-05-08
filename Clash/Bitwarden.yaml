@@ -1,6 +1,11 @@
 payload:
+  # > Bitwarden（密码管理）
   - DOMAIN-SUFFIX,bitwarden.com
   - DOMAIN-SUFFIX,bitwarden.net
   - DOMAIN-SUFFIX,bitwarden.eu
   - DOMAIN-SUFFIX,vaultwarden.net
   - DOMAIN,nodewarden.zyastc521.workers.dev
+  # > Koofr（WebDAV）
+  - DOMAIN-SUFFIX,koofr.net
+  # > InfiniCLOUD（WebDAV）
+  - DOMAIN-SUFFIX,infini-cloud.net
