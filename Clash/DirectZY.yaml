@@ -27,8 +27,9 @@ payload:
   # > ETFLIX
   - DOMAIN-SUFFIX,entertang.work
   # > 月之轩
-  - DOMAIN-SUFFIX,4348663.xyz
   - DOMAIN-SUFFIX,43998362.xyz
+  - DOMAIN-SUFFIX,4348663.xyz
+  - DOMAIN-SUFFIX,4348665.xyz
   # > 乐蛙影视站
   - DOMAIN-SUFFIX,taotu.ink
   # > WE
