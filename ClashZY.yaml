@@ -28,13 +28,13 @@ proxy-groups:
 # 分流规则 
 rule-providers:
   Lan:       {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/LAN_SPLITTER.yaml }
-  DirectZY:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/DirectZY.yaml }
-  EmbyZY:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/EmbyZY.yaml }
-  ProxyZY:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/ProxyZY.yaml }
+  DirectZY:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/refs/heads/main/Clash/DirectZY.yaml }
+  EmbyZY:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/refs/heads/main/Clash/EmbyZY.yaml }
+  ProxyZY:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/refs/heads/main/Clash/ProxyZY.yaml }
   Telegram:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/Telegram.yaml }
   Discord:   {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Discord.yaml }
   Github:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/GitHub.yaml }
-  Bitwarden: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/main/Clash/Bitwarden.yaml }
+  Bitwarden: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://raw.githubusercontent.com/zyastc521/ziyong/refs/heads/main/Clash/Bitwarden.yaml }
   1Password: {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/1PasswordUS.yaml }
   AI:        {behavior: classical, interval: 86400, format: yaml, type: http, url: https://kelee.one/Tool/Clash/Rule/AI.yaml }
   Google:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://rule.kelee.one/Clash/Google.yaml }
