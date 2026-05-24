@@ -34,10 +34,12 @@ payload:
   - DOMAIN-SUFFIX,taotu.ink
   # > WE
   - DOMAIN-SUFFIX,wedg.top
+  # > nox
+  - DOMAIN-SUFFIX,wedg.top
 ###########################################
   #  【机场】
   # > 奶昔
-  - DOMAIN-SUFFIX,sjygml.lol
+  - DOMAIN-SUFFIX,inemby.us.ci
 ###########################################
   #  【其他】
   # > 阡陌居（小说）
