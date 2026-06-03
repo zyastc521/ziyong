@@ -15,6 +15,8 @@ payload:
   #  【瑟瑟】
   # > 探花（论坛）
   - DOMAIN-SUFFIX,navix.site
+  # > 老王（论坛）
+  - DOMAIN-SUFFIX,laowang.vip
   # > MissAV
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,missav.ai
