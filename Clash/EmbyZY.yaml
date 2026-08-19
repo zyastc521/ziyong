@@ -2,5 +2,6 @@ payload:
   #  【Emby】
   # > 假日旅馆（卷毛鼠）
   - DOMAIN-SUFFIX,jmsuper.com
+  - DOMAIN-SUFFIX,cr18.eu.org
   # > Terminus（终点站）
   - DOMAIN-SUFFIX,emby.wtf
